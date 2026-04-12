@@ -1,0 +1,343 @@
+{
+  "id": "02-worker-dna",
+  "slug": "da-gong-ren-ling-hun-cheng-fen",
+  "status": "draft",
+  "category": "ingredient-analysis",
+  "locale": "zh-TW",
+  "title": "你的打工人靈魂成分分析報告｜精準拆解你到底是什麼做的",
+  "hook": "你以為你是認真打工人，但你的靈魂成分可能80%都是「算了」。",
+  "subtitle": "科學成分分析（絕對不科學）",
+  "description": "每個打工人都是由不同成分組成的。有人是87%拖延、有人是純正求生系。這份測驗將精準拆解你的打工靈魂配方，看完你可能需要靜坐五分鐘。",
+  "audience": ["上班族", "社畜", "打工人", "剛畢業的迷茫族", "自稱努力其實不確定的人"],
+  "tone": ["savage", "playful"],
+  "estimatedTimeSeconds": 90,
+  "cover": {
+    "themeColor": "#2D4A6B"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "週一早上鬧鐘響了，你的第一個念頭是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "再五分鐘，這個念頭會持續七次",
+          "weights": { "worker-lazy": 3, "worker-flatout": 1 }
+        },
+        {
+          "id": "b",
+          "label": "咖啡咖啡咖啡咖啡咖啡",
+          "weights": { "worker-caffeine": 3, "worker-survive": 1 }
+        },
+        {
+          "id": "c",
+          "label": "今天要表現好一點（這個念頭會在通勤途中消失）",
+          "weights": { "worker-perform": 2, "worker-fake-busy": 2 }
+        },
+        {
+          "id": "d",
+          "label": "計算還有幾天到週末，然後繼續躺著",
+          "weights": { "worker-flatout": 2, "worker-honest": 2 }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "老闆突然說下午三點要開個「小會議」，你的反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立刻打開行事曆假裝查行程，其實是在思考怎麼消失",
+          "weights": { "worker-fake-busy": 3, "worker-perform": 1 }
+        },
+        {
+          "id": "b",
+          "label": "好的（內心：什麼又要加班了嗎）",
+          "weights": { "worker-honest": 2, "worker-survive": 2 }
+        },
+        {
+          "id": "c",
+          "label": "好的（內心：完全沒感覺，已麻木）",
+          "weights": { "worker-flatout": 2, "worker-lazy": 2 }
+        },
+        {
+          "id": "d",
+          "label": "馬上喝一口咖啡壯膽然後回覆好的",
+          "weights": { "worker-caffeine": 3, "worker-survive": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "一個同事來問你有沒有時間幫他做一份報告，你怎麼回應？",
+      "options": [
+        {
+          "id": "a",
+          "label": "我現在有點忙（打開電腦裡的遊戲）",
+          "weights": { "worker-fake-busy": 3, "worker-lazy": 1 }
+        },
+        {
+          "id": "b",
+          "label": "好啊（然後把這件事忘掉直到最後一刻）",
+          "weights": { "worker-lazy": 2, "worker-honest": 2 }
+        },
+        {
+          "id": "c",
+          "label": "好，但你要知道我的報告可能有點……獨特",
+          "weights": { "worker-perform": 2, "worker-silent": 2 }
+        },
+        {
+          "id": "d",
+          "label": "當然，但等我喝完這杯咖啡",
+          "weights": { "worker-caffeine": 2, "worker-survive": 2 }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "下班前兩小時，你的狀態通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "已經在精神上下班了，身體還在位子上",
+          "weights": { "worker-flatout": 3, "worker-lazy": 1 }
+        },
+        {
+          "id": "b",
+          "label": "開始做今天本來應該在早上做的事",
+          "weights": { "worker-lazy": 2, "worker-survive": 2 }
+        },
+        {
+          "id": "c",
+          "label": "假裝還在忙但其實在滑手機",
+          "weights": { "worker-fake-busy": 3, "worker-perform": 1 }
+        },
+        {
+          "id": "d",
+          "label": "喝第四杯咖啡，準備衝刺最後兩小時",
+          "weights": { "worker-caffeine": 3, "worker-silent": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你覺得你在工作上最強的技能是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "讓別人以為我在忙，這是一門藝術",
+          "weights": { "worker-fake-busy": 3, "worker-perform": 1 }
+        },
+        {
+          "id": "b",
+          "label": "在最後一刻把事情完成然後若無其事",
+          "weights": { "worker-lazy": 2, "worker-survive": 2 }
+        },
+        {
+          "id": "c",
+          "label": "在任何情況下都能繼續活下去",
+          "weights": { "worker-survive": 3, "worker-honest": 1 }
+        },
+        {
+          "id": "d",
+          "label": "在關鍵時刻爆發，然後繼續沉默",
+          "weights": { "worker-silent": 3, "worker-survive": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你對「努力工作」這件事的真實看法是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "重要的是看起來有在努力",
+          "weights": { "worker-fake-busy": 2, "worker-perform": 2 }
+        },
+        {
+          "id": "b",
+          "label": "我在努力努力的概念，但還沒成功",
+          "weights": { "worker-lazy": 2, "worker-flatout": 2 }
+        },
+        {
+          "id": "c",
+          "label": "錢給夠我就努力，沒給夠我就求生存",
+          "weights": { "worker-honest": 3, "worker-survive": 1 }
+        },
+        {
+          "id": "d",
+          "label": "咖啡就是努力，我每天努力五杯",
+          "weights": { "worker-caffeine": 3, "worker-perform": 1 }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "worker-lazy",
+      "title": "87%拖延核心型",
+      "punchline": "你的靈魂成分：87%拖延＋10%後悔＋3%下次一定會改",
+      "shortDescription": "你不是不會做，你只是需要一個更緊迫的死線——最好是昨天。",
+      "longDescription": "你是87%拖延核心型打工人。你的核心運作機制是：接到任務→評估任務→決定等一下再做→等了很久→突然想起→瘋狂趕工→僥倖完成。這個週期你已經走了無數次，每次都說「下次要早點開始」，但下次的你跟這次的你有著同等的拖延本能。有趣的是，你在最後期限的爆發力往往讓人刮目相看——也許拖延本身就是你的工作方法，只是時程安排比較……特殊。",
+      "traits": [
+        { "label": "拖延指數", "value": 87, "comment": "核心成分" },
+        { "label": "臨時爆發力", "value": 80, "comment": "關鍵時刻不失手" },
+        { "label": "提早完成率", "value": 3, "comment": "幾乎不存在" },
+        { "label": "後悔頻率", "value": 70, "comment": "但還是會再拖" }
+      ],
+      "tags": ["拖延", "最後衝刺", "死線魔法師"],
+      "shareText": "我的打工人靈魂成分：87%拖延核心型😭 準到想報警。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#87拖延核心", "#社畜測驗"]
+    },
+    {
+      "id": "worker-survive",
+      "title": "純正求生系",
+      "punchline": "你的靈魂成分：100%求生本能，其他一概不收",
+      "shortDescription": "你沒有在職場努力，你在職場求生——兩件事的差距有時候很大。",
+      "longDescription": "你是純正求生系打工人。你的工作哲學非常清晰：活下去最重要。你不追求卓越，不追求升職，你追求的是「今天平安下班、薪水正常入帳、老闆不要突然找我」。這聽起來可能有點消極，但請你知道——在職場叢林裡，能夠純粹地求生存並且持續做到這件事，是一種被嚴重低估的能力。你知道哪些仗不該打、哪些話不必說、哪些任務可以悄悄降低優先級。這是一種智慧。",
+      "traits": [
+        { "label": "求生本能", "value": 95, "comment": "與生俱來" },
+        { "label": "野心值", "value": 18, "comment": "暫時冬眠" },
+        { "label": "情緒管理", "value": 76, "comment": "因為爆了沒用" },
+        { "label": "職場危機感知", "value": 82, "comment": "你早就知道了" }
+      ],
+      "tags": ["求生", "職場智慧", "不動聲色"],
+      "shareText": "我的打工人靈魂成分：純正求生系💪 求生本能100%上線。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#純正求生系", "#社畜測驗"]
+    },
+    {
+      "id": "worker-perform",
+      "title": "高演技含量型",
+      "punchline": "你的靈魂成分：62%表演慾＋25%真實努力＋13%看心情",
+      "shortDescription": "你的工作技能裡有一半是表演——讓老闆覺得你很忙、讓同事覺得你很拼。",
+      "longDescription": "你是高演技含量型打工人。你有一種超強的能力：讓周遭所有人覺得你非常努力、非常忙碌、非常盡責。事實上，你確實在努力，只是努力的方向有一部分是在維持這個人設。你懂得在對的時機出現在對的地方，說對的話，展現對的態度。這不是欺騙，這是職場情商。你深知，很多時候「看起來努力」跟「真的努力」的效果是一樣的，既然如此，為什麼不兩手都要？",
+      "traits": [
+        { "label": "演技指數", "value": 82, "comment": "影帝影后級" },
+        { "label": "真實努力量", "value": 55, "comment": "確實有在做" },
+        { "label": "職場情商", "value": 85, "comment": "很會看場合" },
+        { "label": "被識破風險", "value": 28, "comment": "目前安全" }
+      ],
+      "tags": ["演技派", "職場情商", "形象管理"],
+      "shareText": "我的打工人靈魂成分：高演技含量型🎭 62%表演慾全開。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#高演技含量型", "#社畜測驗"]
+    },
+    {
+      "id": "worker-caffeine",
+      "title": "咖啡依賴突破型",
+      "punchline": "你的靈魂成分：71%咖啡因＋19%強撐意志＋10%明天再說",
+      "shortDescription": "你的工作動力來源是咖啡，你懷疑沒有咖啡自己可能根本無法運作。",
+      "longDescription": "你是咖啡依賴突破型打工人。你與咖啡之間的關係已經超越了飲料的範疇——那是一種精神依存、一種儀式感、一種「我今天還能繼續」的信念。你早上必須先喝咖啡才能正常思考，下午需要咖啡對抗睡意，有時候喝咖啡的原因只是「因為還不到下班時間」。你的工作效率有一條明顯的咖啡曲線：喝完前→茫然，喝完後→短暫的神清氣爽，然後需要再補一杯。但你就是這樣運轉的，而且你還活著，所以應該沒問題。",
+      "traits": [
+        { "label": "咖啡依賴度", "value": 91, "comment": "生命必需品" },
+        { "label": "無咖啡效能", "value": 22, "comment": "幾乎失能" },
+        { "label": "意志力", "value": 67, "comment": "咖啡加持後" },
+        { "label": "咖啡預算", "value": 85, "comment": "月薪一成在喝" }
+      ],
+      "tags": ["咖啡因", "強撐", "現代社畜必備"],
+      "shareText": "我的打工人靈魂成分：咖啡依賴突破型☕ 71%咖啡因構成。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#咖啡依賴突破型", "#社畜測驗"]
+    },
+    {
+      "id": "worker-fake-busy",
+      "title": "裝忙藝術家型",
+      "punchline": "你的靈魂成分：78%裝忙技術＋15%偶爾真的忙＋7%自己都信了",
+      "shortDescription": "你已經把裝忙昇華成一門藝術，你的桌面永遠有一份文件打開著。",
+      "longDescription": "你是裝忙藝術家型打工人。你已經把「看起來很忙」這件事練到了一個非常高的境界。你知道什麼時機要打開哪個視窗、什麼時候要皺眉頭看螢幕、什麼時候要在白板上寫一些字再擦掉。你的鍵盤聲音剛剛好——不是完全沒聲音（那樣太明顯），而是有節奏的、像是在工作的聲音。最厲害的是，你有時候裝著裝著真的就開始做了，連你自己都說不清楚今天是裝了幾成、真做了幾成。這種境界，只能說：藝術家。",
+      "traits": [
+        { "label": "裝忙技術", "value": 88, "comment": "職場一流" },
+        { "label": "真實產出", "value": 48, "comment": "其實也有做" },
+        { "label": "自我欺騙指數", "value": 61, "comment": "有時候連自己都信" },
+        { "label": "被抓包風險", "value": 21, "comment": "幾乎零風險" }
+      ],
+      "tags": ["裝忙", "藝術家", "效率神祕主義"],
+      "shareText": "我的打工人靈魂成分：裝忙藝術家型🎨 78%裝忙技術爆表。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#裝忙藝術家", "#社畜測驗"]
+    },
+    {
+      "id": "worker-honest",
+      "title": "老實牛馬型",
+      "punchline": "你的靈魂成分：91%老實＋6%後悔老實＋3%還是繼續老實",
+      "shortDescription": "你就是那個真的在做事的人，所以也是那個最多事情的人。",
+      "longDescription": "你是老實牛馬型打工人。你做事認真、交辦任務必完成、說到做到、很少說謊。這些都是美德。但問題是，這個世界上的任務會自動向老實的人聚集，就像水往低處流一樣。你的信箱永遠比別人多三封、你的待辦清單永遠比別人長、老闆最常找的人就是你——不是因為你最優秀，而是因為你最不會說不。你知道自己應該開始練習說「我現在沒有空」，但每次練習都還沒完成就被新的任務打斷了。",
+      "traits": [
+        { "label": "老實程度", "value": 91, "comment": "誠實到有點傷自己" },
+        { "label": "任務累積速度", "value": 85, "comment": "永遠清不完" },
+        { "label": "說不的能力", "value": 18, "comment": "練習中" },
+        { "label": "實際產出", "value": 80, "comment": "確實有在做" }
+      ],
+      "tags": ["老實", "任勞任怨", "待辦清單永遠在長"],
+      "shareText": "我的打工人靈魂成分：老實牛馬型🐂 91%老實爆表，任務也爆了。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#老實牛馬型", "#社畜測驗"]
+    },
+    {
+      "id": "worker-silent",
+      "title": "靜默爆發型",
+      "punchline": "你的靈魂成分：65%靜默積累＋35%關鍵時刻核爆",
+      "shortDescription": "你平時靜靜的，但關鍵時刻一出手，大家都嚇一跳。",
+      "longDescription": "你是靜默爆發型打工人。你在日常工作中不是最活躍的那個，不會沒事就發言、不會搶著出風頭，但當真正的關鍵時刻來臨——那個大家都不知道怎麼辦、或者大家都以為沒救的情況——你會突然出現，然後幾乎不聲不響地把問題解決。這種能力讓你在職場上有一種難以言說的神秘感：大家知道你可以，但不確定你什麼時候會出手。這種不確定感本身，就是你最強大的職場籌碼之一。",
+      "traits": [
+        { "label": "日常存在感", "value": 31, "comment": "低調生存" },
+        { "label": "關鍵爆發力", "value": 89, "comment": "出手必中" },
+        { "label": "神秘感", "value": 82, "comment": "沒人摸透你" },
+        { "label": "平時話量", "value": 22, "comment": "說重要的話" }
+      ],
+      "tags": ["靜默", "關鍵爆發", "神秘高手"],
+      "shareText": "我的打工人靈魂成分：靜默爆發型💥 平時沉默，關鍵時刻核爆。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#靜默爆發型", "#社畜測驗"]
+    },
+    {
+      "id": "worker-flatout",
+      "title": "躺平實踐家型",
+      "punchline": "你的靈魂成分：88%躺平哲學＋10%偶爾有感＋2%還沒完全放棄",
+      "shortDescription": "你不是不努力，你是把「不過度努力」這件事練到了一個藝術境界。",
+      "longDescription": "你是躺平實踐家型打工人。在這個大家都在內捲的時代，你做了一個非常清醒的選擇：不加入這場競賽。你清楚地知道，超時工作不會讓你的人生更好，消耗自己不是美德，休息也是工作的一部分。你的躺平不是消極，而是一種深思熟慮後的生活哲學。你做完分內的事、不占別人便宜、也不讓別人占你便宜。你只是，不打算為了三分之一的薪水付出十分之三的生命。這很理性，甚至很酷。",
+      "traits": [
+        { "label": "躺平指數", "value": 88, "comment": "身體力行" },
+        { "label": "邊界感", "value": 82, "comment": "清楚的很" },
+        { "label": "內捲抵抗力", "value": 90, "comment": "免疫了" },
+        { "label": "心理健康", "value": 71, "comment": "比大多數人好" }
+      ],
+      "tags": ["躺平", "邊界清晰", "反內捲先鋒"],
+      "shareText": "我的打工人靈魂成分：躺平實踐家型🛋️ 88%躺平哲學貫徹實行。你的靈魂成分是什麼？快來拆解！",
+      "shareHashtags": ["#打工人靈魂分析", "#躺平實踐家", "#社畜測驗"]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "seo": {
+    "title": "打工人靈魂成分分析｜你是哪種社畜人格測驗",
+    "description": "你的打工靈魂是87%拖延還是純正求生系？6題精準拆解你的社畜成分，看完你可能需要靜坐五分鐘。",
+    "keywords": ["打工人測驗", "社畜人格", "靈魂成分分析", "上班族測驗", "人格測驗台灣", "搞笑職場測驗"],
+    "canonicalPath": "/quiz/da-gong-ren-ling-hun-cheng-fen",
+    "ogTitle": "你的打工人靈魂成分分析報告｜精準拆解你是什麼做的",
+    "ogDescription": "87%拖延？還是純正求生系？6題測出你的社畜靈魂配方，準到想報警。",
+    "indexable": true,
+    "faq": [
+      {
+        "question": "這個測驗有幾種結果？",
+        "answer": "共有8種打工人靈魂成分：87%拖延核心型、純正求生系、高演技含量型、咖啡依賴突破型、裝忙藝術家型、老實牛馬型、靜默爆發型、躺平實踐家型。"
+      },
+      {
+        "question": "測驗結果準嗎？",
+        "answer": "準到一個不科學的程度，因為我們採用了最先進的靈魂成分光譜分析技術（完全是虛構的）。"
+      }
+    ]
+  },
+  "share": {
+    "defaultText": "我的打工人靈魂成分剛被精準拆解了，你的成分是什麼？快來測測看！",
+    "storyText": "剛做完打工人靈魂成分分析，結果說的跟我本人一模一樣，我有點不舒服",
+    "imageTemplate": "worker-result-card",
+    "ctaLabel": "我也要分析！",
+    "platformHints": {
+      "instagram": "打工人靈魂成分分析結果出爐！準到我想舉報🔬 你是哪種成分？",
+      "threads": "剛拆解了我的打工靈魂成分，結果……太準了，不舒服。你也來測一下？",
+      "x": "原來我的打工靈魂成分是這個，說的全是我本人🫠 #打工人靈魂分析"
+    }
+  },
+  "monetization": {
+    "adsenseSlots": ["quiz-top", "result-top", "related-bottom"],
+    "emailCaptureEnabled": false
+  }
+}
