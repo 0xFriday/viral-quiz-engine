@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { useState } from 'react'
 import type { QuizData, QuizResult } from '@/types/quiz'
 
@@ -99,7 +100,7 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
         <button onClick={() => { setCurrentQ(0); setAnswers({}); setResult(null) }} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold py-4 rounded-2xl text-lg active:scale-95 transition-transform mb-4">
           🔄 重新測驗
         </button>
-        <a href="/" className="block text-center text-purple-600 text-sm font-medium py-2">← 試試其他測驗</a>
+        <Link href="/" className="block text-center text-purple-600 text-sm font-medium py-2">← 試試其他測驗</Link>
       </div>
     )
   }

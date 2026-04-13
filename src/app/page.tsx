@@ -1,10 +1,13 @@
+import Link from 'next/link'
 import { getAllQuizzesMeta } from '@/lib/quiz-loader'
+
 const CATEGORY_CONFIG: Record<string, { label: string; emoji: string; color: string }> = {
   'ingredient-analysis': { label: '成分分析', emoji: '🧬', color: 'bg-green-100 text-green-700' },
   'absurd-objectification': { label: '荒謬物件化', emoji: '🪨', color: 'bg-orange-100 text-orange-700' },
   'personality-projection': { label: '人格投射', emoji: '🎭', color: 'bg-blue-100 text-blue-700' },
 }
 const QUIZ_EMOJIS = ['🪨', '💀', '🤖', '🌊', '🎯', '⚡']
+
 export default function HomePage() {
   const quizzes = getAllQuizzesMeta()
   return (
@@ -24,7 +27,7 @@ export default function HomePage() {
           {quizzes.map((q, i) => {
             const cat = CATEGORY_CONFIG[q.category] || { label: q.category, emoji: '🎯', color: 'bg-gray-100 text-gray-600' }
             return (
-              <a key={q.id} href={`/quiz/${q.slug}/`} className="block bg-white rounded-2xl shadow-sm hover:shadow-md transition-all p-5 border border-gray-100">
+              <Link key={q.id} href={`/quiz/${q.slug}/`} className="block bg-white rounded-2xl shadow-sm hover:shadow-md transition-all p-5 border border-gray-100">
                 <div className="flex items-start gap-4">
                   <div className="text-4xl flex-shrink-0">{QUIZ_EMOJIS[i % QUIZ_EMOJIS.length]}</div>
                   <div className="flex-1 min-w-0">
@@ -37,7 +40,7 @@ export default function HomePage() {
                   </div>
                   <div className="text-gray-300 text-2xl">›</div>
                 </div>
-              </a>
+              </Link>
             )
           })}
         </div>
