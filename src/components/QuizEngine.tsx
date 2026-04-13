@@ -63,7 +63,14 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
         <div className="adsense-slot mb-6 bg-gray-100 rounded-xl py-3 text-center text-xs text-gray-400 border-2 border-dashed border-gray-200" data-slot="result-top">廣告</div>
         <div className="rounded-3xl overflow-hidden shadow-xl mb-6" style={{background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'}}>
           <div className="p-8 text-white text-center">
-            <div className="text-6xl mb-4">🎯</div>
+            {quiz.id && result.id && (
+              <img
+                src={`/viral-quiz-engine/images/results/${quiz.id}/${result.id}.png`}
+                alt={result.title}
+                className="w-48 h-48 object-cover rounded-2xl mx-auto mb-4 shadow-lg"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
+              />
+            )}
             <p className="text-pink-100 text-xs uppercase tracking-widest mb-2">你的結果是</p>
             <h2 className="text-3xl font-black mb-3">{result.title}</h2>
             <p className="text-xl font-medium text-pink-100">{result.punchline}</p>
@@ -100,6 +107,25 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
         <button onClick={() => { setCurrentQ(0); setAnswers({}); setResult(null) }} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold py-4 rounded-2xl text-lg active:scale-95 transition-transform mb-4">
           🔄 重新測驗
         </button>
+        {/* Affiliate 推薦 */}
+        {quiz.affiliate && quiz.affiliate.length > 0 && (
+          <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-5 mb-4 border border-amber-100">
+            <p className="text-xs text-amber-600 font-bold uppercase tracking-widest mb-3">✨ 你可能會喜歡</p>
+            <div className="space-y-3">
+              {quiz.affiliate.map((item: {title: string; desc: string; url: string; tag?: string}) => (
+                <a key={item.url} href={item.url} target="_blank" rel="noopener noreferrer sponsored"
+                  className="flex items-center gap-3 bg-white rounded-xl p-3 shadow-sm hover:shadow-md transition-all">
+                  <div className="flex-1">
+                    <p className="font-bold text-gray-800 text-sm">{item.title}</p>
+                    <p className="text-gray-500 text-xs">{item.desc}</p>
+                  </div>
+                  {item.tag && <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full font-medium flex-shrink-0">{item.tag}</span>}
+                  <span className="text-gray-400">›</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
         <Link href="/" className="block text-center text-purple-600 text-sm font-medium py-2">← 試試其他測驗</Link>
       </div>
     )

@@ -62,4 +62,10 @@ export interface QuizData {
   }
   seo: QuizSeo
   share: QuizShare
+  affiliate?: Array<{
+    title: string
+    desc: string
+    url: string
+    tag?: string
+  }>
 }
