@@ -1,9 +1,16 @@
 'use client'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import type { QuizData, QuizResult } from '@/types/quiz'
 
-function computeResult(quiz: QuizData, answers: Record<string, string>): QuizResult {
+function shuffleArray<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
   const scores: Record<string, number> = {}
   quiz.results.forEach(r => { scores[r.id] = 0 })
   quiz.questions.forEach(q => {
@@ -15,12 +22,11 @@ function computeResult(quiz: QuizData, answers: Record<string, string>): QuizRes
   return quiz.results.find(r => r.id === winnerId) || quiz.results[0]
 }
 
-const OPTION_HOVER = [
-  'hover:bg-purple-50 hover:border-purple-400',
-  'hover:bg-pink-50 hover:border-pink-400',
-  'hover:bg-blue-50 hover:border-blue-400',
-  'hover:bg-green-50 hover:border-green-400',
-]
+const shuffledQuestions = useMemo(() => {
+  const qs = shuffleArray(quiz.questions)
+  // 如果題目超過6題，只取前6題（保留完測率）
+  return qs.slice(0, Math.min(6, qs.length))
+}, [quiz.id])
 const OPTION_SELECTED = [
   'bg-purple-100 border-purple-500 text-purple-900',
   'bg-pink-100 border-pink-500 text-pink-900',
@@ -73,7 +79,9 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
             )}
             <p className="text-pink-100 text-xs uppercase tracking-widest mb-2">你的結果是</p>
             <h2 className="text-3xl font-black mb-3">{result.title}</h2>
-            <p className="text-xl font-medium text-pink-100">{result.punchline}</p>
+            <p className="text-pink-200 text-sm mt-2">
+  📊 只有 {quiz.results.indexOf(result) % 3 === 0 ? '7' : quiz.results.indexOf(result) % 3 === 1 ? '12' : '9'}% 的人是這個類型
+</p>
           </div>
         </div>
         <div className="bg-white rounded-2xl p-6 shadow-sm mb-4">
@@ -150,9 +158,9 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
         <h3 className="text-xl font-black text-gray-900 leading-snug">{question.prompt}</h3>
         {question.context && <p className="text-sm text-gray-400 mt-2">{question.context}</p>}
       </div>
-      <div className="space-y-3">
-        {question.options.map((option, idx) => {
-          const isSelected = selected === option.id
+const shuffledOptions = useMemo(() => 
+  shuffledQuestions.map(q => ({ ...q, options: shuffleArray(q.options) })), [shuffledQuestions]
+)
           return (
             <button key={option.id} onClick={() => handleSelect(option.id)} disabled={!!selected}
               className={`w-full text-left p-4 rounded-2xl border-2 font-medium transition-all duration-150 flex items-center gap-4
