@@ -254,46 +254,167 @@
           }
         }
       ]
-[{
+    },
+    {
       "id": "q7",
       "prompt": "你身邊的人怎麼描述你？",
       "options": [
-        {"id": "a", "label": "「就是那樣的人」", "weights": {"stone-corner": 3, "stone-smooth": 1}},
-        {"id": "b", "label": "「有點神秘」", "weights": {"stone-smooth": 3, "stone-shrine": 2}},
-        {"id": "c", "label": "「很有個性」", "weights": {"stone-crack": 2, "stone-edge": 3}},
-        {"id": "d", "label": "「好像在哪裡見過」", "weights": {"stone-grass": 3, "stone-site": 2}}
+        {
+          "id": "a",
+          "label": "「就是那樣的人」",
+          "weights": {
+            "stone-corner": 3,
+            "stone-smooth": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "「有點神秘」",
+          "weights": {
+            "stone-smooth": 3,
+            "stone-shrine": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "「很有個性」",
+          "weights": {
+            "stone-crack": 2,
+            "stone-edge": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "「好像在哪裡見過」",
+          "weights": {
+            "stone-grass": 3,
+            "stone-site": 2
+          }
+        }
       ]
     },
     {
       "id": "q8",
       "prompt": "你對「佔位置」這件事的看法？",
       "options": [
-        {"id": "a", "label": "佔就佔，這位置本來就是我的", "weights": {"stone-crack": 3, "stone-edge": 2}},
-        {"id": "b", "label": "低調佔，不要被發現", "weights": {"stone-grass": 3, "stone-corner": 2}},
-        {"id": "c", "label": "讓位，佔了也沒意思", "weights": {"stone-river": 3, "stone-smooth": 2}},
-        {"id": "d", "label": "搞不清楚要佔哪裡", "weights": {"stone-site": 3, "stone-corner": 2}}
+        {
+          "id": "a",
+          "label": "佔就佔，這位置本來就是我的",
+          "weights": {
+            "stone-crack": 3,
+            "stone-edge": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "低調佔，不要被發現",
+          "weights": {
+            "stone-grass": 3,
+            "stone-corner": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "讓位，佔了也沒意思",
+          "weights": {
+            "stone-river": 3,
+            "stone-smooth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "搞不清楚要佔哪裡",
+          "weights": {
+            "stone-site": 3,
+            "stone-corner": 2
+          }
+        }
       ]
     },
     {
       "id": "q9",
       "prompt": "如果你是礦泉水瓶旁邊的石頭，你的心情是？",
       "options": [
-        {"id": "a", "label": "每天固定被忽視，習慣了", "weights": {"stone-corner": 3, "stone-site": 1}},
-        {"id": "b", "label": "我比那個瓶子更有靈性", "weights": {"stone-shrine": 3, "stone-smooth": 2}},
-        {"id": "c", "label": "我在這裡是有原因的", "weights": {"stone-crack": 2, "stone-edge": 3}},
-        {"id": "d", "label": "我只是在等機會", "weights": {"stone-grass": 3, "stone-river": 2}}
+        {
+          "id": "a",
+          "label": "每天固定被忽視，習慣了",
+          "weights": {
+            "stone-corner": 3,
+            "stone-site": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "我比那個瓶子更有靈性",
+          "weights": {
+            "stone-shrine": 3,
+            "stone-smooth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "我在這裡是有原因的",
+          "weights": {
+            "stone-crack": 2,
+            "stone-edge": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "我只是在等機會",
+          "weights": {
+            "stone-grass": 3,
+            "stone-river": 2
+          }
+        }
       ]
     },
     {
       "id": "q10",
       "prompt": "週末你最常在做什麼？",
       "options": [
-        {"id": "a", "label": "躺著，像石頭一樣", "weights": {"stone-corner": 3, "stone-smooth": 2}},
-        {"id": "b", "label": "到處走走，隨緣", "weights": {"stone-river": 3, "stone-site": 2}},
-        {"id": "c", "label": "藏在家裡不出門", "weights": {"stone-grass": 3, "stone-corner": 2}},
-        {"id": "d", "label": "參加各種活動，曝光自己", "weights": {"stone-edge": 3, "stone-shrine": 2}}
+        {
+          "id": "a",
+          "label": "躺著，像石頭一樣",
+          "weights": {
+            "stone-corner": 3,
+            "stone-smooth": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "到處走走，隨緣",
+          "weights": {
+            "stone-river": 3,
+            "stone-site": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "藏在家裡不出門",
+          "weights": {
+            "stone-grass": 3,
+            "stone-corner": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "參加各種活動，曝光自己",
+          "weights": {
+            "stone-edge": 3,
+            "stone-shrine": 2
+          }
+        }
       ]
-    }]
+    }
+  ],
+  "results": [
+    {
+      "id": "stone-corner",
+      "title": "角落普通石",
+      "punchline": "你是那顆沒人特別注意，但移走了又覺得哪裡怪怪的石頭",
+      "shortDescription": "你不搶眼，但你有種安靜的存在感，像角落裡的老朋友。",
+      "longDescription": "你就是那種讓人視而不見、但其實默默觀察一切的石頭。你不需要人關注，也不主動出擊，但你對周圍的一切都瞭若指掌。你的穩定是別人的錨，你的安靜是空間的呼吸。別人以為你什麼都沒在想，但你其實已經把所有人看透了。低調，是你最強的武器。",
       "traits": [
         {
           "label": "存在感",
