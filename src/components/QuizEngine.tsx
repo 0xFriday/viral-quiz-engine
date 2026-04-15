@@ -11,22 +11,37 @@ function shuffleArray<T>(arr: T[]): T[] {
   }
   return a
 }
+
+function computeResult(quiz: QuizData, answers: Record<string, string>): QuizResult {
   const scores: Record<string, number> = {}
   quiz.results.forEach(r => { scores[r.id] = 0 })
   quiz.questions.forEach(q => {
     const option = q.options.find(o => o.id === answers[q.id])
-    if (option) Object.entries(option.weights).forEach(([rid, w]) => { if (scores[rid] !== undefined) scores[rid] += w })
+    if (option && option.weights) {
+      Object.entries(option.weights).forEach(([rid, w]) => {
+        if (scores[rid] !== undefined) scores[rid] += (w as number)
+      })
+    }
   })
-  const maxScore = Math.max(...Object.values(scores))
-  const winnerId = Object.entries(scores).find(([, v]) => v === maxScore)?.[0]
+  const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1])
+  const maxScore = sorted[0][1]
+  const secondScore = sorted[1]?.[1] ?? 0
+  // 差距 ≤ 2 分時隨機化（防止永遠同一個結果）
+  if (maxScore - secondScore <= 2) {
+    const topCandidates = sorted.filter(([, v]) => maxScore - v <= 2).map(([id]) => id)
+    const winnerId = topCandidates[Math.floor(Math.random() * topCandidates.length)]
+    return quiz.results.find(r => r.id === winnerId) || quiz.results[0]
+  }
+  const winnerId = sorted[0][0]
   return quiz.results.find(r => r.id === winnerId) || quiz.results[0]
 }
 
-const shuffledQuestions = useMemo(() => {
-  const qs = shuffleArray(quiz.questions)
-  // 如果題目超過6題，只取前6題（保留完測率）
-  return qs.slice(0, Math.min(6, qs.length))
-}, [quiz.id])
+const OPTION_HOVER = [
+  'hover:bg-purple-50 hover:border-purple-300',
+  'hover:bg-pink-50 hover:border-pink-300',
+  'hover:bg-blue-50 hover:border-blue-300',
+  'hover:bg-green-50 hover:border-green-300',
+]
 const OPTION_SELECTED = [
   'bg-purple-100 border-purple-500 text-purple-900',
   'bg-pink-100 border-pink-500 text-pink-900',
@@ -41,29 +56,45 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
   const [selected, setSelected] = useState<string | null>(null)
   const [result, setResult] = useState<QuizResult | null>(null)
 
-  const question = quiz.questions[currentQ]
-  const progress = (currentQ / quiz.questions.length) * 100
+  const shuffledQuestions = useMemo(() => {
+    const qs = shuffleArray(quiz.questions)
+    return qs.slice(0, Math.min(6, qs.length))
+  }, [quiz.id]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const shuffledOptions = useMemo(() =>
+    shuffledQuestions.map(q => ({ ...q, options: shuffleArray(q.options) })),
+    [shuffledQuestions]
+  )
+
+  const question = shuffledQuestions[currentQ]
+  const progress = (currentQ / shuffledQuestions.length) * 100
 
   function handleSelect(optionId: string) {
-    if (selected) return
+    if (selected || !question) return
     setSelected(optionId)
     const newAnswers = { ...answers, [question.id]: optionId }
     setAnswers(newAnswers)
     setTimeout(() => {
       setSelected(null)
-      if (currentQ < quiz.questions.length - 1) setCurrentQ(currentQ + 1)
-      else setResult(computeResult(quiz, newAnswers))
+      if (currentQ < shuffledQuestions.length - 1) {
+        setCurrentQ(currentQ + 1)
+      } else {
+        setResult(computeResult(quiz, newAnswers))
+      }
     }, 500)
   }
 
   function handleShare() {
     if (!result) return
-    const text = `${result.shareText}\n\n→ ${window.location.href}`
+    const text = `${result.shareText || result.punchline}\n\n→ ${window.location.href}`
     if (navigator.share) navigator.share({ text, url: window.location.href })
     else navigator.clipboard.writeText(text).then(() => alert('已複製！貼到社群分享吧 📤'))
   }
 
   if (result) {
+    const resultIndex = quiz.results.indexOf(result)
+    const rarePercent = resultIndex % 3 === 0 ? '7' : resultIndex % 3 === 1 ? '12' : '9'
+
     return (
       <div className="max-w-2xl mx-auto px-4 py-6">
         <div className="adsense-slot mb-6 bg-gray-100 rounded-xl py-3 text-center text-xs text-gray-400 border-2 border-dashed border-gray-200" data-slot="result-top">廣告</div>
@@ -79,9 +110,10 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
             )}
             <p className="text-pink-100 text-xs uppercase tracking-widest mb-2">你的結果是</p>
             <h2 className="text-3xl font-black mb-3">{result.title}</h2>
+            <p className="text-lg font-medium text-pink-100 mb-2">{result.punchline}</p>
             <p className="text-pink-200 text-sm mt-2">
-  📊 只有 {quiz.results.indexOf(result) % 3 === 0 ? '7' : quiz.results.indexOf(result) % 3 === 1 ? '12' : '9'}% 的人是這個類型
-</p>
+              📊 只有 {rarePercent}% 的人是這個類型
+            </p>
           </div>
         </div>
         <div className="bg-white rounded-2xl p-6 shadow-sm mb-4">
@@ -106,9 +138,11 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
             </div>
           </div>
         )}
-        <div className="bg-purple-50 rounded-2xl p-6 mb-6 border border-purple-100">
-          <p className="text-gray-600 text-sm leading-relaxed">{result.longDescription}</p>
-        </div>
+        {result.longDescription && (
+          <div className="bg-purple-50 rounded-2xl p-6 mb-6 border border-purple-100">
+            <p className="text-gray-600 text-sm leading-relaxed">{result.longDescription}</p>
+          </div>
+        )}
         <button onClick={handleShare} className="w-full text-white font-bold py-4 rounded-2xl text-lg mb-3 shadow-lg active:scale-95 transition-transform" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'}}>
           📤 分享我的結果
         </button>
@@ -139,6 +173,8 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
     )
   }
 
+  if (!question) return null
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       {currentQ === 0 && (
@@ -146,7 +182,7 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
       )}
       <div className="mb-6">
         <div className="flex justify-between items-center text-sm mb-2">
-          <span className="text-gray-400">問題 {currentQ + 1} / {quiz.questions.length}</span>
+          <span className="text-gray-400">問題 {currentQ + 1} / {shuffledQuestions.length}</span>
           <span className="text-purple-600 font-bold">{Math.round(progress)}%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5">
@@ -158,9 +194,9 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
         <h3 className="text-xl font-black text-gray-900 leading-snug">{question.prompt}</h3>
         {question.context && <p className="text-sm text-gray-400 mt-2">{question.context}</p>}
       </div>
-const shuffledOptions = useMemo(() => 
-  shuffledQuestions.map(q => ({ ...q, options: shuffleArray(q.options) })), [shuffledQuestions]
-)
+      <div className="space-y-3">
+        {shuffledOptions[currentQ]?.options.map((option, idx) => {
+          const isSelected = selected === option.id
           return (
             <button key={option.id} onClick={() => handleSelect(option.id)} disabled={!!selected}
               className={`w-full text-left p-4 rounded-2xl border-2 font-medium transition-all duration-150 flex items-center gap-4
