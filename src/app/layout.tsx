@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-gray-50 min-h-screen">
         <header style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'}}>
           <div className="max-w-2xl mx-auto px-4 py-4 flex items-center">
-            <a href="/" className="text-white font-black text-2xl tracking-tight">🧪 測驗站</a>
+            <a href="/viral-quiz-engine/" className="text-white font-black text-2xl tracking-tight">🧪 測驗站</a>
             <span className="ml-3 text-purple-200 text-sm">找出你是哪種人</span>
           </div>
         </header>
