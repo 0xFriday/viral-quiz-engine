@@ -76,11 +76,14 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
     setAnswers(newAnswers)
     setTimeout(() => {
       setSelected(null)
-      if (currentQ < shuffledQuestions.length - 1) {
-        setCurrentQ(currentQ + 1)
-      } else {
-        setResult(computeResult(quiz, newAnswers))
-      }
+      setCurrentQ(prev => {
+        if (prev < shuffledQuestions.length - 1) {
+          return prev + 1
+        } else {
+          setResult(computeResult(quiz, newAnswers))
+          return prev
+        }
+      })
     }, 500)
   }
 
@@ -168,7 +171,7 @@ export default function QuizEngine({ quiz }: { quiz: QuizData }) {
             </div>
           </div>
         )}
-        <Link href="/" className="block text-center text-purple-600 text-sm font-medium py-2">← 試試其他測驗</Link>
+        <Link href="/viral-quiz-engine/" className="block text-center text-purple-600 text-sm font-medium py-2">← 試試其他測驗</Link>
       </div>
     )
   }
