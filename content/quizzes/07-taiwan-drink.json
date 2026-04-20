@@ -1,0 +1,715 @@
+{
+  "id": "07-taiwan-drink",
+  "slug": "ni-shi-na-zhong-taiwan-drink",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣飲料？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "飲料人格測驗",
+  "description": "你是哪種台灣飲料？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🥤",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "你最喜歡哪種休閒活動？",
+      "options": [
+        {
+          "id": "a",
+          "label": "和朋友一起探索新的咖啡廳或特色小店。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "yakult-green-tea": 2,
+            "taro-milk": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "在家裡安靜地閱讀或聽音樂，享受一個人的時光。",
+          "weights": {
+            "green-tea": 3,
+            "old-fashioned-black-tea": 2,
+            "winter-melon-tea": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "逛夜市品嚐各種小吃，感受在地文化。",
+          "weights": {
+            "winter-melon-tea": 3,
+            "lemon-aiyu-jelly": 2,
+            "old-fashioned-black-tea": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "挑戰新的運動或戶外活動，揮灑汗水。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "green-tea": 2,
+            "lemon-aiyu-jelly": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "描述你理想中的下午茶時光？",
+      "options": [
+        {
+          "id": "a",
+          "label": "有珍珠、布丁等豐富配料，甜而不膩的創意飲品。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "taro-milk": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "一杯清爽解渴的茶，配上一些簡單的點心。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "古早味點心搭配一杯懷舊飲品，回味童年滋味。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "酸甜平衡，帶有獨特風味的飲品，讓人精神一振。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你在團體中通常扮演什麼角色？",
+      "options": [
+        {
+          "id": "a",
+          "label": "意見領袖，樂於嘗試新鮮事物並帶動氣氛。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "yakult-green-tea": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "冷靜的觀察者，提供理性的分析和建議。",
+          "weights": {
+            "green-tea": 3,
+            "old-fashioned-black-tea": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "溫和的協調者，讓大家都能感到舒適自在。",
+          "weights": {
+            "winter-melon-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "帶來歡樂的開心果，總能讓大家開懷大笑。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "bubble-milk-tea": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的衣著風格偏向哪一類？",
+      "options": [
+        {
+          "id": "a",
+          "label": "簡約時尚，注重搭配與流行趨勢。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "yakult-green-tea": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "舒適自然，以棉麻等透氣材質為主。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "復古文青，喜歡帶有故事感的老物件。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨特個性，敢於嘗試不同風格展現自我。",
+          "weights": {
+            "taro-milk": 3,
+            "yakult-green-tea": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "當你感到壓力時，會選擇哪種方式放鬆？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找朋友傾訴或一起出去玩，用社交來紓壓。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "yakult-green-tea": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "冥想、瑜伽或散步，讓身心平靜下來。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "看懷舊電影或聽老歌，沉浸在過去的美好回憶中。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "大吃一頓美食，用甜點或特殊飲品犒賞自己。",
+          "weights": {
+            "taro-milk": 3,
+            "bubble-milk-tea": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你對甜度的偏好是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "越甜越好，能帶來滿滿的幸福感。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "taro-milk": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "微糖或無糖，喜歡品嚐食材的原味。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "適中偏甜，有甜蜜感但不會太膩。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "喜歡酸甜交織的風味，有層次感。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你的理想旅行目的地是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿異國風情的城市，體驗多元文化與美食。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "yakult-green-tea": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "靜謐的山區或海邊，享受大自然的寧靜與美景。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "具有豐富歷史和傳統文化的老城區。",
+          "weights": {
+            "winter-melon-tea": 3,
+            "old-fashioned-black-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "遊樂園或主題樂園，找回童心與歡樂。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "bubble-milk-tea": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "哪種形容詞最符合你的個性？",
+      "options": [
+        {
+          "id": "a",
+          "label": "活潑開朗，總是充滿活力。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "bubble-milk-tea": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "沉穩內斂，有自己的步調。",
+          "weights": {
+            "green-tea": 3,
+            "old-fashioned-black-tea": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "親切隨和，容易與人相處。",
+          "weights": {
+            "winter-melon-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨特有魅力，不喜歡墨守成規。",
+          "weights": {
+            "taro-milk": 3,
+            "yakult-green-tea": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "早上起床後，你最想喝一杯什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "冰涼的奶茶，開啟活力的一天。",
+          "weights": {
+            "bubble-milk-tea": 3,
+            "taro-milk": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "清新的茶飲，提神醒腦無負擔。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "溫暖的傳統飲品，感受家的味道。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "酸甜的果汁或乳酸飲品，喚醒味蕾。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "lemon-aiyu-jelly": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "選擇一種你喜歡的天氣？",
+      "options": [
+        {
+          "id": "a",
+          "label": "晴朗溫暖，適合外出活動的好天氣。",
+          "weights": {
+            "bubble-milk-tea": 2,
+            "yakult-green-tea": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "涼爽宜人，微風輕拂的舒適天氣。",
+          "weights": {
+            "green-tea": 3,
+            "lemon-aiyu-jelly": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "陰天微雨，適合在家享受寧靜的時光。",
+          "weights": {
+            "old-fashioned-black-tea": 3,
+            "winter-melon-tea": 2,
+            "taro-milk": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "陽光普照，充滿活力，但又不會太熱。",
+          "weights": {
+            "yakult-green-tea": 3,
+            "lemon-aiyu-jelly": 2,
+            "green-tea": 1
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "bubble-milk-tea",
+      "title": "珍珠奶茶",
+      "punchline": "你是台灣之光，走到哪都受歡迎！",
+      "longDescription": "你擁有百變魅力，能輕鬆融入各種場合。內心甜美溫暖，總能帶給周圍人歡樂。雖然偶爾有些小堅持，但這正是你的獨特之處。",
+      "traits": [
+        {
+          "label": "人氣王",
+          "value": 90,
+          "comment": "大家都愛你"
+        },
+        {
+          "label": "甜度適中",
+          "value": 85,
+          "comment": "討人喜歡"
+        },
+        {
+          "label": "百變",
+          "value": 80,
+          "comment": "適應力強"
+        },
+        {
+          "label": "療癒",
+          "value": 75,
+          "comment": "帶來安慰"
+        }
+      ],
+      "shareText": "測出來我是 #珍珠奶茶！🤩 難怪我這麼受歡迎，又甜又Q！快來看看你是哪種台灣飲料？🥤",
+      "shareHashtags": [
+        "#我是珍奶",
+        "#台灣之光",
+        "#人氣王",
+        "#爆紅測驗"
+      ],
+      "shortDescription": "你是台灣之光，走到哪都受歡迎！",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "珍珠奶茶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "green-tea",
+      "title": "清新綠茶",
+      "punchline": "追求簡單純粹，你的存在就是一股清流。",
+      "longDescription": "你喜歡簡單、無負擔的生活方式，不愛複雜的人際關係。個性清新自然，總能讓人感到放鬆與舒適。雖然看似低調，卻有著堅韌的內涵。",
+      "traits": [
+        {
+          "label": "清醒",
+          "value": 92,
+          "comment": "思緒清晰"
+        },
+        {
+          "label": "自然",
+          "value": 88,
+          "comment": "不做作"
+        },
+        {
+          "label": "真誠",
+          "value": 85,
+          "comment": "待人實在"
+        },
+        {
+          "label": "內斂",
+          "value": 70,
+          "comment": "沉穩"
+        }
+      ],
+      "shareText": "我測出是 #清新綠茶！🌿 果然簡單就是美，不加糖也很棒！你也來測測你是哪種台灣飲料？✨",
+      "shareHashtags": [
+        "#清新綠茶",
+        "#純粹主義",
+        "#自然派",
+        "#台灣飲料測驗"
+      ],
+      "shortDescription": "追求簡單純粹，你的存在就是一股清流。",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "清新綠茶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "winter-melon-tea",
+      "title": "古早冬瓜",
+      "punchline": "溫暖又清爽，你是最貼心的存在。",
+      "longDescription": "你擁有獨特的魅力，讓人一接觸就感到溫暖與親切。雖然帶點懷舊感，卻總能給人帶來清新的驚喜。你是個可靠的朋友，總在需要時給予安慰。",
+      "traits": [
+        {
+          "label": "獨特",
+          "value": 88,
+          "comment": "與眾不同"
+        },
+        {
+          "label": "懷舊",
+          "value": 82,
+          "comment": "重視傳統"
+        },
+        {
+          "label": "清爽",
+          "value": 78,
+          "comment": "令人心曠神怡"
+        },
+        {
+          "label": "溫暖",
+          "value": 85,
+          "comment": "體貼入微"
+        }
+      ],
+      "shareText": "我測出是 #古早冬瓜茶！🍵 難怪我這麼暖心又清爽！快來測測你是哪種台灣飲料吧！🥳",
+      "shareHashtags": [
+        "#古早冬瓜",
+        "#獨特魅力",
+        "#暖心派",
+        "#測驗結果"
+      ],
+      "shortDescription": "溫暖又清爽，你是最貼心的存在。",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "古早冬瓜",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "yakult-green-tea",
+      "title": "活力多多綠",
+      "punchline": "酸甜活力十足，總是充滿驚喜！",
+      "longDescription": "你是個充滿好奇心和活力的冒險家，總是能帶來意想不到的樂趣。個性開朗活潑，喜歡嘗試新事物，不拘泥於傳統。你的存在讓周圍充滿了歡聲笑語。",
+      "traits": [
+        {
+          "label": "活潑",
+          "value": 95,
+          "comment": "停不下來"
+        },
+        {
+          "label": "開朗",
+          "value": 90,
+          "comment": "陽光正面"
+        },
+        {
+          "label": "創新",
+          "value": 85,
+          "comment": "想法多"
+        },
+        {
+          "label": "酸甜",
+          "value": 80,
+          "comment": "有趣迷人"
+        }
+      ],
+      "shareText": "登愣！我是 #活力多多綠！🥳 酸酸甜甜就是我！你呢？快來測測你是哪種台灣飲料？🍹",
+      "shareHashtags": [
+        "#多多綠",
+        "#活力滿分",
+        "#驚喜製造機",
+        "#台灣飲料"
+      ],
+      "shortDescription": "酸甜活力十足，總是充滿驚喜！",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "活力多多綠",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "lemon-aiyu-jelly",
+      "title": "清爽愛玉",
+      "punchline": "夏日裡的微風，令人感到輕盈自在。",
+      "longDescription": "你性格隨和，不愛計較，總能帶給人輕鬆愉快的氛圍。擁有自然不做作的魅力，讓人感到舒服自在。你喜歡簡單生活，追求內心的平靜與和諧。",
+      "traits": [
+        {
+          "label": "清新",
+          "value": 90,
+          "comment": "氣質出眾"
+        },
+        {
+          "label": "隨和",
+          "value": 85,
+          "comment": "好相處"
+        },
+        {
+          "label": "自然",
+          "value": 88,
+          "comment": "不矯揉造作"
+        },
+        {
+          "label": "透徹",
+          "value": 75,
+          "comment": "看得開"
+        }
+      ],
+      "shareText": "我是 #清爽愛玉！🍋 夏日必備的清涼感！快來看看你是哪種台灣飲料，一起清爽一夏！☀️",
+      "shareHashtags": [
+        "#檸檬愛玉",
+        "#清涼派",
+        "#隨性自在",
+        "#夏日飲品"
+      ],
+      "shortDescription": "夏日裡的微風，令人感到輕盈自在。",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "清爽愛玉",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "old-fashioned-black-tea",
+      "title": "經典紅茶",
+      "punchline": "樸實卻深遠，是永恆的經典。",
+      "longDescription": "你是個穩重可靠的人，不追求華麗，更重視實質。個性樸實真誠，給人一種安心的歸屬感。你可能不愛張揚，但你的存在總是溫暖而堅實。",
+      "traits": [
+        {
+          "label": "懷舊",
+          "value": 80,
+          "comment": "重情義"
+        },
+        {
+          "label": "樸實",
+          "value": 90,
+          "comment": "真誠實在"
+        },
+        {
+          "label": "穩定",
+          "value": 85,
+          "comment": "值得信賴"
+        },
+        {
+          "label": "溫潤",
+          "value": 78,
+          "comment": "待人溫和"
+        }
+      ],
+      "shareText": "測出來我是 #經典紅茶！☕️ 果然我是個樸實又可靠的人！快來測測你是哪種台灣飲料！👍",
+      "shareHashtags": [
+        "#經典紅茶",
+        "#樸實無華",
+        "#穩重派",
+        "#台灣味"
+      ],
+      "shortDescription": "樸實卻深遠，是永恆的經典。",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "經典紅茶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "taro-milk",
+      "title": "濃郁芋頭奶",
+      "punchline": "溫暖而有深度，你的存在令人難忘。",
+      "longDescription": "你擁有豐富而獨特的內涵，像芋頭一樣讓人回味無窮。個性溫柔又帶點執著，對喜歡的事物充滿熱情。你擅長給予人安全感，是個療癒系的存在。",
+      "traits": [
+        {
+          "label": "濃郁",
+          "value": 90,
+          "comment": "情感豐富"
+        },
+        {
+          "label": "溫柔",
+          "value": 88,
+          "comment": "體貼入微"
+        },
+        {
+          "label": "獨特",
+          "value": 85,
+          "comment": "別具一格"
+        },
+        {
+          "label": "療癒",
+          "value": 82,
+          "comment": "帶來撫慰"
+        }
+      ],
+      "shareText": "哇！我是 #濃郁芋頭奶！💜 難怪我這麼有深度又溫柔！來測測你是哪種台灣飲料吧！🥰",
+      "shareHashtags": [
+        "#芋頭牛奶",
+        "#濃情蜜意",
+        "#獨特風味",
+        "#療癒系"
+      ],
+      "shortDescription": "溫暖而有深度，你的存在令人難忘。",
+      "tags": [
+        "你是哪種台灣飲料？",
+        "濃郁芋頭奶",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣飲料？精準測驗",
+    "metaDescription": "你是哪種台灣飲料？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣飲料？",
+      "人格測驗",
+      "台灣",
+      "飲料人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-drink/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-04-20"
+}
