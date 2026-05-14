@@ -1,0 +1,629 @@
+{
+  "id": "24-holiday-type",
+  "slug": "ni-shi-na-zhong-holiday-type",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種放假方式？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "假日靈魂測驗",
+  "description": "你是哪種放假方式？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🏖️",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "放假前夕，你最期待的是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "趕快把待辦清單完成，才能安心放鬆。",
+          "weights": {
+            "efficient-planner": 3,
+            "homebody-relaxer": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "跟朋友們約好聚會，聊聊最近的生活。",
+          "weights": {
+            "social-butterfly": 3,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "查查有沒有什麼特別的展覽或活動可以參加。",
+          "weights": {
+            "culture-explorer": 3,
+            "adventure-seeker": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "什麼都不想，只想在家裡好好充電、睡到自然醒。",
+          "weights": {
+            "homebody-relaxer": 3,
+            "wellness-seeker": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "如果可以選擇，你夢想中的度假地點是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "一個充滿歷史文化氣息的古城，可以深入探索當地故事。",
+          "weights": {
+            "culture-explorer": 3,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "人煙稀少的山林或海邊小屋，享受大自然的寧靜。",
+          "weights": {
+            "homebody-relaxer": 3,
+            "wellness-seeker": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "一個可以嘗試各種極限運動或戶外探險的野外勝地。",
+          "weights": {
+            "adventure-seeker": 3,
+            "wellness-seeker": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "美食天堂般的城市，從早到晚都有吃不完的特色小吃和餐廳。",
+          "weights": {
+            "foodie-traveler": 3,
+            "social-butterfly": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "規劃行程時，你最在乎的是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "行程安排緊湊，能參觀到最多景點，不浪費時間。",
+          "weights": {
+            "efficient-planner": 3,
+            "culture-explorer": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "有足夠的彈性與空白時間，可以隨心所欲地休息或改變計畫。",
+          "weights": {
+            "homebody-relaxer": 2,
+            "wellness-seeker": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "是否有足夠的機會與當地人交流，體驗在地生活。",
+          "weights": {
+            "social-butterfly": 2,
+            "culture-explorer": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "有沒有什麼獨特、刺激的活動，能讓腎上腺素飆升。",
+          "weights": {
+            "adventure-seeker": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "什麼樣的活動最能讓你感到放鬆與充電？",
+      "options": [
+        {
+          "id": "a",
+          "label": "在家裡看書、追劇，或是做一些輕量的居家活動。",
+          "weights": {
+            "homebody-relaxer": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "到健身房運動、做瑜伽，或是進行水療按摩。",
+          "weights": {
+            "wellness-seeker": 3,
+            "homebody-relaxer": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "參加派對、音樂祭，或與一大群朋友歡聚。",
+          "weights": {
+            "social-butterfly": 3,
+            "adventure-seeker": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "逛博物館、美術館，或是欣賞一場表演。",
+          "weights": {
+            "culture-explorer": 3,
+            "efficient-planner": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "遇到新奇的美食，你會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "先拍照打卡，然後迫不及待地品嚐。",
+          "weights": {
+            "foodie-traveler": 3,
+            "social-butterfly": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "研究它的歷史背景和製作方式。",
+          "weights": {
+            "culture-explorer": 2,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "考慮它的健康價值，決定是否要嘗試。",
+          "weights": {
+            "wellness-seeker": 2,
+            "efficient-planner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "如果看起來太特別或超出舒適圈，會選擇熟悉的選項。",
+          "weights": {
+            "homebody-relaxer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "在旅途中，你喜歡如何記錄回憶？",
+      "options": [
+        {
+          "id": "a",
+          "label": "用手機拍下大量照片和影片，製作成精美的Vlog。",
+          "weights": {
+            "social-butterfly": 2,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "購買當地的特色紀念品或手工藝品。",
+          "weights": {
+            "culture-explorer": 3,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "用文字寫日記或部落格，記錄旅途中的心情和觀察。",
+          "weights": {
+            "homebody-relaxer": 2,
+            "culture-explorer": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "將所有票根、地圖收集起來，整理成一本旅行手冊。",
+          "weights": {
+            "efficient-planner": 3,
+            "culture-explorer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "當旅伴提出一個你沒有預期的活動時，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "馬上查資料、評估可行性，並將其納入行程。",
+          "weights": {
+            "efficient-planner": 3,
+            "adventure-seeker": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "只要不是太累或太危險，通常都會欣然接受。",
+          "weights": {
+            "social-butterfly": 2,
+            "adventure-seeker": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "如果符合我的興趣（例如文化或美食），會很樂意。",
+          "weights": {
+            "culture-explorer": 2,
+            "foodie-traveler": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "傾向維持原計畫，除非那個活動聽起來真的很有趣。",
+          "weights": {
+            "homebody-relaxer": 2,
+            "efficient-planner": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "對你來說，完美的放假一天是怎樣的？",
+      "options": [
+        {
+          "id": "a",
+          "label": "從早到晚都在戶外，挑戰自我、探索未知。",
+          "weights": {
+            "adventure-seeker": 3,
+            "wellness-seeker": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "睡到自然醒，享受一頓豐盛的早午餐，然後做喜歡的事。",
+          "weights": {
+            "homebody-relaxer": 3,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "參加工作坊、講座，或參觀有教育意義的景點。",
+          "weights": {
+            "culture-explorer": 3,
+            "efficient-planner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "和親朋好友聚餐、聊天，享受溫馨的時刻。",
+          "weights": {
+            "social-butterfly": 3,
+            "foodie-traveler": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "在旅途中遇到突發狀況，你的反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "保持冷靜，迅速尋找解決方案和替代方案。",
+          "weights": {
+            "efficient-planner": 3,
+            "adventure-seeker": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "把它當作旅程的一部分，享受意料之外的驚喜。",
+          "weights": {
+            "adventure-seeker": 3,
+            "social-butterfly": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "可能會有點焦慮，但會盡量放鬆心情，隨遇而安。",
+          "weights": {
+            "homebody-relaxer": 2,
+            "wellness-seeker": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "尋求當地人的幫助或建議，趁機了解當地文化。",
+          "weights": {
+            "culture-explorer": 2,
+            "social-butterfly": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "放假結束後，你最常回味的是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "那些挑戰自我、突破極限的瞬間。",
+          "weights": {
+            "adventure-seeker": 3,
+            "wellness-seeker": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "與親友共創的歡樂回憶和美好時光。",
+          "weights": {
+            "social-butterfly": 3,
+            "foodie-traveler": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "學到的新知識、開闊的視野和文化衝擊。",
+          "weights": {
+            "culture-explorer": 3,
+            "efficient-planner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "身心完全放鬆的感受，以及那種無憂無慮的狀態。",
+          "weights": {
+            "homebody-relaxer": 3,
+            "wellness-seeker": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "homebody-relaxer",
+      "title": "宅家廢人",
+      "punchline": "床就是我的天堂，沙發是我的寶座，我為廢而生！",
+      "longDescription": "你的放假模式就是「舒適圈模式」。能不出門就不出門，手機、零食、追劇是你的最佳伴侶。充電滿格後，才能面對人生的挑戰。",
+      "traits": [
+        {
+          "label": "耍廢指數",
+          "value": 95,
+          "comment": "躺著最舒服"
+        },
+        {
+          "label": "舒適度",
+          "value": 88,
+          "comment": "家裡最自在"
+        }
+      ],
+      "shareText": "🛋️ 我是【宅家廢人】！我的放假最高指導原則就是「躺平」！你也是嗎？#宅家萬歲 #躺平人生",
+      "shareHashtags": [
+        "#宅家廢人",
+        "#廢到最高點",
+        "#懶人模式"
+      ],
+      "shortDescription": "床就是我的天堂，沙發是我的寶座，我為廢而生！",
+      "tags": [
+        "你是哪種放假方式？",
+        "宅家廢人",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "adventure-seeker",
+      "title": "探險玩家",
+      "punchline": "世界那麼大，我要去看看！不冒險，毋寧死！",
+      "longDescription": "你的放假就是要挑戰極限、探索未知。高山、大海、異國文化，沒有你不敢嘗試的。每次旅行都是一場刺激的發現之旅。",
+      "traits": [
+        {
+          "label": "刺激感",
+          "value": 92,
+          "comment": "越刺激越好玩"
+        },
+        {
+          "label": "挑戰度",
+          "value": 85,
+          "comment": "不懼怕困難"
+        }
+      ],
+      "shareText": "⛰️ 我是【探險玩家】！我的假期就是一場華麗冒險！下一站，去哪裡？#冒險人生 #挑戰極限",
+      "shareHashtags": [
+        "#探險玩家",
+        "#冒險無極限",
+        "#野外求生"
+      ],
+      "shortDescription": "世界那麼大，我要去看看！不冒險，毋寧死！",
+      "tags": [
+        "你是哪種放假方式？",
+        "探險玩家",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "culture-explorer",
+      "title": "文青旅者",
+      "punchline": "走入歷史與藝術，讓心靈充電，知識滿載！",
+      "longDescription": "你享受在博物館、美術館中漫步，沉浸在不同文化的氛圍裡。品味當地小吃，感受人文風情，每次旅行都是一次深度學習。",
+      "traits": [
+        {
+          "label": "知性度",
+          "value": 88,
+          "comment": "熱愛學習新知"
+        },
+        {
+          "label": "深度體驗",
+          "value": 90,
+          "comment": "不只看表面"
+        }
+      ],
+      "shareText": "🏛️ 我是【文青旅者】！假期就是要來點知性美，探索世界文化。誰跟我一樣？#文青style #深度旅遊",
+      "shareHashtags": [
+        "#文青旅者",
+        "#文化之旅",
+        "#歷史足跡"
+      ],
+      "shortDescription": "走入歷史與藝術，讓心靈充電，知識滿載！",
+      "tags": [
+        "你是哪種放假方式？",
+        "文青旅者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "foodie-traveler",
+      "title": "美食獵人",
+      "punchline": "人生苦短，先吃再說！我的地圖只標記美食！",
+      "longDescription": "你的假期就是一場味蕾的饗宴。從路邊攤到米其林，你絕不放過任何美食。為了一碗麵、一道菜，飛再遠都值得。",
+      "traits": [
+        {
+          "label": "美食雷達",
+          "value": 98,
+          "comment": "嗅覺超靈敏"
+        },
+        {
+          "label": "滿足感",
+          "value": 92,
+          "comment": "吃飽最重要"
+        }
+      ],
+      "shareText": "🍜 我是【美食獵人】！我的假期就是吃吃吃！哪裡有好吃的，告訴我！#吃貨日常 #為吃而生",
+      "shareHashtags": [
+        "#美食獵人",
+        "#吃貨人生",
+        "#味蕾之旅"
+      ],
+      "shortDescription": "人生苦短，先吃再說！我的地圖只標記美食！",
+      "tags": [
+        "你是哪種放假方式？",
+        "美食獵人",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "wellness-seeker",
+      "title": "佛系養生",
+      "punchline": "慢活、靜心，讓身心靈回歸最純粹的平靜。",
+      "longDescription": "你的假期是為了讓身心徹底放鬆。瑜伽、冥想、SPA、大自然中的散步，遠離塵囂，追求內心的寧靜與平衡。",
+      "traits": [
+        {
+          "label": "平靜度",
+          "value": 90,
+          "comment": "渴望內心平靜"
+        },
+        {
+          "label": "療癒力",
+          "value": 85,
+          "comment": "身心靈合一"
+        }
+      ],
+      "shareText": "🧘‍♀️ 我是【佛系養生】！我的假期是為了找回內心的平靜。慢活人生，你懂嗎？#佛系放假 #身心靈",
+      "shareHashtags": [
+        "#佛系養生",
+        "#療癒之旅",
+        "#慢活哲學"
+      ],
+      "shortDescription": "慢活、靜心，讓身心靈回歸最純粹的平靜。",
+      "tags": [
+        "你是哪種放假方式？",
+        "佛系養生",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "social-butterfly",
+      "title": "社群焦點",
+      "punchline": "記錄每個精彩瞬間，我的假期就是一部IG限動！",
+      "longDescription": "你的假期就是要和朋友一起熱鬧，拍遍所有網美景點。每個打卡都是精心設計，讓全世界看見你的精彩生活。",
+      "traits": [
+        {
+          "label": "曝光度",
+          "value": 95,
+          "comment": "不發文會死"
+        },
+        {
+          "label": "互動性",
+          "value": 89,
+          "comment": "熱愛分享生活"
+        }
+      ],
+      "shareText": "📸 我是【社群焦點】！我的假期就是一場視覺饗宴！限動發不完啦！#網美日常 #打卡人生",
+      "shareHashtags": [
+        "#社群焦點",
+        "#網美景點",
+        "#打卡必備"
+      ],
+      "shortDescription": "記錄每個精彩瞬間，我的假期就是一部IG限動！",
+      "tags": [
+        "你是哪種放假方式？",
+        "社群焦點",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "efficient-planner",
+      "title": "效率達人",
+      "punchline": "時間就是金錢！我的假期，分秒必爭，玩好玩滿！",
+      "longDescription": "你的假期行程表總是排得滿滿的，不放過任何一個景點。精準計算交通時間，確保所有想做的事都能完美達成。",
+      "traits": [
+        {
+          "label": "執行力",
+          "value": 93,
+          "comment": "使命必達"
+        },
+        {
+          "label": "規劃度",
+          "value": 96,
+          "comment": "沒有Plan B"
+        }
+      ],
+      "shareText": "⏱️ 我是【效率達人】！我的假期行程完美無缺！玩就是要玩好玩滿！#規劃狂人 #時間管理",
+      "shareHashtags": [
+        "#效率達人",
+        "#行程規劃",
+        "#不浪費時間"
+      ],
+      "shortDescription": "時間就是金錢！我的假期，分秒必爭，玩好玩滿！",
+      "tags": [
+        "你是哪種放假方式？",
+        "效率達人",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種放假方式？精準測驗",
+    "metaDescription": "你是哪種放假方式？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種放假方式？",
+      "人格測驗",
+      "台灣",
+      "假日靈魂測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-holiday-type/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-15"
+}
