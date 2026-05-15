@@ -1,0 +1,666 @@
+{
+  "id": "25-taiwan-dessert",
+  "slug": "ni-shi-na-zhong-taiwan-dessert",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣傳統甜點？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "甜點人格測驗",
+  "description": "你是哪種台灣傳統甜點？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🍡",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "關於你的週末，你會如何規劃？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找個舒適的咖啡廳，享受悠閒的時光，或許讀本書。",
+          "weights": {
+            "dou-hua": 3,
+            "feng-li-su": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "約上三五好友，去熱鬧的夜市或商圈逛逛，享受人群的活力。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "選擇親近大自然的活動，例如爬山或到郊外走走，感受大地的能量。",
+          "weights": {
+            "yu-yuan": 3,
+            "hua-sheng-juan-bing-qi-lin": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "在家裡做些手工藝或烘焙，享受創造的樂趣，或是好好放鬆休息。",
+          "weights": {
+            "ma-qie": 3,
+            "dou-hua": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "當你遇到困難時，通常會怎麼應對？",
+      "options": [
+        {
+          "id": "a",
+          "label": "冷靜分析問題，尋求最佳解決方案。",
+          "weights": {
+            "feng-li-su": 3,
+            "dou-hua": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "保持樂觀，相信船到橋頭自然直，並尋求朋友的建議。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "展現韌性，不輕易放棄，一步一腳印地克服。",
+          "weights": {
+            "yu-yuan": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "暫時放下，去散散心或做些開心的事，回來再面對。",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "feng-li-su": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你最喜歡哪種口感的食物？",
+      "options": [
+        {
+          "id": "a",
+          "label": "滑順細緻，入口即化的。",
+          "weights": {
+            "dou-hua": 3,
+            "feng-li-su": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "Q彈有嚼勁，越嚼越香的。",
+          "weights": {
+            "zhen-zhu": 3,
+            "yu-yuan": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "外酥內軟，帶點驚喜感的。",
+          "weights": {
+            "di-gua-qiu": 3,
+            "hua-sheng-juan-bing-qi-lin": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "軟糯黏密，溫潤飽足的。",
+          "weights": {
+            "ma-qie": 3,
+            "dou-hua": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "朋友形容你，最常用哪個詞？",
+      "options": [
+        {
+          "id": "a",
+          "label": "溫和內斂",
+          "weights": {
+            "dou-hua": 3,
+            "feng-li-su": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "活潑開朗",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "真誠實在",
+          "weights": {
+            "yu-yuan": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨特有趣",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "feng-li-su": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "如果要你代表台灣向國際友人介紹一種甜點，你會選？",
+      "options": [
+        {
+          "id": "a",
+          "label": "豆花 (Dou Hua) - 經典、清爽、多變。",
+          "weights": {
+            "dou-hua": 3,
+            "yu-yuan": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "鳳梨酥 (Pineapple Cake) - 精緻、代表性、有故事。",
+          "weights": {
+            "feng-li-su": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "珍珠奶茶 (Bubble Tea) - 潮流、受歡迎、有活力。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "花生捲冰淇淋 (Peanut Ice Cream Roll) - 創意、獨特、令人驚喜。",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "ma-qie": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "對於新事物的態度，你比較傾向？",
+      "options": [
+        {
+          "id": "a",
+          "label": "保持開放，但會先觀察和評估。",
+          "weights": {
+            "dou-hua": 3,
+            "feng-li-su": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "勇於嘗試，喜歡新鮮刺激的體驗。",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "zhen-zhu": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "腳踏實地，認為經典的通常是最好的。",
+          "weights": {
+            "yu-yuan": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "喜歡追隨潮流，和朋友一起體驗。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你最喜歡哪種氛圍的聚會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "家庭聚餐，溫馨而有深度交流。",
+          "weights": {
+            "dou-hua": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "朋友派對，熱鬧而充滿歡笑。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "戶外野餐或露營，享受自然與輕鬆。",
+          "weights": {
+            "yu-yuan": 3,
+            "hua-sheng-juan-bing-qi-lin": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "文化沙龍或品酒會，有質感且能增廣見聞。",
+          "weights": {
+            "feng-li-su": 3,
+            "dou-hua": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你的穿衣風格通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "簡約舒適，注重材質與質感。",
+          "weights": {
+            "dou-hua": 3,
+            "feng-li-su": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "流行時尚，喜歡嘗試不同風格。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "自然休閒，偏好棉麻等天然材質。",
+          "weights": {
+            "yu-yuan": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨特有個性，喜歡搭配出自己的風格。",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "feng-li-su": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "哪種形容詞最符合你的個性？",
+      "options": [
+        {
+          "id": "a",
+          "label": "溫柔體貼",
+          "weights": {
+            "dou-hua": 3,
+            "ma-qie": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "活潑外向",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "堅韌不拔",
+          "weights": {
+            "yu-yuan": 3,
+            "feng-li-su": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "不拘一格",
+          "weights": {
+            "hua-sheng-juan-bing-qi-lin": 3,
+            "di-gua-qiu": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "理想中的度假方式是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "深度文化之旅，探索當地歷史與風情。",
+          "weights": {
+            "feng-li-su": 3,
+            "dou-hua": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "城市探索，體驗時尚購物與美食。",
+          "weights": {
+            "zhen-zhu": 3,
+            "di-gua-qiu": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "遠離塵囂，享受山林或海邊的寧靜。",
+          "weights": {
+            "yu-yuan": 3,
+            "hua-sheng-juan-bing-qi-lin": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "輕鬆隨性，走走停停，體驗當地生活。",
+          "weights": {
+            "ma-qie": 3,
+            "hua-sheng-juan-bing-qi-lin": 1
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "dou-hua",
+      "title": "豆花",
+      "punchline": "溫柔而堅韌，你是最治癒人心的存在。",
+      "longDescription": "你是個溫柔且善解人意的人，總能給予身邊的人最溫暖的慰藉。你的心靈純淨而透明，讓人感到安心與舒適。在簡單中見不凡，你的存在本身就是一種美好。",
+      "traits": [
+        {
+          "label": "溫柔指數",
+          "value": 90,
+          "comment": "你的溫柔融化人心"
+        },
+        {
+          "label": "療癒能量",
+          "value": 85,
+          "comment": "總能帶給他人平靜"
+        },
+        {
+          "label": "適應能力",
+          "value": 70,
+          "comment": "能夠融入不同環境"
+        }
+      ],
+      "shareText": "測出來我是豆花！清爽又治癒，快來看看你是哪種台灣傳統甜點吧！😊🍮",
+      "shareHashtags": [
+        "#我是豆花",
+        "#台灣甜點",
+        "#溫柔系"
+      ],
+      "shortDescription": "溫柔而堅韌，你是最治癒人心的存在。",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "豆花",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "zhen-zhu",
+      "title": "珍珠",
+      "punchline": "活力四射的你，是大家眼中不可或缺的亮點！",
+      "longDescription": "你天生充滿活力與熱情，走到哪裡都是人群中的焦點。你善於交際，能輕鬆與各種人打成一片，為生活增添不少樂趣。你的存在讓一切變得更豐富、更有趣，是不可或缺的靈魂人物。",
+      "traits": [
+        {
+          "label": "活力值",
+          "value": 95,
+          "comment": "你的熱情感染力超強"
+        },
+        {
+          "label": "社交魅力",
+          "value": 90,
+          "comment": "總能成為焦點人物"
+        },
+        {
+          "label": "多變性",
+          "value": 80,
+          "comment": "能夠適應各種場合"
+        }
+      ],
+      "shareText": "哇！我是珍珠！活力滿滿，讓生活更有趣！快來測測你是哪種甜點吧！🧋✨",
+      "shareHashtags": [
+        "#我是珍珠",
+        "#活力滿點",
+        "#台灣之光"
+      ],
+      "shortDescription": "活力四射的你，是大家眼中不可或缺的亮點！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "珍珠",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "yu-yuan",
+      "title": "芋圓",
+      "punchline": "樸實卻充滿底蘊，你是值得信賴的溫暖存在。",
+      "longDescription": "你是個腳踏實地、真誠可靠的人，給人一種溫暖又安心的感覺。你或許不搶眼，但內涵豐富，越相處越能感受到你的深度與真誠。你是家人朋友眼中最值得信賴的支柱，總能給予堅實的支持。",
+      "traits": [
+        {
+          "label": "真誠度",
+          "value": 92,
+          "comment": "你的真誠不需多言"
+        },
+        {
+          "label": "穩重感",
+          "value": 88,
+          "comment": "凡事考慮周全"
+        },
+        {
+          "label": "內涵深度",
+          "value": 85,
+          "comment": "越了解越被吸引"
+        }
+      ],
+      "shareText": "測出來我是芋圓！樸實又溫暖，越嚼越有味！快來看看你是哪種台灣傳統甜點？🍠🧡",
+      "shareHashtags": [
+        "#我是芋圓",
+        "#腳踏實地",
+        "#溫暖系"
+      ],
+      "shortDescription": "樸實卻充滿底蘊，你是值得信賴的溫暖存在。",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "芋圓",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "di-gua-qiu",
+      "title": "地瓜球",
+      "punchline": "古靈精怪又活潑，你的魅力總是讓人會心一笑！",
+      "longDescription": "你是個充滿童心與好奇心的人，總能用獨特的視角看待世界。你的個性活潑開朗，像個小太陽般照亮身邊的人，帶來無窮的歡樂。有你在的地方，總是充滿了笑聲和驚喜，讓人心情愉悅。",
+      "traits": [
+        {
+          "label": "樂觀指數",
+          "value": 93,
+          "comment": "你的笑容感染力超強"
+        },
+        {
+          "label": "幽默感",
+          "value": 87,
+          "comment": "總能逗樂身邊的人"
+        },
+        {
+          "label": "冒險精神",
+          "value": 75,
+          "comment": "喜歡嘗試新事物"
+        }
+      ],
+      "shareText": "哈哈，我是地瓜球！活潑又可愛，總能帶來歡樂！你是哪種甜點呢？💛😋",
+      "shareHashtags": [
+        "#我是地瓜球",
+        "#開心果",
+        "#童心未泯"
+      ],
+      "shortDescription": "古靈精怪又活潑，你的魅力總是讓人會心一笑！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "地瓜球",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "feng-li-su",
+      "title": "鳳梨酥",
+      "punchline": "優雅而經典，你代表著高雅品味與不凡氣質。",
+      "longDescription": "你擁有與生俱來的優雅氣質，無論在哪裡都能展現出獨特的品味。你注重細節，追求卓越，總是希望能把事情做到最好。你的存在，就像一份精緻的禮物，讓人感受到質感與用心。",
+      "traits": [
+        {
+          "label": "品味指數",
+          "value": 95,
+          "comment": "你的品味總是獨到"
+        },
+        {
+          "label": "細緻度",
+          "value": 90,
+          "comment": "注重每一個細節"
+        },
+        {
+          "label": "經典魅力",
+          "value": 85,
+          "comment": "永不退流行的氣質"
+        }
+      ],
+      "shareText": "我是鳳梨酥！經典又優雅，台灣代表！快來測你是哪種傳統甜點吧！🍍🎁",
+      "shareHashtags": [
+        "#我是鳳梨酥",
+        "#優雅代表",
+        "#質感生活"
+      ],
+      "shortDescription": "優雅而經典，你代表著高雅品味與不凡氣質。",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "鳳梨酥",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "ma-qie",
+      "title": "麻糬",
+      "punchline": "溫柔而充滿彈性，你總能以柔軟姿態化解一切。",
+      "longDescription": "你是個心思細膩、富有彈性的人，面對挑戰總能保持柔軟而堅韌。你善於傾聽，懂得包容，總能給予他人最溫暖的陪伴。你的內心世界豐富多彩，充滿了各種可能，讓人忍不住想探索。",
+      "traits": [
+        {
+          "label": "柔軟度",
+          "value": 90,
+          "comment": "能夠圓融處理事情"
+        },
+        {
+          "label": "包容心",
+          "value": 88,
+          "comment": "總是體諒他人"
+        },
+        {
+          "label": "隱藏魅力",
+          "value": 80,
+          "comment": "內在豐富有深度"
+        }
+      ],
+      "shareText": "測出來我是麻糬！軟Q有彈性，溫柔又包容！快來看看你是哪種甜點？🍡💖",
+      "shareHashtags": [
+        "#我是麻糬",
+        "#柔軟力量",
+        "#暖心陪伴"
+      ],
+      "shortDescription": "溫柔而充滿彈性，你總能以柔軟姿態化解一切。",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "麻糬",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "hua-sheng-juan-bing-qi-lin",
+      "title": "花生捲",
+      "punchline": "充滿驚喜的創意家，你的獨特總能讓人眼睛一亮！",
+      "longDescription": "你是個不拘一格、充滿創意的冒險家，總是能想出獨特的點子。你喜歡嘗試新事物，不害怕挑戰，總能為生活帶來意想不到的樂趣。你的存在就像一道獨特的風景，讓人充滿好奇與期待。",
+      "traits": [
+        {
+          "label": "創意指數",
+          "value": 95,
+          "comment": "腦袋充滿無限可能"
+        },
+        {
+          "label": "冒險精神",
+          "value": 90,
+          "comment": "勇於挑戰新事物"
+        },
+        {
+          "label": "獨特魅力",
+          "value": 85,
+          "comment": "總能吸引眾人目光"
+        }
+      ],
+      "shareText": "我是花生捲冰淇淋！獨特又充滿驚喜，你呢？快來測你是哪種甜點！🍦🥜",
+      "shareHashtags": [
+        "#我是花生捲",
+        "#創意無限",
+        "#驚喜製造機"
+      ],
+      "shortDescription": "充滿驚喜的創意家，你的獨特總能讓人眼睛一亮！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "花生捲",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣傳統甜點？精準測驗",
+    "metaDescription": "你是哪種台灣傳統甜點？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣傳統甜點？",
+      "人格測驗",
+      "台灣",
+      "甜點人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-dessert/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-16"
+}
