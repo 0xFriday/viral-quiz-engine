@@ -1,0 +1,625 @@
+{
+  "id": "29-learning-style",
+  "slug": "ni-shi-na-zhong-learning-style",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種學習型人格？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "學習力診斷",
+  "description": "你是哪種學習型人格？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "📚",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "當你開始學習新事物時，你傾向於如何著手？",
+      "options": [
+        {
+          "id": "a",
+          "label": "馬上動手嘗試，從實踐中摸索與學習。",
+          "weights": {
+            "the-doer": 3,
+            "the-explorer": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "仔細閱讀相關資料，理解其背後原理與概念。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "觀看教學影片或觀察他人操作，先掌握全貌再行動。",
+          "weights": {
+            "the-observer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "與他人討論，聽取不同觀點與經驗再決定方向。",
+          "weights": {
+            "the-collaborator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "面對一個複雜的問題時，你的第一直覺是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立即嘗試各種解決方案，從錯誤中學習並修正。",
+          "weights": {
+            "the-doer": 3,
+            "the-explorer": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "將問題拆解成小部分，逐一分析其邏輯與關聯性。",
+          "weights": {
+            "the-analyst": 3,
+            "the-theorist": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "尋找類似問題的解決案例或成功經驗，從中獲得啟發。",
+          "weights": {
+            "the-observer": 3,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "召集夥伴集思廣益，共同找出解決之道。",
+          "weights": {
+            "the-collaborator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你認為在哪種學習環境中最能發揮所長？",
+      "options": [
+        {
+          "id": "a",
+          "label": "有大量實作機會、動手操作的工作坊或專案。",
+          "weights": {
+            "the-doer": 3,
+            "the-explorer": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "有清晰架構、邏輯分明的講座或獨立研究空間。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "安靜、能讓我專心思考與沉澱資訊的場所。",
+          "weights": {
+            "the-observer": 3,
+            "the-self-learner": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "能與他人交流、激盪想法的團體討論或合作專案。",
+          "weights": {
+            "the-collaborator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你如何最有效地記憶新資訊？",
+      "options": [
+        {
+          "id": "a",
+          "label": "透過實際應用所學，或將其教導給他人。",
+          "weights": {
+            "the-doer": 2,
+            "the-collaborator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "將資訊整理成邏輯圖、心智圖或有條理的筆記。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "反覆閱讀材料，觀察其中的模式與連結，進行深度思考。",
+          "weights": {
+            "the-observer": 3,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "透過自主研究或實驗，親自發掘這些資訊背後的奧秘。",
+          "weights": {
+            "the-explorer": 3,
+            "the-self-learner": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "學習過程中，什麼最能激勵你持續投入？",
+      "options": [
+        {
+          "id": "a",
+          "label": "看到具體成果，感受到進步與成就感。",
+          "weights": {
+            "the-doer": 3,
+            "the-explorer": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "理解背後深層原理，享受解決智力挑戰的樂趣。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "能夠全面掌握知識，在行動前有充分的準備與信心。",
+          "weights": {
+            "the-observer": 3,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "發現新想法、新可能性，探索未知領域的興奮感。",
+          "weights": {
+            "the-explorer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "當你犯錯時，通常會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立即分析錯誤原因，並嘗試不同的解決方案或方法。",
+          "weights": {
+            "the-analyst": 3,
+            "the-doer": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "深入反思錯誤的根本原因，調整自己的理論認知與邏輯。",
+          "weights": {
+            "the-theorist": 3,
+            "the-observer": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "向有經驗的人尋求建議或回饋，從他人經驗中學習。",
+          "weights": {
+            "the-collaborator": 3,
+            "the-observer": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "將錯誤視為實驗的一部分，探索哪些方法行不通。",
+          "weights": {
+            "the-explorer": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你如何準備一場簡報或一個大型專案？",
+      "options": [
+        {
+          "id": "a",
+          "label": "先動手製作一個原型或草稿，邊做邊調整與完善。",
+          "weights": {
+            "the-doer": 3,
+            "the-explorer": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "花大量時間研究資料、列出大綱，確保內容邏輯清晰嚴謹。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "觀摩成功的簡報案例，從中學習演示技巧和內容組織。",
+          "weights": {
+            "the-observer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "與同事或朋友集思廣益，匯集多方意見與想法。",
+          "weights": {
+            "the-collaborator": 3,
+            "the-explorer": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "在團隊專案中，你通常會扮演什麼角色？",
+      "options": [
+        {
+          "id": "a",
+          "label": "帶頭執行，確保任務按時完成的行動者。",
+          "weights": {
+            "the-doer": 3,
+            "the-collaborator": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "整理資訊、分析數據，確保專案邏輯正確的分析者。",
+          "weights": {
+            "the-analyst": 3,
+            "the-theorist": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "仔細聆聽意見，提供周到回饋的協調者或觀察者。",
+          "weights": {
+            "the-observer": 3,
+            "the-collaborator": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "提出新穎想法，挑戰傳統思維的創新者。",
+          "weights": {
+            "the-explorer": 3,
+            "the-collaborator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "對於學習一個完全陌生的領域，且沒有任何指導，你會有什麼感覺？",
+      "options": [
+        {
+          "id": "a",
+          "label": "感到興奮！我喜歡自己摸索出答案，享受探索的過程。",
+          "weights": {
+            "the-self-learner": 3,
+            "the-explorer": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "有點不安，但會系統性地尋找資源並規劃學習路徑。",
+          "weights": {
+            "the-theorist": 1,
+            "the-analyst": 2,
+            "the-self-learner": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "希望能夠先觀察別人是怎麼做的，再決定如何開始。",
+          "weights": {
+            "the-observer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "會主動尋找該領域的專家或同好，從他們身上學習經驗。",
+          "weights": {
+            "the-collaborator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你理想的複習方式是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "將所學知識實際應用到真實情境中，邊做邊鞏固。",
+          "weights": {
+            "the-doer": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "製作詳細的總結、心智圖或概念框架，梳理知識體系。",
+          "weights": {
+            "the-theorist": 3,
+            "the-analyst": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "重讀筆記、回顧講義，沉澱與反思學習內容。",
+          "weights": {
+            "the-observer": 3,
+            "the-self-learner": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "探索相關聯的新主題，或思考知識的其他應用可能性。",
+          "weights": {
+            "the-explorer": 3,
+            "the-self-learner": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "the-doer",
+      "title": "實踐型",
+      "punchline": "動手做就對了！從錯誤中學習的超級高手。",
+      "longDescription": "你相信最好的學習方式就是親身體驗。書本知識對你來說只是參考，實際操作才能真正內化。你樂於挑戰，不怕失敗，每次跌倒都是為了站得更高。",
+      "traits": [
+        {
+          "label": "動手能力",
+          "value": 90,
+          "comment": "直接上手，邊做邊學"
+        },
+        {
+          "label": "解決問題",
+          "value": 85,
+          "comment": "透過實作找到解答"
+        }
+      ],
+      "shareText": "我是天生的實踐家！💪 動手做才能學得快，學得好！你也是嗎？#學習型人格",
+      "shareHashtags": [
+        "#實踐型學習",
+        "#邊做邊學",
+        "#行動派"
+      ],
+      "shortDescription": "動手做就對了！從錯誤中學習的超級高手。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "實踐型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-theorist",
+      "title": "理論型",
+      "punchline": "先搞懂原理再說！知識體系的完美建構師。",
+      "longDescription": "你追求知識的深度與廣度，凡事喜歡先理解背後的邏輯與理論。對你而言，清晰的架構和概念比盲目操作更重要。你享受推敲與思辨的過程，是個思考力超群的學霸。",
+      "traits": [
+        {
+          "label": "邏輯思考",
+          "value": 92,
+          "comment": "善於歸納與演繹"
+        },
+        {
+          "label": "系統理解",
+          "value": 88,
+          "comment": "建構完整知識體系"
+        }
+      ],
+      "shareText": "我是理論型學習者！📚 沒弄懂原理怎麼行？知識就是力量！你呢？#學習型人格",
+      "shareHashtags": [
+        "#理論派",
+        "#深度思考",
+        "#邏輯為王"
+      ],
+      "shortDescription": "先搞懂原理再說！知識體系的完美建構師。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "理論型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-observer",
+      "title": "觀察型",
+      "punchline": "靜心沉澱的智者，洞察力超凡的學習者。",
+      "longDescription": "你習慣在旁觀察，從他人的經驗和周遭環境中汲取養分。你善於反思，不急於行動，而是先在心中消化吸收。你擁有敏銳的洞察力，總能在細節中發現學習的契機。",
+      "traits": [
+        {
+          "label": "反思能力",
+          "value": 90,
+          "comment": "從經驗中提煉智慧"
+        },
+        {
+          "label": "細節洞察",
+          "value": 87,
+          "comment": "不放過任何線索"
+        }
+      ],
+      "shareText": "我是安靜的觀察家👁️，默默吸收，悄悄變強！你猜對了嗎？#學習型人格",
+      "shareHashtags": [
+        "#觀察學習",
+        "#反思者",
+        "#洞察力"
+      ],
+      "shortDescription": "靜心沉澱的智者，洞察力超凡的學習者。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "觀察型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-explorer",
+      "title": "探索型",
+      "punchline": "好奇心是你的超能力！不斷追尋新知的冒險家。",
+      "longDescription": "你對未知充滿渴望，總是主動出擊，尋找新的學習領域和資訊。你喜歡嘗試不同的方法，不拘泥於傳統。你的學習旅程充滿驚喜，因為你從不設限。",
+      "traits": [
+        {
+          "label": "好奇心",
+          "value": 95,
+          "comment": "對新知永不滿足"
+        },
+        {
+          "label": "實驗精神",
+          "value": 89,
+          "comment": "勇於嘗試不同方法"
+        }
+      ],
+      "shareText": "我是永不停止的探索型學習者！🚀 世界這麼大，我想去看看（學學）！#學習型人格",
+      "shareHashtags": [
+        "#探索學習",
+        "#好奇寶寶",
+        "#冒險精神"
+      ],
+      "shortDescription": "好奇心是你的超能力！不斷追尋新知的冒險家。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "探索型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-collaborator",
+      "title": "合作型",
+      "punchline": "團隊學習的催化劑！在交流中激發無限潛能。",
+      "longDescription": "你相信集體智慧的力量，喜歡透過討論和分享來學習。與他人互動能讓你釐清思路，獲得不同視角。你樂於助人，也善於從合作中成長，是個天生的團隊學習者。",
+      "traits": [
+        {
+          "label": "溝通表達",
+          "value": 91,
+          "comment": "善於交流與分享"
+        },
+        {
+          "label": "團隊協作",
+          "value": 86,
+          "comment": "在互動中共同成長"
+        }
+      ],
+      "shareText": "我是合作型學習者！🤝 喜歡和大家一起討論、一起進步！你呢？#學習型人格",
+      "shareHashtags": [
+        "#合作學習",
+        "#團隊精神",
+        "#共學"
+      ],
+      "shortDescription": "團隊學習的催化劑！在交流中激發無限潛能。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "合作型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-analyst",
+      "title": "分析型",
+      "punchline": "庖丁解牛的專家！將複雜拆解為簡單的思考者。",
+      "longDescription": "你擅長將複雜的資訊拆解成小塊，進行深入的分析與比較。你對細節有著超乎常人的敏銳，能夠找出其中的規律與模式。對你來說，理解的過程就是不斷提問和解答。",
+      "traits": [
+        {
+          "label": "問題拆解",
+          "value": 93,
+          "comment": "將複雜化繁為簡"
+        },
+        {
+          "label": "模式識別",
+          "value": 87,
+          "comment": "從數據中發現規律"
+        }
+      ],
+      "shareText": "我是分析型學習者📊，再難的問題也能被我抽絲剝繭！服不服？#學習型人格",
+      "shareHashtags": [
+        "#分析學習",
+        "#深度分析",
+        "#解構專家"
+      ],
+      "shortDescription": "庖丁解牛的專家！將複雜拆解為簡單的思考者。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "分析型",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "the-self-learner",
+      "title": "自學型",
+      "punchline": "內驅力滿滿的獨立學習者，知識的自我主宰者。",
+      "longDescription": "你擁有強大的內在動機，能夠自主規劃學習路徑，不依賴外部指導。你享受獨立探索的過程，並善於利用各種資源。對你來說，學習是一種自我實現，充滿成就感。",
+      "traits": [
+        {
+          "label": "自主規劃",
+          "value": 94,
+          "comment": "主動安排學習進度"
+        },
+        {
+          "label": "資源整合",
+          "value": 89,
+          "comment": "善用各種學習工具"
+        }
+      ],
+      "shareText": "我是超強自學型學習者！💪 沒人教也能學得好！你也是嗎？#學習型人格",
+      "shareHashtags": [
+        "#自學",
+        "#獨立學習",
+        "#自我成長"
+      ],
+      "shortDescription": "內驅力滿滿的獨立學習者，知識的自我主宰者。",
+      "tags": [
+        "你是哪種學習型人格？",
+        "自學型",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種學習型人格？精準測驗",
+    "metaDescription": "你是哪種學習型人格？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種學習型人格？",
+      "人格測驗",
+      "台灣",
+      "學習力診斷"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-learning-style/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-20"
+}
