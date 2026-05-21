@@ -1,0 +1,674 @@
+{
+  "id": "31-office-animal",
+  "slug": "ni-shi-na-zhong-office-animal",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是辦公室裡哪種動物？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "辦公室生存測驗",
+  "description": "你是辦公室裡哪種動物？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🦊",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "當面對一個突如其來的新任務，你的第一個反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "先花時間研究和規劃，找出最有效率的執行方法。",
+          "weights": {
+            "wise-owl": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "立即動手，努力完成，即使需要加班也沒關係。",
+          "weights": {
+            "diligent-bee": 3,
+            "loyal-dog-type": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "看看有沒有人可以幫忙分擔，或找最省力的方式來處理。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "快速調整心態和工作流程，靈活應對新挑戰。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "diligent-bee": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "辦公室午休時間，你通常會怎麼度過？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找同事們一起用餐，聊聊工作或生活。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "adaptive-chameleon": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "找個安靜的地方小憩，放鬆身心，享受片刻寧靜。",
+          "weights": {
+            "slow-living-sloth": 3,
+            "lazy-cat-king": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "快速解決午餐，然後處理一些未完成的工作或學習新知。",
+          "weights": {
+            "diligent-bee": 3,
+            "wise-owl": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "按照固定的時間表用餐，確保下午的工作能準時開始。",
+          "weights": {
+            "orderly-penguin": 3,
+            "slow-living-sloth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當專案遇到瓶頸，進度停滯不前時，你會怎麼辦？",
+      "options": [
+        {
+          "id": "a",
+          "label": "仔細分析問題的根源，提出多種可能的解決方案供團隊討論。",
+          "weights": {
+            "wise-owl": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "積極與團隊成員溝通，尋求支援與協助，共同解決問題。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "diligent-bee": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "保持彈性，嘗試不同的方法或角度，直到找到突破口。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "wise-owl": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "報告主管並等待指示，希望問題能自動解決或有人代勞。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你對「準時」的看法是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "準時是基本要求，最好能提早一點，做好萬全準備。",
+          "weights": {
+            "orderly-penguin": 3,
+            "diligent-bee": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "盡力而為，只要不嚴重影響他人或進度，偶爾遲到幾分鐘也無妨。",
+          "weights": {
+            "slow-living-sloth": 3,
+            "lazy-cat-king": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "視情況而定，有時需要彈性應變，但會盡量維持。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "wise-owl": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "我會努力準時，因為這是對團隊和工作夥伴的尊重。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "diligent-bee": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "如何面對工作上的壓力？",
+      "options": [
+        {
+          "id": "a",
+          "label": "保持冷靜，一步步拆解問題，找出解決方法，再困難也能迎刃而解。",
+          "weights": {
+            "wise-owl": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "向同事或主管尋求幫助，分擔壓力，相信團隊合作能克服一切。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "adaptive-chameleon": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "適時休息，放慢步調，避免過度勞累，保持身心健康最重要。",
+          "weights": {
+            "slow-living-sloth": 3,
+            "lazy-cat-king": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "化壓力為動力，更努力地投入工作，用成果證明自己。",
+          "weights": {
+            "diligent-bee": 3,
+            "loyal-dog-type": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你的辦公桌通常是什麼樣子？",
+      "options": [
+        {
+          "id": "a",
+          "label": "整齊劃一，文件分類明確，物品各歸其位，一塵不染。",
+          "weights": {
+            "orderly-penguin": 3,
+            "wise-owl": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "充滿個人風格，可能有些零食或小玩具，但工作起來很自在舒適。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "乾淨整潔，但隨時可以調整以適應不同任務或專案需求。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "diligent-bee": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "可能堆滿了待處理的文件或參考資料，但我知道每樣東西在哪裡，並隨時準備好投入工作。",
+          "weights": {
+            "diligent-bee": 3,
+            "loyal-dog-type": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "當團隊需要有人主動承擔額外工作時，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "如果是自己擅長的或對團隊有幫助的，會主動承擔並盡力做好。",
+          "weights": {
+            "diligent-bee": 3,
+            "loyal-dog-type": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "觀察情況，如果沒有人自願，會評估是否接手，但不會搶著做。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "wise-owl": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "除非被點名或非我不可，否則通常保持低調，希望有人能挺身而出。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "會考慮這項工作是否符合既定流程或計畫，並評估對整體進度的影響。",
+          "weights": {
+            "orderly-penguin": 3,
+            "wise-owl": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "對於辦公室的社交活動（如聚餐、下午茶），你的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "樂於參與，這是與同事建立良好關係和交流的好機會。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "adaptive-chameleon": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "有選擇性地參加，更傾向於有意義或能學到東西的活動。",
+          "weights": {
+            "wise-owl": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "除非很有趣或不得不去，否則更喜歡利用自己的時間做喜歡的事。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "配合團隊，如果大部分同事都去，我也會參與。",
+          "weights": {
+            "diligent-bee": 3,
+            "loyal-dog-type": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "當工作流程或公司政策突然改變，你會怎麼反應？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立即學習新流程，並嘗試找出最有效率的執行方式，快速適應。",
+          "weights": {
+            "adaptive-chameleon": 3,
+            "diligent-bee": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "感到不適應，需要時間來消化和調整，可能會抱怨一下。",
+          "weights": {
+            "slow-living-sloth": 3,
+            "lazy-cat-king": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "仔細研究改變的原因和影響，思考如何將其整合到現有工作中。",
+          "weights": {
+            "wise-owl": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "接受並努力適應，相信這是為了團隊或公司更好的發展。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "diligent-bee": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你認為工作中最重要的價值是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "效率與成果，將工作完美達成，展現個人能力。",
+          "weights": {
+            "diligent-bee": 3,
+            "orderly-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "團隊合作與和諧，共同面對挑戰，相互支持。",
+          "weights": {
+            "loyal-dog-type": 3,
+            "adaptive-chameleon": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "思考與創新，提供獨特見解與解決方案，不斷學習成長。",
+          "weights": {
+            "wise-owl": 3,
+            "adaptive-chameleon": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "舒適與平衡，確保工作步調輕鬆愉快，不被過度壓榨。",
+          "weights": {
+            "lazy-cat-king": 3,
+            "slow-living-sloth": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "lazy-cat-king",
+      "title": "慵懶貓皇",
+      "punchline": "我不是不合群，我只是需要自己的空間，然後等著被餵食。",
+      "longDescription": "你在辦公室裡總散發著一股神秘魅力，不鳴則已，一鳴驚人。雖然看似高冷，但關鍵時刻總能展現獨到見解。你享受獨處，但也不排斥偶爾被摸摸頭。",
+      "traits": [
+        {
+          "label": "獨立性",
+          "value": 90,
+          "comment": "不喜歡被干涉，有自己的節奏"
+        },
+        {
+          "label": "觀察力",
+          "value": 80,
+          "comment": "洞悉環境細節，默默掌握全局"
+        },
+        {
+          "label": "效率",
+          "value": 70,
+          "comment": "在自己的步調下，也能高品質完成"
+        }
+      ],
+      "shareText": "喵～我就是辦公室的慵懶貓皇！別吵我，等我睡飽就來發威😼 #辦公室貓皇 #高冷美學 #獨特魅力",
+      "shareHashtags": [
+        "#辦公室貓皇",
+        "#高冷美學",
+        "#獨特魅力",
+        "#貓系人生"
+      ],
+      "shortDescription": "我不是不合群，我只是需要自己的空間，然後等著被餵食。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "慵懶貓皇",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "loyal-dog-type",
+      "title": "忠誠犬系",
+      "punchline": "辦公室裡有我，就多了一份熱情與歡樂，還不時搖尾巴！",
+      "longDescription": "你是辦公室的開心果，總是充滿活力，樂於助人。對同事和公司有著極高的忠誠度，是大家的好夥伴。你喜歡群體活動，也樂於分享自己的想法。",
+      "traits": [
+        {
+          "label": "團隊合作",
+          "value": 95,
+          "comment": "樂於與人協作，是最佳隊友"
+        },
+        {
+          "label": "熱情度",
+          "value": 90,
+          "comment": "對工作充滿幹勁，感染力十足"
+        },
+        {
+          "label": "執行力",
+          "value": 85,
+          "comment": "行動力強，使命必達"
+        }
+      ],
+      "shareText": "汪！我是辦公室的忠誠犬系代表！哪裡有同事，哪裡就有我搖尾巴的身影🐶 #辦公室犬系 #熱情擔當 #忠心耿耿",
+      "shareHashtags": [
+        "#辦公室犬系",
+        "#熱情擔當",
+        "#忠心耿耿",
+        "#活力滿點"
+      ],
+      "shortDescription": "辦公室裡有我，就多了一份熱情與歡樂，還不時搖尾巴！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "忠誠犬系",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "wise-owl",
+      "title": "夜行智者",
+      "punchline": "白天神隱，夜晚開工，我的智慧光芒在思考中閃耀。",
+      "longDescription": "你是辦公室裡的隱形智囊，總在關鍵時刻提出精闢見解。不愛出風頭，喜歡默默觀察與思考，擅長分析複雜問題。夜晚是你靈感最豐沛的時段。",
+      "traits": [
+        {
+          "label": "洞察力",
+          "value": 92,
+          "comment": "能看穿事物本質，提出獨到見解"
+        },
+        {
+          "label": "邏輯思考",
+          "value": 88,
+          "comment": "擅長理性分析，解決複雜難題"
+        },
+        {
+          "label": "專注力",
+          "value": 80,
+          "comment": "深入鑽研問題，不達目標不罷休"
+        }
+      ],
+      "shareText": "🦉我是辦公室的夜行智者！別看我白天不說話，腦袋可從沒停過呢！#辦公室貓頭鷹 #深度思考 #夜間模式",
+      "shareHashtags": [
+        "#辦公室貓頭鷹",
+        "#深度思考",
+        "#夜間模式",
+        "#智囊團"
+      ],
+      "shortDescription": "白天神隱，夜晚開工，我的智慧光芒在思考中閃耀。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "夜行智者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "orderly-penguin",
+      "title": "秩序企鵝",
+      "punchline": "步伐穩健，紀律嚴明，我的存在就是為了讓一切井然有序。",
+      "longDescription": "你是辦公室的效率模範生，做事有條不紊，講求規律與秩序。你不怕挑戰，但更重視團隊合作的默契。你的存在讓辦公室運作更順暢。",
+      "traits": [
+        {
+          "label": "組織能力",
+          "value": 90,
+          "comment": "擅長規劃與安排事務，條理分明"
+        },
+        {
+          "label": "執行力",
+          "value": 85,
+          "comment": "按部就班完成任務，絕不拖延"
+        },
+        {
+          "label": "團隊精神",
+          "value": 75,
+          "comment": "重視集體協作，是團隊的定心丸"
+        }
+      ],
+      "shareText": "🐧我是辦公室的秩序企鵝！一步一腳印，把混亂變成秩序，這就是我的風格！#辦公室企鵝 #效率至上 #團隊核心",
+      "shareHashtags": [
+        "#辦公室企鵝",
+        "#效率至上",
+        "#團隊核心",
+        "#紀律嚴明"
+      ],
+      "shortDescription": "步伐穩健，紀律嚴明，我的存在就是為了讓一切井然有序。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "秩序企鵝",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "slow-living-sloth",
+      "title": "慢活樹懶",
+      "punchline": "別催我，慢工出細活！我的佛系速度，壓力全都自動消失。",
+      "longDescription": "你是辦公室裡的慢活哲學家，面對壓力總能保持從容不迫。雖然動作緩慢，但總能穩穩地完成任務，且不易出錯。你的淡定感染著周遭的人。",
+      "traits": [
+        {
+          "label": "抗壓性",
+          "value": 95,
+          "comment": "面對壓力從容不迫，處變不驚"
+        },
+        {
+          "label": "細心度",
+          "value": 88,
+          "comment": "注意細節，減少錯誤發生"
+        },
+        {
+          "label": "穩定性",
+          "value": 80,
+          "comment": "情緒與工作表現平穩，值得信賴"
+        }
+      ],
+      "shareText": "🐢我是辦公室的慢活樹懶！人生嘛，慢慢來比較快，誰說急就章比較好？#辦公室樹懶 #佛系工作 #慢活哲學",
+      "shareHashtags": [
+        "#辦公室樹懶",
+        "#佛系工作",
+        "#慢活哲學",
+        "#壓力絕緣體"
+      ],
+      "shortDescription": "別催我，慢工出細活！我的佛系速度，壓力全都自動消失。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "慢活樹懶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "diligent-bee",
+      "title": "勤勞蜜蜂",
+      "punchline": "嗡嗡嗡～我就是那個為工作奔波，停不下來的生產力女王/王！",
+      "longDescription": "你是辦公室裡的超級工作者，總是充滿幹勁，效率驚人。喜歡不斷學習與嘗試新事物，是團隊不可或缺的推動者。你的努力是大家有目共睹的。",
+      "traits": [
+        {
+          "label": "積極度",
+          "value": 95,
+          "comment": "主動出擊，充滿幹勁與熱情"
+        },
+        {
+          "label": "生產力",
+          "value": 90,
+          "comment": "高效完成多項任務，成果豐碩"
+        },
+        {
+          "label": "協作力",
+          "value": 85,
+          "comment": "樂於團隊合作，共同達成目標"
+        }
+      ],
+      "shareText": "🐝我是辦公室的勤勞小蜜蜂！嗡嗡嗡～今天也要努力工作，為團隊貢獻我的光和熱！#辦公室蜜蜂 #工作狂 #生產力爆發",
+      "shareHashtags": [
+        "#辦公室蜜蜂",
+        "#工作狂",
+        "#生產力爆發",
+        "#努力不懈"
+      ],
+      "shortDescription": "嗡嗡嗡～我就是那個為工作奔波，停不下來的生產力女王/王！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "勤勞蜜蜂",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "adaptive-chameleon",
+      "title": "靈活變色龍",
+      "punchline": "無論環境怎麼變，我都能完美融入，成為辦公室的和事佬。",
+      "longDescription": "你是辦公室裡的變通高手，總能快速適應各種變化與挑戰。善於觀察氣氛，懂得圓融溝通，是團隊裡的潤滑劑。你的彈性讓合作更愉快。",
+      "traits": [
+        {
+          "label": "適應力",
+          "value": 95,
+          "comment": "快速應對變化，隨機應變"
+        },
+        {
+          "label": "溝通能力",
+          "value": 90,
+          "comment": "善於協調與表達，化解衝突"
+        },
+        {
+          "label": "應變力",
+          "value": 88,
+          "comment": "處理突發狀況，總有備案"
+        }
+      ],
+      "shareText": "🦎我是辦公室的靈活變色龍！什麼環境都能搞定，我的超能力就是融入與協調！#辦公室變色龍 #環境適應王 #和事佬",
+      "shareHashtags": [
+        "#辦公室變色龍",
+        "#環境適應王",
+        "#和事佬",
+        "#彈性超高"
+      ],
+      "shortDescription": "無論環境怎麼變，我都能完美融入，成為辦公室的和事佬。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "靈活變色龍",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是辦公室裡哪種動物？精準測驗",
+    "metaDescription": "你是辦公室裡哪種動物？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是辦公室裡哪種動物？",
+      "人格測驗",
+      "台灣",
+      "辦公室生存測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-office-animal/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-22"
+}
