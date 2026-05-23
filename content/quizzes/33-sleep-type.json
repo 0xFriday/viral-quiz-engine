@@ -1,0 +1,686 @@
+{
+  "id": "33-sleep-type",
+  "slug": "ni-shi-na-zhong-sleep-type",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你的睡眠人格是哪種？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "睡眠診斷測驗",
+  "description": "你的睡眠人格是哪種？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "💤",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "你早上醒來時，通常是什麼感覺？",
+      "options": [
+        {
+          "id": "a",
+          "label": "精神飽滿，準備好迎接新的一天！",
+          "weights": {
+            "early-bird": 3,
+            "deep-sleeper": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "迷迷糊糊，需要好一陣子才能清醒。",
+          "weights": {
+            "night-owl": 3,
+            "restless-sleeper": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "任何一點聲音都能把我吵醒，即使鬧鐘響了也很難真正起床。",
+          "weights": {
+            "light-sleeper": 3,
+            "restless-sleeper": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "鬧鐘響了也常常聽不到，需要家人或重複的鬧鐘才能叫醒我。",
+          "weights": {
+            "deep-sleeper": 3,
+            "night-owl": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "晚上上床睡覺時，你通常需要多久才能入睡？",
+      "options": [
+        {
+          "id": "a",
+          "label": "一沾枕頭就睡著，幾乎是秒睡！",
+          "weights": {
+            "deep-sleeper": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "翻來覆去，腦袋裡跑馬燈，常常要超過半小時甚至更久。",
+          "weights": {
+            "restless-sleeper": 3,
+            "light-sleeper": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "會花點時間放鬆，準備好優質的睡眠儀式後才睡。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "雖然躺下了，但總覺得還有很多事情沒做，想再玩一下手機。",
+          "weights": {
+            "night-owl": 3,
+            "restless-sleeper": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你的理想睡眠環境是什麼樣的？",
+      "options": [
+        {
+          "id": "a",
+          "label": "越黑、越安靜越好，任何一點光線或聲音都會干擾我。",
+          "weights": {
+            "light-sleeper": 3,
+            "sleep-artisan": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "只要有地方躺下就能睡，環境要求不高。",
+          "weights": {
+            "deep-sleeper": 3,
+            "power-napper": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "我會精心佈置，確保溫度、濕度、床品都達到最佳狀態。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "我在任何地方都能迅速入睡，小憩片刻就能恢復精力。",
+          "weights": {
+            "power-napper": 3,
+            "deep-sleeper": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "如果半夜被吵醒，你會怎麼反應？",
+      "options": [
+        {
+          "id": "a",
+          "label": "很快就能再次入睡，好像什麼都沒發生過一樣。",
+          "weights": {
+            "deep-sleeper": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "就算只是輕微的聲響，我也會驚醒，然後很難再睡回去。",
+          "weights": {
+            "light-sleeper": 3,
+            "restless-sleeper": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "會有點惱火，然後可能會起來做點事情，或是滑手機到很晚。",
+          "weights": {
+            "night-owl": 3,
+            "restless-sleeper": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "我會想辦法找出干擾源，並將其排除，確保接下來的睡眠品質。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "白天你容易感到疲倦或想睡嗎？",
+      "options": [
+        {
+          "id": "a",
+          "label": "即使睡足了，白天還是常常感到疲倦，精神不濟。",
+          "weights": {
+            "restless-sleeper": 3,
+            "light-sleeper": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "我會利用午休或空檔時間小睡片刻，這樣能讓我精力充沛。",
+          "weights": {
+            "power-napper": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "通常不會，早上起來就很有精神，一整天都能保持清醒。",
+          "weights": {
+            "early-bird": 3,
+            "deep-sleeper": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "白天精神很好，但一到晚上就特別有精神，不想睡。",
+          "weights": {
+            "night-owl": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你的睡眠時間表規律嗎？",
+      "options": [
+        {
+          "id": "a",
+          "label": "每天都努力在同一時間睡覺和起床，即使週末也一樣。",
+          "weights": {
+            "early-bird": 3,
+            "sleep-artisan": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "幾乎沒有固定的作息，想睡就睡，想醒就醒。",
+          "weights": {
+            "night-owl": 3,
+            "deep-sleeper": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "我會根據身體的感覺來調整睡眠，但會確保每天的睡眠總量。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "週末會嚴重補眠，因為平日的睡眠總是不夠。",
+          "weights": {
+            "restless-sleeper": 3,
+            "night-owl": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "睡前你通常會做些什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "玩手機、追劇到最後一刻，然後直接倒頭就睡。",
+          "weights": {
+            "night-owl": 3,
+            "restless-sleeper": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "閱讀、聽輕音樂或冥想，創造一個放鬆的氛圍。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "什麼都不特別做，覺得睏了就直接睡。",
+          "weights": {
+            "deep-sleeper": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "檢查門窗、設定鬧鐘、規劃明天的事，有點焦慮。",
+          "weights": {
+            "restless-sleeper": 3,
+            "light-sleeper": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你一個晚上會醒來幾次？",
+      "options": [
+        {
+          "id": "a",
+          "label": "幾乎不醒來，一覺到天亮。",
+          "weights": {
+            "deep-sleeper": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "至少會醒來一兩次，有時候會去上廁所或喝水。",
+          "weights": {
+            "light-sleeper": 3,
+            "restless-sleeper": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "常常半夜醒來，然後很難再入睡，會看時間、滑手機。",
+          "weights": {
+            "restless-sleeper": 3,
+            "night-owl": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "我會盡量避免半夜醒來，所以睡前會控制飲水，並確保環境舒適。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "週末你的睡眠習慣會怎麼改變？",
+      "options": [
+        {
+          "id": "a",
+          "label": "和平日沒什麼不同，保持一致的作息。",
+          "weights": {
+            "early-bird": 3,
+            "sleep-artisan": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "會熬夜到很晚，然後睡到日上三竿才起床。",
+          "weights": {
+            "night-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "雖然會晚睡晚起，但會利用白天的小睡來補充精力。",
+          "weights": {
+            "power-napper": 3,
+            "restless-sleeper": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "會盡量睡飽，但還是常常覺得沒睡好，或者醒來後更累。",
+          "weights": {
+            "restless-sleeper": 3,
+            "light-sleeper": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "對你來說，睡眠是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "一種必要的休息，只要能睡著就好，不用太講究。",
+          "weights": {
+            "deep-sleeper": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "一種奢侈品，常常覺得時間不夠用，所以犧牲睡眠。",
+          "weights": {
+            "night-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "一種需要學習和優化的藝術，好的睡眠能提升生活品質。",
+          "weights": {
+            "sleep-artisan": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "一種挑戰，常常因為睡不好而感到困擾。",
+          "weights": {
+            "restless-sleeper": 3,
+            "light-sleeper": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "deep-sleeper",
+      "title": "深眠者",
+      "punchline": "睡到天荒地老，地震都搖不醒你的睡眠巨人。",
+      "longDescription": "你擁有超級深層的睡眠能力，一旦入睡，外界紛擾與你無關。\n鬧鐘對你來說只是個擺設，常常需要多個鬧鐘或旁人叫喚才能清醒。\n你很少為失眠所苦，但有時會錯過重要的早晨約會。",
+      "traits": [
+        {
+          "label": "睡眠品質",
+          "value": 95,
+          "comment": "一覺到天亮，幾乎沒有中斷"
+        },
+        {
+          "label": "環境適應力",
+          "value": 90,
+          "comment": "無論吵雜或明亮，都能輕鬆入睡"
+        },
+        {
+          "label": "起床難度",
+          "value": 80,
+          "comment": "鬧鐘響了也像沒聽到"
+        },
+        {
+          "label": "失眠困擾",
+          "value": 10,
+          "comment": "失眠？那是什麼？"
+        }
+      ],
+      "shareText": "我是超狂的「深眠者」！睡到天荒地老，鬧鐘是什麼能吃嗎？😴💤 #深眠者 #睡神降臨 #睡到不省人事",
+      "shareHashtags": [
+        "#深眠者",
+        "#睡神降臨",
+        "#地震搖不醒"
+      ],
+      "shortDescription": "睡到天荒地老，地震都搖不醒你的睡眠巨人。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "深眠者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "light-sleeper",
+      "title": "淺眠易醒者",
+      "punchline": "一點點風吹草動都能把你驚醒，睡眠品質像玻璃一樣脆弱。",
+      "longDescription": "你對睡眠環境非常敏感，一點光線或聲響都可能讓你輾轉難眠。\n睡著後也容易被驚醒，導致睡眠斷斷續續，常常感到沒睡飽。\n你總是在尋找最完美的睡眠條件，枕頭、床墊、溫度都是關鍵。",
+      "traits": [
+        {
+          "label": "環境敏感度",
+          "value": 90,
+          "comment": "一點聲響或光線都能讓你驚醒"
+        },
+        {
+          "label": "睡眠中斷頻率",
+          "value": 85,
+          "comment": "夜間醒來次數較多"
+        },
+        {
+          "label": "入睡難度",
+          "value": 70,
+          "comment": "需要一段時間才能真正放鬆入睡"
+        },
+        {
+          "label": "睡眠品質滿意度",
+          "value": 30,
+          "comment": "常覺得沒睡飽，精神不濟"
+        }
+      ],
+      "shareText": "我是脆弱的「淺眠易醒者」！一點風吹草動都讓我驚醒，誰能給我一個絕對安靜的黑洞？👂🌙 #淺眠易醒 #玻璃心睡眠 #求靜求黑",
+      "shareHashtags": [
+        "#淺眠易醒者",
+        "#睡覺好難",
+        "#對世界太敏感"
+      ],
+      "shortDescription": "一點點風吹草動都能把你驚醒，睡眠品質像玻璃一樣脆弱。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "淺眠易醒者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "night-owl",
+      "title": "夜貓子",
+      "punchline": "午夜才是你的黃金時段，清晨是噩夢一場。",
+      "longDescription": "你天生就是個夜行動物，在深夜時分精神最好、效率最高。\n習慣晚睡晚起，強迫早起對你來說是酷刑，會讓你一整天都昏昏沉沉。\n你的創作靈感或工作效率常在夜深人靜時達到高峰。",
+      "traits": [
+        {
+          "label": "夜間活躍度",
+          "value": 90,
+          "comment": "越晚越有精神，靈感爆棚"
+        },
+        {
+          "label": "早起困難度",
+          "value": 85,
+          "comment": "清晨起床是人生一大挑戰"
+        },
+        {
+          "label": "入睡時間",
+          "value": 80,
+          "comment": "晚上12點前睡覺是天方夜譚"
+        },
+        {
+          "label": "白天精神",
+          "value": 40,
+          "comment": "上午時段常感到精神不濟"
+        }
+      ],
+      "shareText": "我是正宗「夜貓子」！🌙 只有午夜才能激發我的潛力，白天叫我起床根本是謀殺！🔪 #夜貓子 #熬夜冠軍 #清晨是敵人",
+      "shareHashtags": [
+        "#夜貓子",
+        "#熬夜是日常",
+        "#清晨是噩夢"
+      ],
+      "shortDescription": "午夜才是你的黃金時段，清晨是噩夢一場。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "夜貓子",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "early-bird",
+      "title": "晨型人",
+      "punchline": "太陽升起就是你的鬧鐘，一天從清爽的早晨開始。",
+      "longDescription": "你習慣早睡早起，清晨是你最具生產力和活力的時段。\n無需鬧鐘也能自然醒來，並享受早晨的寧靜時光。\n你喜歡利用早晨來運動、閱讀或規劃一天，精神飽滿迎接挑戰。",
+      "traits": [
+        {
+          "label": "早起習慣",
+          "value": 90,
+          "comment": "天生早起，無需鬧鐘"
+        },
+        {
+          "label": "清晨活力",
+          "value": 85,
+          "comment": "早上精神最佳，效率最高"
+        },
+        {
+          "label": "夜晚精力",
+          "value": 30,
+          "comment": "過晚上10點就開始感到疲憊"
+        },
+        {
+          "label": "睡眠規律性",
+          "value": 80,
+          "comment": "作息規律，睡眠充足"
+        }
+      ],
+      "shareText": "我是活力滿滿的「晨型人」！☀️ 早晨就是我的主場，一天從陽光和咖啡開始！☕️ #晨型人 #早起鳥兒 #陽光活力",
+      "shareHashtags": [
+        "#晨型人",
+        "#早起鳥兒",
+        "#活力滿滿"
+      ],
+      "shortDescription": "太陽升起就是你的鬧鐘，一天從清爽的早晨開始。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "晨型人",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "restless-sleeper",
+      "title": "輾轉反側者",
+      "punchline": "你的夜晚像一場冒險，大腦與身體從未真正停歇。",
+      "longDescription": "你睡覺時常常翻來覆去，身體不太安分，有時甚至會踢被子。\n你可能有很多夢境，有時甚至會夢遊或說夢話，睡眠品質受影響。\n雖然睡了很久，但醒來後卻不一定感到完全休息，身體有些疲憊。",
+      "traits": [
+        {
+          "label": "身體活動度",
+          "value": 85,
+          "comment": "睡覺時翻身次數頻繁"
+        },
+        {
+          "label": "夢境豐富度",
+          "value": 90,
+          "comment": "常常做夢，且記得夢境內容"
+        },
+        {
+          "label": "睡眠深度",
+          "value": 50,
+          "comment": "難以進入深層睡眠，較多淺眠"
+        },
+        {
+          "label": "起床精神",
+          "value": 45,
+          "comment": "睡醒後常感到身體疲憊或痠痛"
+        }
+      ],
+      "shareText": "我是「輾轉反側者」！🌙 我的夜晚像一場馬拉松，睡醒後常常比睡前還累！🤸‍♀️ #輾轉反側 #睡覺也運動 #我的夢境很精彩",
+      "shareHashtags": [
+        "#輾轉反側",
+        "#睡不安穩",
+        "#夢境大師"
+      ],
+      "shortDescription": "你的夜晚像一場冒險，大腦與身體從未真正停歇。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "輾轉反側者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "power-napper",
+      "title": "補眠大師",
+      "punchline": "任何時間地點都能迅速小憩，充電效率滿分。",
+      "longDescription": "你擁有在短時間內快速入睡並獲得休息的能力，是午睡的專家。\n無論是辦公桌、公車上或沙發，你都能找到完美的補眠地點。\n你深知小睡的魔力，能讓你在疲憊時迅速恢復精神和專注力。",
+      "traits": [
+        {
+          "label": "午睡需求",
+          "value": 90,
+          "comment": "非常需要午睡來維持精神"
+        },
+        {
+          "label": "入睡速度",
+          "value": 85,
+          "comment": "能在短時間內快速入睡"
+        },
+        {
+          "label": "環境適應力",
+          "value": 80,
+          "comment": "幾乎任何地方都能小睡"
+        },
+        {
+          "label": "充電效率",
+          "value": 95,
+          "comment": "短暫小睡就能大幅提升精神"
+        }
+      ],
+      "shareText": "我是「補眠大師」！😴 任何時間地點都能瞬間充電，小憩一下就滿血復活！🔋 #補眠大師 #午睡專家 #快速充電",
+      "shareHashtags": [
+        "#補眠大師",
+        "#午睡是王道",
+        "#一睡就飽"
+      ],
+      "shortDescription": "任何時間地點都能迅速小憩，充電效率滿分。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "補眠大師",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "sleep-artisan",
+      "title": "睡眠職人",
+      "punchline": "你的睡眠是門藝術，追求極致舒適與最佳品質。",
+      "longDescription": "你對睡眠品質有著極高的要求，會精心打造完美的睡眠環境。\n你嚴格遵守睡眠儀式，從睡前放鬆到起床流程都一絲不苟。\n你深知睡眠對健康的重要性，並願意投入時間和金錢來優化它。",
+      "traits": [
+        {
+          "label": "睡眠環境要求",
+          "value": 95,
+          "comment": "對光線、溫度、聲音、床墊等要求極高"
+        },
+        {
+          "label": "睡眠儀式感",
+          "value": 90,
+          "comment": "有固定的睡前習慣和儀式"
+        },
+        {
+          "label": "睡眠知識豐富度",
+          "value": 85,
+          "comment": "了解各種助眠方法與睡眠科學"
+        },
+        {
+          "label": "睡眠滿意度",
+          "value": 90,
+          "comment": "通常能獲得高品質的睡眠"
+        }
+      ],
+      "shareText": "我是「睡眠職人」！✨ 我的睡眠是門藝術，只為追求極致舒適與完美品質！👑 #睡眠職人 #睡眠藝術家 #睡得有品味",
+      "shareHashtags": [
+        "#睡眠職人",
+        "#品質至上",
+        "#睡出健康"
+      ],
+      "shortDescription": "你的睡眠是門藝術，追求極致舒適與最佳品質。",
+      "tags": [
+        "你的睡眠人格是哪種？",
+        "睡眠職人",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你的睡眠人格是哪種？精準測驗",
+    "metaDescription": "你的睡眠人格是哪種？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你的睡眠人格是哪種？",
+      "人格測驗",
+      "台灣",
+      "睡眠診斷測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-sleep-type/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-24"
+}
