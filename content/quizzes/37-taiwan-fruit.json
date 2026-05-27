@@ -1,0 +1,667 @@
+{
+  "id": "37-taiwan-fruit",
+  "slug": "ni-shi-na-zhong-taiwan-fruit",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣水果？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "水果人格測驗",
+  "description": "你是哪種台灣水果？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🍍",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "你的週末理想行程是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "和家人朋友一起烤肉、戶外活動，熱鬧又開心！",
+          "weights": {
+            "watermelon-joy": 3,
+            "pineapple-heart": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "到咖啡廳看書、聽音樂，享受一個人的悠閒時光。",
+          "weights": {
+            "wax-apple-elegant": 2,
+            "guava-gem": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "探索新開的文創市集或藝廊，尋找獨特靈感。",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "mango-king": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "規劃一場奢華的度假或美食之旅，犒賞自己。",
+          "weights": {
+            "mango-king": 3,
+            "sugar-apple-sweetie": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "你在朋友眼中是個什麼樣的人？",
+      "options": [
+        {
+          "id": "a",
+          "label": "總是帶來歡笑和正能量的開心果。",
+          "weights": {
+            "watermelon-joy": 3,
+            "pineapple-heart": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫暖貼心，像個小太陽一樣照顧身邊的人。",
+          "weights": {
+            "pineapple-heart": 3,
+            "sugar-apple-sweetie": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨立自主，有自己的想法和獨特魅力。",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "guava-gem": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "穩重可靠，值得信賴的意見領袖。",
+          "weights": {
+            "mango-king": 3,
+            "wax-apple-elegant": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當你遇到困難時，你會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "冷靜分析，尋找最有效率的解決方案。",
+          "weights": {
+            "wax-apple-elegant": 3,
+            "mango-king": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "向朋友傾訴，尋求他們的安慰和支持。",
+          "weights": {
+            "sugar-apple-sweetie": 3,
+            "pineapple-heart": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "保持樂觀，相信一切都會好起來，並積極面對。",
+          "weights": {
+            "watermelon-joy": 3,
+            "guava-gem": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "保持內斂，默默地努力克服，不輕易示弱。",
+          "weights": {
+            "guava-gem": 3,
+            "dragon-fruit-vibe": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "哪種穿搭風格最能代表你？",
+      "options": [
+        {
+          "id": "a",
+          "label": "簡約舒適，注重材質和實用性。",
+          "weights": {
+            "guava-gem": 3,
+            "wax-apple-elegant": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "時尚前衛，喜歡嘗試新潮的設計和顏色。",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "mango-king": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "優雅大方，經典款式中帶點精緻細節。",
+          "weights": {
+            "wax-apple-elegant": 3,
+            "mango-king": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "甜美可愛，色彩鮮明，讓人心情愉悅。",
+          "weights": {
+            "sugar-apple-sweetie": 3,
+            "watermelon-joy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你最喜歡的休閒活動是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "烹飪美食或烘焙甜點，享受創造的樂趣。",
+          "weights": {
+            "pineapple-heart": 3,
+            "sugar-apple-sweetie": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "欣賞藝術展覽、電影或戲劇表演。",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "wax-apple-elegant": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "運動健身、戶外踏青，保持活力充沛。",
+          "weights": {
+            "guava-gem": 3,
+            "watermelon-joy": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "策劃旅行、聚會，享受與人交流的過程。",
+          "weights": {
+            "mango-king": 3,
+            "pineapple-heart": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "收到禮物時，你更在意什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "禮物的實用性和品質。",
+          "weights": {
+            "guava-gem": 3,
+            "wax-apple-elegant": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "禮物的獨特和創意，有沒有驚喜感。",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "mango-king": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "禮物的價值和品牌。",
+          "weights": {
+            "mango-king": 3,
+            "wax-apple-elegant": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "送禮者的心意和包裝的精美程度。",
+          "weights": {
+            "sugar-apple-sweetie": 3,
+            "pineapple-heart": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你的個人風格最接近哪種飲品？",
+      "options": [
+        {
+          "id": "a",
+          "label": "新鮮現打的果汁，天然又健康。",
+          "weights": {
+            "guava-gem": 3,
+            "watermelon-joy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "奢華的特調雞尾酒，充滿異國情調。",
+          "weights": {
+            "mango-king": 3,
+            "dragon-fruit-vibe": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "清爽的氣泡水或花草茶，解渴又優雅。",
+          "weights": {
+            "wax-apple-elegant": 3,
+            "guava-gem": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "香甜的奶昔或熱可可，溫暖又療癒。",
+          "weights": {
+            "sugar-apple-sweetie": 3,
+            "pineapple-heart": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "朋友心情不好時，你會如何安慰對方？",
+      "options": [
+        {
+          "id": "a",
+          "label": "帶對方去吃大餐或逛街購物，分散注意力。",
+          "weights": {
+            "mango-king": 3,
+            "watermelon-joy": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "靜靜地陪伴，傾聽他們的心聲，給予溫暖的擁抱。",
+          "weights": {
+            "pineapple-heart": 3,
+            "sugar-apple-sweetie": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "分析問題，提供實用的建議和解決方案。",
+          "weights": {
+            "wax-apple-elegant": 3,
+            "guava-gem": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "說些幽默風趣的話，努力逗對方開心。",
+          "weights": {
+            "watermelon-joy": 3,
+            "dragon-fruit-vibe": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "選擇一個形容詞來描述你的個性。",
+      "options": [
+        {
+          "id": "a",
+          "label": "活力四射",
+          "weights": {
+            "watermelon-joy": 3,
+            "guava-gem": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫柔體貼",
+          "weights": {
+            "sugar-apple-sweetie": 3,
+            "pineapple-heart": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨特創新",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "mango-king": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "沉穩內斂",
+          "weights": {
+            "wax-apple-elegant": 3,
+            "guava-gem": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "如果要為自己的人生寫一本書，書名會是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "《熱情奔放的冒險日誌》",
+          "weights": {
+            "mango-king": 3,
+            "watermelon-joy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "《溫暖人心的生活哲學》",
+          "weights": {
+            "pineapple-heart": 3,
+            "sugar-apple-sweetie": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "《尋找生命中的獨特光芒》",
+          "weights": {
+            "dragon-fruit-vibe": 3,
+            "wax-apple-elegant": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "《簡樸而豐富的幸福之道》",
+          "weights": {
+            "guava-gem": 3,
+            "wax-apple-elegant": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "mango-king",
+      "title": "陽光芒果",
+      "punchline": "你的熱情如夏日豔陽，照亮身邊每個人！",
+      "longDescription": "你總是散發著熱情與活力，走到哪都是焦點。面對挑戰你從不退縮，勇敢追求自己的目標。你的樂觀與開朗，總能感染身邊的每一個人。",
+      "traits": [
+        {
+          "label": "熱情指數",
+          "value": 95,
+          "comment": "天生熱情洋溢"
+        },
+        {
+          "label": "自信程度",
+          "value": 88,
+          "comment": "相信自己的能力"
+        },
+        {
+          "label": "感染力",
+          "value": 90,
+          "comment": "總能帶動氣氛"
+        }
+      ],
+      "shareText": "我是🥭陽光芒果！夏天就是要甜甜的！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#陽光芒果"
+      ],
+      "shortDescription": "你的熱情如夏日豔陽，照亮身邊每個人！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "陽光芒果",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "pineapple-heart",
+      "title": "暖心鳳梨",
+      "punchline": "外表堅強，內心卻是甜美又溫暖的果肉！",
+      "longDescription": "你給人的第一印象可能有點距離感，甚至有點嚴肅。但只要走進你的心，就會發現你溫暖又甜美的一面。你總是默默付出，是大家最可靠的後盾。",
+      "traits": [
+        {
+          "label": "堅韌指數",
+          "value": 92,
+          "comment": "抗壓性超強"
+        },
+        {
+          "label": "溫暖指數",
+          "value": 85,
+          "comment": "默默散發溫情"
+        },
+        {
+          "label": "可靠程度",
+          "value": 89,
+          "comment": "值得信賴的好夥伴"
+        }
+      ],
+      "shareText": "我是🍍暖心鳳梨！外表堅強，內心超甜！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#暖心鳳梨"
+      ],
+      "shortDescription": "外表堅強，內心卻是甜美又溫暖的果肉！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "暖心鳳梨",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "guava-gem",
+      "title": "樸實芭樂",
+      "punchline": "簡單卻不平凡，你擁有最真實的魅力！",
+      "longDescription": "你不追求華麗，更重視實用與健康。個性腳踏實地，總能帶給身邊的人滿滿的安全感。雖然不愛搶鋒頭，卻是大家生活中不可或缺的存在。",
+      "traits": [
+        {
+          "label": "腳踏實地",
+          "value": 93,
+          "comment": "務實主義者"
+        },
+        {
+          "label": "健康意識",
+          "value": 87,
+          "comment": "注重養生"
+        },
+        {
+          "label": "樸實魅力",
+          "value": 80,
+          "comment": "真實不做作"
+        }
+      ],
+      "shareText": "我是🍐樸實芭樂！健康又實在，就是我！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#樸實芭樂"
+      ],
+      "shortDescription": "簡單卻不平凡，你擁有最真實的魅力！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "樸實芭樂",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "sugar-apple-sweetie",
+      "title": "軟甜釋迦",
+      "punchline": "你是獨一無二的溫柔，值得細細品味！",
+      "longDescription": "你有著與眾不同的氣質和品味，不愛隨波逐流。個性溫和柔軟，總能給予他人最真摯的關懷。你的存在，就像一道甜點，總能帶來溫暖和驚喜。",
+      "traits": [
+        {
+          "label": "獨特指數",
+          "value": 90,
+          "comment": "品味不凡"
+        },
+        {
+          "label": "溫柔程度",
+          "value": 94,
+          "comment": "心思細膩體貼"
+        },
+        {
+          "label": "甜度",
+          "value": 88,
+          "comment": "溫暖人心"
+        }
+      ],
+      "shareText": "我是🤍軟甜釋迦！獨特又溫柔，懂我的人會很愛我！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#軟甜釋迦"
+      ],
+      "shortDescription": "你是獨一無二的溫柔，值得細細品味！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "軟甜釋迦",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "wax-apple-elegant",
+      "title": "優雅蓮霧",
+      "punchline": "清新脫俗的氣質，讓人一眼難忘！",
+      "longDescription": "你總是給人一種清新脫俗、優雅大方的感覺。不張揚卻自帶光芒，無論在何處都能保持從容與自在。你的存在就像一股清流，讓人感到舒適與愉悅。",
+      "traits": [
+        {
+          "label": "優雅指數",
+          "value": 91,
+          "comment": "舉手投足皆是氣質"
+        },
+        {
+          "label": "清新感",
+          "value": 89,
+          "comment": "如沐春風"
+        },
+        {
+          "label": "從容度",
+          "value": 85,
+          "comment": "不疾不徐的魅力"
+        }
+      ],
+      "shareText": "我是🌸優雅蓮霧！清新脫俗，自帶仙氣！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#優雅蓮霧"
+      ],
+      "shortDescription": "清新脫俗的氣質，讓人一眼難忘！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "優雅蓮霧",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "dragon-fruit-vibe",
+      "title": "活力火龍",
+      "punchline": "外型搶眼，內在豐富，充滿神秘的活力！",
+      "longDescription": "你擁有獨特的魅力和搶眼的外型，總能吸引眾人目光。內心充滿活力與能量，對新事物充滿好奇心。你喜歡探索未知，是個充滿驚喜的冒險家。",
+      "traits": [
+        {
+          "label": "活力指數",
+          "value": 90,
+          "comment": "熱愛挑戰與生活"
+        },
+        {
+          "label": "好奇心",
+          "value": 85,
+          "comment": "對世界充滿求知慾"
+        },
+        {
+          "label": "獨特魅力",
+          "value": 88,
+          "comment": "自帶光環"
+        }
+      ],
+      "shareText": "我是💖活力火龍！外型搶眼，內在豐富！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#活力火龍果"
+      ],
+      "shortDescription": "外型搶眼，內在豐富，充滿神秘的活力！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "活力火龍",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "watermelon-joy",
+      "title": "樂天西瓜",
+      "punchline": "你的豪爽與樂觀，是大家夏日最甜的慰藉！",
+      "longDescription": "你個性開朗大方，總能帶給身邊的人歡樂與正能量。不拘小節的你，是朋友聚會中的開心果。你像夏日西瓜一樣，充滿水分與甜度，讓人感到無限清爽。",
+      "traits": [
+        {
+          "label": "樂觀程度",
+          "value": 96,
+          "comment": "永遠看到光明面"
+        },
+        {
+          "label": "慷慨指數",
+          "value": 87,
+          "comment": "樂於分享不計較"
+        },
+        {
+          "label": "幽默感",
+          "value": 89,
+          "comment": "是大家的開心果"
+        }
+      ],
+      "shareText": "我是🍉樂天西瓜！大口吃瓜，人生不難！快來測測你是哪種台灣水果？",
+      "shareHashtags": [
+        "#台灣水果人格",
+        "#你是哪種水果",
+        "#樂天西瓜"
+      ],
+      "shortDescription": "你的豪爽與樂觀，是大家夏日最甜的慰藉！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "樂天西瓜",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣水果？精準測驗",
+    "metaDescription": "你是哪種台灣水果？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣水果？",
+      "人格測驗",
+      "台灣",
+      "水果人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-fruit/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-28"
+}
