@@ -1,0 +1,667 @@
+{
+  "id": "38-weather-type",
+  "slug": "ni-shi-na-zhong-weather-type",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種天氣？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "天氣人格測驗",
+  "description": "你是哪種天氣？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "⛅",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "當你週末有空時，最想做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "到戶外走走，曬太陽，感受大自然。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "待在家裡，看書、聽音樂，享受寧靜時光。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "找朋友開派對或參加刺激的活動。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "sunny-sky": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "隨心所欲，沒有特定計畫，看心情決定。",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "朋友形容你時，最常使用哪個詞？",
+      "options": [
+        {
+          "id": "a",
+          "label": "樂觀開朗",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫和細膩",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "有衝勁、有主見",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "難以捉摸、多變",
+          "weights": {
+            "partly-cloudy": 3,
+            "misty-haze": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當遇到壓力或困難時，你會如何應對？",
+      "options": [
+        {
+          "id": "a",
+          "label": "保持積極，相信一切都會好轉。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "冷靜思考，尋求解決方案。",
+          "weights": {
+            "icy-brilliant": 3,
+            "gentle-drizzle": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "直接面對，甚至會有點激動。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "partly-cloudy": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "需要一些時間沉澱，慢慢消化。",
+          "weights": {
+            "misty-haze": 3,
+            "gentle-drizzle": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你最喜歡哪種顏色？",
+      "options": [
+        {
+          "id": "a",
+          "label": "明亮的黃色或橘色",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "寧靜的藍色或綠色",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "深沉的紅色或黑色",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "灰色系或大地色系",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你的穿衣風格通常偏向？",
+      "options": [
+        {
+          "id": "a",
+          "label": "簡潔明亮，舒適自在。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "柔和低調，注重質感。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨特有型，偶爾大膽。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "混搭多變，不拘一格。",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "參加社交活動時，你通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "炒熱氣氛的中心人物。",
+          "weights": {
+            "sunny-sky": 3,
+            "thunderstorm-gale": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "靜靜觀察，偶爾參與。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "和朋友暢聊，但也享受獨處。",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "保持禮貌，但內心可能有點疏離。",
+          "weights": {
+            "icy-brilliant": 3,
+            "misty-haze": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你對未來的規劃是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿期待，相信有無限可能。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "腳踏實地，一步一腳印地前進。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "大膽設定目標，不畏挑戰。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "順其自然，不喜歡被過度束縛。",
+          "weights": {
+            "partly-cloudy": 3,
+            "misty-haze": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "當你獨自旅行時，你會選擇哪種目的地？",
+      "options": [
+        {
+          "id": "a",
+          "label": "熱鬧的海灘或充滿陽光的城市。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "寧靜的山區或有歷史文化的小鎮。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "充滿異國情調、充滿冒險的地方。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "兼具自然風光與城市便利的混合型地點。",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "你認為什麼樣的環境最能激發你的創造力？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿活力、色彩繽紛的場所。",
+          "weights": {
+            "sunny-sky": 3,
+            "mild-breezy": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "靜謐、有思考空間的私人角落。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "充滿挑戰、需要快速反應的動態情境。",
+          "weights": {
+            "thunderstorm-gale": 3,
+            "icy-brilliant": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "不受拘束、可以自由嘗試的開放空間。",
+          "weights": {
+            "partly-cloudy": 3,
+            "mild-breezy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你對待感情的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "熱情投入，喜歡分享一切。",
+          "weights": {
+            "sunny-sky": 3,
+            "thunderstorm-gale": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "細水長流，重視心靈契合。",
+          "weights": {
+            "gentle-drizzle": 3,
+            "misty-haze": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨立自主，但也渴望深刻連結。",
+          "weights": {
+            "icy-brilliant": 3,
+            "partly-cloudy": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "順其自然，享受當下的感覺。",
+          "weights": {
+            "mild-breezy": 3,
+            "partly-cloudy": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "sunny-sky",
+      "title": "晴空萬里",
+      "punchline": "你的溫暖，是照亮世界的陽光！",
+      "longDescription": "你總是散發著正能量，感染身邊的每一個人。\n面對挑戰，你總能保持樂觀，積極尋找解決方案。\n你的存在，讓周遭充滿了希望與活力，是不可或缺的熱源。",
+      "traits": [
+        {
+          "label": "熱情",
+          "value": 90,
+          "comment": "天生的感染力"
+        },
+        {
+          "label": "樂觀",
+          "value": 88,
+          "comment": "總能看到光明面"
+        },
+        {
+          "label": "積極",
+          "value": 85,
+          "comment": "行動力十足"
+        }
+      ],
+      "shareText": "我測出來是「晴空萬里」！🌞 難怪大家都說我超陽光、充滿正能量！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#晴空萬里",
+        "#陽光系人格"
+      ],
+      "shortDescription": "你的溫暖，是照亮世界的陽光！",
+      "tags": [
+        "你是哪種天氣？",
+        "晴空萬里",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "gentle-drizzle",
+      "title": "細雨綿綿",
+      "punchline": "你的溫柔，滋潤了每個需要慰藉的心靈。",
+      "longDescription": "你心思細膩，善於觀察，總能察覺他人的情緒。\n你富有同理心，願意傾聽，給予他人最溫暖的陪伴。\n你的存在像一場及時雨，雖然不張揚，卻能滋養萬物。",
+      "traits": [
+        {
+          "label": "溫柔",
+          "value": 92,
+          "comment": "撫慰人心的力量"
+        },
+        {
+          "label": "共情",
+          "value": 87,
+          "comment": "善解人意"
+        },
+        {
+          "label": "內斂",
+          "value": 78,
+          "comment": "低調而深刻"
+        }
+      ],
+      "shareText": "我測出來是「細雨綿綿」！🌧️ 原來我是溫柔又善解人意的性格！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#細雨綿綿",
+        "#溫柔系人格"
+      ],
+      "shortDescription": "你的溫柔，滋潤了每個需要慰藉的心靈。",
+      "tags": [
+        "你是哪種天氣？",
+        "細雨綿綿",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "thunderstorm-gale",
+      "title": "狂風暴雨",
+      "punchline": "你的熱情，擁有撼動一切的強大能量！",
+      "longDescription": "你充滿力量與激情，對認定的事情會全力以赴。\n你敢愛敢恨，不畏懼挑戰，有著驚人的爆發力。\n你的存在或許強烈，卻能徹底洗滌，帶來全新的開始。",
+      "traits": [
+        {
+          "label": "熱情",
+          "value": 95,
+          "comment": "爆發力十足"
+        },
+        {
+          "label": "果斷",
+          "value": 89,
+          "comment": "絕不拖泥帶水"
+        },
+        {
+          "label": "正直",
+          "value": 82,
+          "comment": "嫉惡如仇"
+        }
+      ],
+      "shareText": "我測出來是「狂風暴雨」！⛈️ 難怪我總是充滿能量、敢愛敢恨！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#狂風暴雨",
+        "#力量型人格"
+      ],
+      "shortDescription": "你的熱情，擁有撼動一切的強大能量！",
+      "tags": [
+        "你是哪種天氣？",
+        "狂風暴雨",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "partly-cloudy",
+      "title": "多雲時晴",
+      "punchline": "你的變化多端，是生命最迷人的風景。",
+      "longDescription": "你心思細膩，富有彈性，能適應各種情境變化。\n你既有陽光開朗的一面，也有沉靜思考的時刻。\n你的存在充滿深度，讓人難以捉摸，卻又充滿魅力。",
+      "traits": [
+        {
+          "label": "彈性",
+          "value": 88,
+          "comment": "適應力強"
+        },
+        {
+          "label": "深度",
+          "value": 80,
+          "comment": "思考有層次"
+        },
+        {
+          "label": "平衡",
+          "value": 75,
+          "comment": "內外兼修"
+        }
+      ],
+      "shareText": "我測出來是「多雲時晴」！🌤️ 原來我就是那種有點神秘又充滿彈性的人！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#多雲時晴",
+        "#變幻型人格"
+      ],
+      "shortDescription": "你的變化多端，是生命最迷人的風景。",
+      "tags": [
+        "你是哪種天氣？",
+        "多雲時晴",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "mild-breezy",
+      "title": "溫暖和煦",
+      "punchline": "你的存在，讓世界變得溫柔而美好。",
+      "longDescription": "你個性隨和，善於溝通，是天生的和平主義者。\n你總能以溫和的方式化解衝突，帶來舒適的氛圍。\n你的存在讓人感到安心與放鬆，是人際關係中的潤滑劑。",
+      "traits": [
+        {
+          "label": "隨和",
+          "value": 90,
+          "comment": "好相處，不拘小節"
+        },
+        {
+          "label": "和諧",
+          "value": 85,
+          "comment": "擅長協調，避免衝突"
+        },
+        {
+          "label": "耐心",
+          "value": 80,
+          "comment": "溫柔而堅定，不急躁"
+        }
+      ],
+      "shareText": "我測出來是「溫暖和煦」！🌸 難怪大家都喜歡跟我相處，原來我是和平使者！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#溫暖和煦",
+        "#和平系人格"
+      ],
+      "shortDescription": "你的存在，讓世界變得溫柔而美好。",
+      "tags": [
+        "你是哪種天氣？",
+        "溫暖和煦",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "icy-brilliant",
+      "title": "冰雪聰明",
+      "punchline": "你的智慧，在靜謐中閃耀著獨特的光芒。",
+      "longDescription": "你頭腦清晰，思緒敏捷，總是能保持冷靜分析。\n你擁有獨特的視角，不隨波逐流，有著高雅的品味。\n你的存在雖然看似清冷，卻蘊藏著深刻的洞察力與純粹。",
+      "traits": [
+        {
+          "label": "理性",
+          "value": 92,
+          "comment": "冷靜分析，邏輯清晰"
+        },
+        {
+          "label": "獨立",
+          "value": 88,
+          "comment": "不盲從，有主見"
+        },
+        {
+          "label": "洞察",
+          "value": 85,
+          "comment": "看透本質，目光銳利"
+        }
+      ],
+      "shareText": "我測出來是「冰雪聰明」！❄️ 原來我是理性又獨立思考的智慧型人格！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#冰雪聰明",
+        "#智慧型人格"
+      ],
+      "shortDescription": "你的智慧，在靜謐中閃耀著獨特的光芒。",
+      "tags": [
+        "你是哪種天氣？",
+        "冰雪聰明",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "misty-haze",
+      "title": "霧氣瀰漫",
+      "punchline": "你的神秘，是引人探索的無盡詩篇。",
+      "longDescription": "你擁有豐富的內心世界，不輕易展露真實情感。\n你觀察力敏銳，善於感受細微之處，充滿藝術氣息。\n你的存在帶點迷離，讓人捉摸不定，卻更想靠近了解。",
+      "traits": [
+        {
+          "label": "神秘",
+          "value": 90,
+          "comment": "引人好奇，難以捉摸"
+        },
+        {
+          "label": "直覺",
+          "value": 87,
+          "comment": "感受力強，第六感敏銳"
+        },
+        {
+          "label": "藝術",
+          "value": 83,
+          "comment": "豐富想像，獨特品味"
+        }
+      ],
+      "shareText": "我測出來是「霧氣瀰漫」！🌫️ 難怪我總是帶著點神秘感，心思細膩又富有想像力！快來測你是哪種天氣！",
+      "shareHashtags": [
+        "#你是哪種天氣",
+        "#霧氣瀰漫",
+        "#神秘系人格"
+      ],
+      "shortDescription": "你的神秘，是引人探索的無盡詩篇。",
+      "tags": [
+        "你是哪種天氣？",
+        "霧氣瀰漫",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種天氣？精準測驗",
+    "metaDescription": "你是哪種天氣？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種天氣？",
+      "人格測驗",
+      "台灣",
+      "天氣人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-weather-type/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-05-29"
+}
