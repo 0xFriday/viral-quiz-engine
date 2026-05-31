@@ -1,0 +1,674 @@
+{
+  "id": "40-taiwan-breakfast",
+  "slug": "ni-shi-na-zhong-taiwan-breakfast",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣早餐？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "早餐人格測驗",
+  "description": "你是哪種台灣早餐？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🥚",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "早晨起床後，你通常會做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "快速梳洗，立刻出門迎接挑戰。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "fan-tuan-king": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "賴在床上滑手機，慢慢清醒。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "toast-innovator": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "泡杯咖啡或茶，享受片刻寧靜。",
+          "weights": {
+            "shao-bing-classic": 3,
+            "salty-soy-milk-unique": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "規劃今天行程，思考穿搭。",
+          "weights": {
+            "dan-bing-chameleon": 3,
+            "toast-innovator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "朋友約你週末出遊，你偏好什麼樣的活動？",
+      "options": [
+        {
+          "id": "a",
+          "label": "探索新興文創園區或咖啡廳。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "參加戶外運動，如登山或騎行。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "fan-tuan-king": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "逛逛老街或傳統市場，感受懷舊氛圍。",
+          "weights": {
+            "shao-bing-classic": 3,
+            "salty-soy-milk-unique": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "在家看電影、閱讀，享受悠閒時光。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "fan-tuan-king": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "工作或學習時，你的風格是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "講求效率，按部就班完成任務。",
+          "weights": {
+            "fan-tuan-king": 3,
+            "shao-bing-classic": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "喜歡嘗試新方法，不拘泥於舊有模式。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "追求完美，注重細節和品質。",
+          "weights": {
+            "salty-soy-milk-unique": 3,
+            "luobo-gao-gentle": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "充滿幹勁，常有突發奇想。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "dan-bing-chameleon": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "當你面對壓力時，通常會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找朋友傾訴，尋求建議。",
+          "weights": {
+            "dan-bing-chameleon": 3,
+            "luobo-gao-gentle": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "獨自思考，分析問題並尋找解決方案。",
+          "weights": {
+            "fan-tuan-king": 3,
+            "shao-bing-classic": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "找樂子分散注意力，或透過運動發洩。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "toast-innovator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "讓自己放空，或用美食來療癒。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "salty-soy-milk-unique": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你對時尚潮流的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "走在潮流尖端，勇於嘗試。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "偏愛經典款式，注重質感和舒適度。",
+          "weights": {
+            "shao-bing-classic": 3,
+            "fan-tuan-king": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "有自己的獨特品味，不盲目跟風。",
+          "weights": {
+            "salty-soy-milk-unique": 3,
+            "luobo-gao-gentle": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "穿著隨性自在，以方便行動為主。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "fan-tuan-king": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你的理想度假方式是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "背包旅行，深入體驗當地文化。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "fan-tuan-king": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "找個海邊或山區的度假村，放鬆身心。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "shao-bing-classic": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "城市探索，逛博物館、美術館或特色小店。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "尋訪秘境，體驗與眾不同的旅程。",
+          "weights": {
+            "salty-soy-milk-unique": 3,
+            "dan-bing-chameleon": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你點飲料時，通常會選擇？",
+      "options": [
+        {
+          "id": "a",
+          "label": "經典的紅茶或豆漿。",
+          "weights": {
+            "shao-bing-classic": 3,
+            "fan-tuan-king": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "季節限定的特調飲品。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "清淡的無糖茶或水。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "salty-soy-milk-unique": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "提神醒腦的咖啡或能量飲。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "fan-tuan-king": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你喜歡的居家佈置風格是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "簡約實用，注重收納空間。",
+          "weights": {
+            "fan-tuan-king": 3,
+            "shao-bing-classic": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫馨舒適，充滿個人風格的小物。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "現代感十足，線條簡潔明亮。",
+          "weights": {
+            "toast-innovator": 3,
+            "salty-soy-milk-unique": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "充滿活力，色彩鮮明或有創意擺設。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "dan-bing-chameleon": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "朋友對你的第一印象通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "穩重可靠，值得信賴。",
+          "weights": {
+            "fan-tuan-king": 3,
+            "shao-bing-classic": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫和友善，平易近人。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "活潑開朗，充滿熱情。",
+          "weights": {
+            "shui-jian-bao-energetic": 3,
+            "toast-innovator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "有個性，讓人印象深刻。",
+          "weights": {
+            "salty-soy-milk-unique": 3,
+            "toast-innovator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "如果讓你發明一道新菜，你會優先考慮什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "融入傳統食材，創造經典新滋味。",
+          "weights": {
+            "shao-bing-classic": 3,
+            "fan-tuan-king": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "結合異國元素，帶來跨界驚喜。",
+          "weights": {
+            "toast-innovator": 3,
+            "dan-bing-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "注重食材原味，清爽健康。",
+          "weights": {
+            "luobo-gao-gentle": 3,
+            "salty-soy-milk-unique": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "份量十足，吃得飽又滿足，且能快速製作。",
+          "weights": {
+            "fan-tuan-king": 3,
+            "shui-jian-bao-energetic": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "fan-tuan-king",
+      "title": "飯糰王者",
+      "punchline": "外冷內熱的包容者，你的魅力無可取代！",
+      "longDescription": "你總是默默付出，將所有美好包容在心。看似平凡，卻蘊含著豐富的層次與驚喜。你的人生哲學是，簡單也能很不簡單。",
+      "traits": [
+        {
+          "label": "包容力",
+          "value": 90,
+          "comment": "總是能把各種元素完美融合"
+        },
+        {
+          "label": "內涵值",
+          "value": 85,
+          "comment": "深藏不露，總能給人意外驚喜"
+        },
+        {
+          "label": "適應性",
+          "value": 75,
+          "comment": "能和不同的人事物和諧共處"
+        }
+      ],
+      "shareText": "我測出來是飯糰王者！🍚外冷內熱的包容者，你的魅力無可取代！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#飯糰王者",
+        "#包容系",
+        "#台灣早餐測驗",
+        "#內涵派"
+      ],
+      "shortDescription": "外冷內熱的包容者，你的魅力無可取代！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "飯糰王者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "dan-bing-chameleon",
+      "title": "蛋餅變色龍",
+      "punchline": "百變的社交達人，你的生活總是充滿驚喜！",
+      "longDescription": "你是個隨和又充滿彈性的人，能輕鬆適應各種場合與人群。你喜歡嘗試新事物，並勇於展現多樣的自己。你的存在，讓周遭的人都感到輕鬆自在。",
+      "traits": [
+        {
+          "label": "適應力",
+          "value": 92,
+          "comment": "能快速融入新環境與挑戰"
+        },
+        {
+          "label": "親和力",
+          "value": 88,
+          "comment": "總是能與人打成一片，人見人愛"
+        },
+        {
+          "label": "創造力",
+          "value": 78,
+          "comment": "喜歡變換花樣，為生活增添樂趣"
+        }
+      ],
+      "shareText": "我測出來是蛋餅變色龍！🍳百變的社交達人，生活總是充滿驚喜！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#蛋餅變色龍",
+        "#百變達人",
+        "#隨和派",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "百變的社交達人，你的生活總是充滿驚喜！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "蛋餅變色龍",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shao-bing-classic",
+      "title": "燒餅經典",
+      "punchline": "堅守原則的經典代表，你的存在是種安心！",
+      "longDescription": "你是個重視傳統與經典的人，不喜歡隨波逐流。你的個性堅毅，做事腳踏實地，是身邊人最可靠的支柱。你相信，簡單的真誠才是最長久的。",
+      "traits": [
+        {
+          "label": "穩重度",
+          "value": 95,
+          "comment": "是團隊中不可或缺的穩定力量"
+        },
+        {
+          "label": "原則性",
+          "value": 89,
+          "comment": "堅持自己的信念，不輕易動搖"
+        },
+        {
+          "label": "務實力",
+          "value": 82,
+          "comment": "腳踏實地，一步一腳印地前進"
+        }
+      ],
+      "shareText": "我測出來是燒餅經典！🫓堅守原則的經典代表，你的存在就是種安心！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#燒餅經典",
+        "#傳統派",
+        "#可靠系",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "堅守原則的經典代表，你的存在是種安心！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "燒餅經典",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "luobo-gao-gentle",
+      "title": "蘿蔔溫潤",
+      "punchline": "內斂的溫暖守護者，你的魅力細水長流！",
+      "longDescription": "你個性溫和內斂，不張揚，卻擁有豐富的內涵與深度。你對待事物真誠實在，時間越久越能展現你的獨特魅力。你總能給人一種安心的溫暖感。",
+      "traits": [
+        {
+          "label": "真誠度",
+          "value": 93,
+          "comment": "待人處事真誠，不矯揉造作"
+        },
+        {
+          "label": "溫暖感",
+          "value": 87,
+          "comment": "總能給人帶來心靈上的慰藉"
+        },
+        {
+          "label": "深度值",
+          "value": 80,
+          "comment": "不流於表面，擁有深厚的思想"
+        }
+      ],
+      "shareText": "我測出來是蘿蔔溫潤！🤍內斂的溫暖守護者，你的魅力細水長流！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#蘿蔔溫潤",
+        "#內斂派",
+        "#真材實料",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "內斂的溫暖守護者，你的魅力細水長流！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "蘿蔔溫潤",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "toast-innovator",
+      "title": "吐司創新家",
+      "punchline": "充滿創意的現代生活家，你的想法總是超前！",
+      "longDescription": "你是個熱愛新鮮事物、充滿創意的現代人。你勇於嘗試不同的組合與搭配，不拘泥於傳統。你的思維活躍，總是能為生活帶來更多可能性與樂趣。",
+      "traits": [
+        {
+          "label": "創新力",
+          "value": 90,
+          "comment": "總能想出新奇點子，令人耳目一新"
+        },
+        {
+          "label": "自由度",
+          "value": 85,
+          "comment": "不受框架限制，追求多樣化的生活"
+        },
+        {
+          "label": "受歡迎",
+          "value": 82,
+          "comment": "容易與人打成一片，擁有好人緣"
+        }
+      ],
+      "shareText": "我測出來是吐司創新家！🍞充滿創意的現代生活家，你的想法總是超前！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#吐司創新家",
+        "#現代派",
+        "#創意無限",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "充滿創意的現代生活家，你的想法總是超前！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "吐司創新家",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "salty-soy-milk-unique",
+      "title": "鹹豆漿特調",
+      "punchline": "獨具品味的神秘主義者，懂你的人才懂你的好！",
+      "longDescription": "你擁有獨特的個人魅力與不凡的品味，不追隨大眾潮流。你的內心世界豐富而深邃，需要時間與用心才能真正理解。你散發著一種難以言喻的吸引力。",
+      "traits": [
+        {
+          "label": "獨特性",
+          "value": 95,
+          "comment": "與眾不同，擁有鮮明的個人風格"
+        },
+        {
+          "label": "品味值",
+          "value": 90,
+          "comment": "對美感與生活有著高標準追求"
+        },
+        {
+          "label": "深度感",
+          "value": 85,
+          "comment": "思想深刻，不流於表面，耐人尋味"
+        }
+      ],
+      "shareText": "我測出來是鹹豆漿特調！🥣獨具品味的神秘主義者，懂你的人才懂你的好！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#鹹豆漿特調",
+        "#獨特品味",
+        "#神秘主義",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "獨具品味的神秘主義者，懂你的人才懂你的好！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "鹹豆漿特調",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shui-jian-bao-energetic",
+      "title": "煎包活力派",
+      "punchline": "熱情洋溢的行動派，你的活力感染著周圍！",
+      "longDescription": "你是個充滿活力與熱情的人，總是用最直接的方式展現自己。你腳踏實地，做事認真，給人一種實實在在的信賴感。你的存在，讓生活充滿了溫暖與動力。",
+      "traits": [
+        {
+          "label": "行動力",
+          "value": 92,
+          "comment": "想到就做，充滿衝勁與執行力"
+        },
+        {
+          "label": "熱情度",
+          "value": 88,
+          "comment": "對生活充滿熱忱，感染周遭的人"
+        },
+        {
+          "label": "實在感",
+          "value": 83,
+          "comment": "為人真誠不虛假，給人可靠的感覺"
+        }
+      ],
+      "shareText": "我測出來是煎包活力派！🥟熱情洋溢的行動派，你的活力感染著周圍！快來看看你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#煎包活力派",
+        "#行動派",
+        "#熱情洋溢",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "熱情洋溢的行動派，你的活力感染著周圍！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "煎包活力派",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣早餐？精準測驗",
+    "metaDescription": "你是哪種台灣早餐？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣早餐？",
+      "人格測驗",
+      "台灣",
+      "早餐人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-breakfast/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-01"
+}
