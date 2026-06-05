@@ -1,0 +1,624 @@
+{
+  "id": "45-taiwan-dessert",
+  "slug": "ni-shi-na-zhong-taiwan-dessert",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣傳統甜點？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "甜點人格測驗",
+  "description": "你是哪種台灣傳統甜點？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🍡",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "和朋友約會，你會選擇哪種行程？",
+      "options": [
+        {
+          "id": "a",
+          "label": "去最新的網紅店打卡，享受潮流氣氛。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "找間舒適的咖啡廳，邊聊邊品味下午茶。",
+          "weights": {
+            "pineapple-cake": 3,
+            "douhua": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "到戶外走走，親近大自然，感受清新空氣。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "在家裡或朋友家，輕鬆自在地玩遊戲、看電影。",
+          "weights": {
+            "mochi": 3,
+            "douhua": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "當你需要放鬆時，最想做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "聽音樂、追劇，沉浸在自己的世界。",
+          "weights": {
+            "mochi": 3,
+            "douhua": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "找朋友聊天、分享心情，獲得支持。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "享受美食，用味蕾撫慰心靈。",
+          "weights": {
+            "taro-balls": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "閱讀、學習新知，充實自我。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你的穿衣風格通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "追求流行，喜歡嘗試新穎的搭配。",
+          "weights": {
+            "bubble-tea": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "簡約舒適，注重材質與實用性。",
+          "weights": {
+            "douhua": 3,
+            "mochi": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "自然素雅，喜歡大地色系或復古風格。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "精緻有品味，會特別注意細節與質感。",
+          "weights": {
+            "pineapple-cake": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "如果能回到過去，你最想體驗哪個年代的生活？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿活力的90年代，感受文化衝擊與變革。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "優雅的日治時期，體驗當時的文化與建築美學。",
+          "weights": {
+            "pineapple-cake": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "純樸的鄉村年代，享受簡單而溫馨的人情味。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "任何一個能讓我享受當下、無憂無慮的年代。",
+          "weights": {
+            "douhua": 3,
+            "mochi": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你認為最能代表「台灣精神」的是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "不斷創新與追求卓越。",
+          "weights": {
+            "bubble-tea": 3,
+            "pineapple-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "熱情好客與濃濃的人情味。",
+          "weights": {
+            "douhua": 3,
+            "wheel-cake": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "腳踏實地，刻苦耐勞的韌性。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "包容多元，融合不同文化的特色。",
+          "weights": {
+            "mochi": 3,
+            "pineapple-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你在團隊合作中，最常扮演的角色是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "提出新點子、帶領大家討論的領導者。",
+          "weights": {
+            "bubble-tea": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "協調各方意見，讓團隊和諧運作的潤滑劑。",
+          "weights": {
+            "douhua": 3,
+            "mochi": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "默默付出，負責細節執行與資料整理的執行者。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "提供建議、把關品質，讓成果更完美的推手。",
+          "weights": {
+            "pineapple-cake": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "收到一份驚喜禮物，你的反應會是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "興奮雀躍，立刻分享給身邊的人。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "感到溫暖，默默記在心裡，並思考如何回報。",
+          "weights": {
+            "mochi": 3,
+            "douhua": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "先觀察思考，再表達真誠的感謝。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "好奇禮物的來源和意義，仔細研究一番。",
+          "weights": {
+            "taro-balls": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你最喜歡哪種節慶氛圍？",
+      "options": [
+        {
+          "id": "a",
+          "label": "熱鬧的跨年晚會或音樂祭，充滿活力與激情。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "與家人團聚的溫馨時刻，享受家的溫暖。",
+          "weights": {
+            "douhua": 3,
+            "mochi": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "傳統節日，如端午、中秋，充滿文化底蘊。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "有精心佈置、注重細節的派對或慶典。",
+          "weights": {
+            "pineapple-cake": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "對你來說，完美的假日是什麼樣子？",
+      "options": [
+        {
+          "id": "a",
+          "label": "和朋友一起探索新景點或參加活動，充實有趣。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "在家裡享受安靜時光，做喜歡的事，放鬆身心。",
+          "weights": {
+            "mochi": 3,
+            "douhua": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "品嚐各地特色小吃，體驗不同的風味。",
+          "weights": {
+            "taro-balls": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "安排一場精緻的旅行，體驗高品質的生活。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你覺得以下哪種特質最符合你的個性？",
+      "options": [
+        {
+          "id": "a",
+          "label": "開朗活潑，總是能帶給大家歡樂。",
+          "weights": {
+            "bubble-tea": 3,
+            "wheel-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫和內斂，給人一種穩定可靠的感覺。",
+          "weights": {
+            "douhua": 3,
+            "mochi": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "真誠踏實，對事情有獨到的見解。",
+          "weights": {
+            "taro-balls": 3,
+            "red-turtle-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "追求完美，對生活品質有要求。",
+          "weights": {
+            "pineapple-cake": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "douhua",
+      "title": "暖心豆花",
+      "punchline": "你是那碗溫潤如玉的豆花，總是給人最純粹的撫慰。",
+      "longDescription": "你性格溫和，待人真誠，總能以最柔軟的方式融化人心。隨和的你善於傾聽，是朋友眼中最可靠的避風港。雖然看似樸實，卻擁有讓人回味無窮的獨特魅力。",
+      "traits": [
+        {
+          "label": "溫柔體貼",
+          "value": 88,
+          "comment": "輕聲細語，總是為人著想"
+        },
+        {
+          "label": "隨和自然",
+          "value": 75,
+          "comment": "不拘小節，輕鬆適應各種場合"
+        }
+      ],
+      "shareText": "我是暖心豆花！溫柔體貼又隨和，總是給人最純粹的撫慰。快來測你是哪種台灣傳統甜點！🥰 #台灣甜點測驗",
+      "shareHashtags": [
+        "#暖心豆花",
+        "#溫柔體貼",
+        "#豆花性格"
+      ],
+      "shortDescription": "你是那碗溫潤如玉的豆花，總是給人最純粹的撫慰。",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "暖心豆花",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "bubble-tea",
+      "title": "時髦珍奶",
+      "punchline": "你是那杯魅力四射的珍奶，走到哪都是眾人追逐的焦點！",
+      "longDescription": "你充滿活力，熱愛新奇事物，總是走在潮流尖端。多變的個性讓你充滿魅力，身邊總是圍繞著一群朋友。你懂得如何讓生活充滿樂趣，是團體裡的氣氛製造者。",
+      "traits": [
+        {
+          "label": "活潑開朗",
+          "value": 92,
+          "comment": "陽光般的存在，感染力十足"
+        },
+        {
+          "label": "創新獨特",
+          "value": 80,
+          "comment": "不墨守成規，勇於嘗試新事物"
+        }
+      ],
+      "shareText": "我是時髦珍奶！活潑開朗又創新獨特，走到哪都是眾人焦點！你呢？快來測你是哪種台灣傳統甜點！🤩 #台灣甜點測驗",
+      "shareHashtags": [
+        "#時髦珍奶",
+        "#活潑開朗",
+        "#珍奶性格"
+      ],
+      "shortDescription": "你是那杯魅力四射的珍奶，走到哪都是眾人追逐的焦點！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "時髦珍奶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "taro-balls",
+      "title": "實在芋圓",
+      "punchline": "你是那份Q彈有勁的芋圓，真實不做作，經得起考驗！",
+      "longDescription": "你腳踏實地，真誠可靠，不追求華麗的外表，更重視內涵與實在。堅韌的個性讓你面對挑戰從不退縮，總能堅持到最後。你是朋友最信任的對象，總能給予最實際的幫助。",
+      "traits": [
+        {
+          "label": "腳踏實地",
+          "value": 90,
+          "comment": "務實可靠，一步一腳印"
+        },
+        {
+          "label": "真誠堅韌",
+          "value": 85,
+          "comment": "不矯揉造作，有毅力有擔當"
+        }
+      ],
+      "shareText": "我是實在芋圓！腳踏實地又真誠堅韌，真實不做作，經得起考驗！快來測你是哪種台灣傳統甜點！💪 #台灣甜點測驗",
+      "shareHashtags": [
+        "#實在芋圓",
+        "#真誠可靠",
+        "#芋圓性格"
+      ],
+      "shortDescription": "你是那份Q彈有勁的芋圓，真實不做作，經得起考驗！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "實在芋圓",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "pineapple-cake",
+      "title": "經典鳳梨酥",
+      "punchline": "你是那塊優雅經典的鳳梨酥，內斂卻蘊含豐富，人見人愛！",
+      "longDescription": "你氣質出眾，舉止優雅，散發著一種成熟穩重的魅力。你或許不善言辭，但內心世界卻豐富多彩，充滿故事。你是許多人心目中的經典，值得細細品味，越是接觸越能發現你的美好。",
+      "traits": [
+        {
+          "label": "內斂優雅",
+          "value": 82,
+          "comment": "氣質沉穩，不張揚卻有深度"
+        },
+        {
+          "label": "受人喜愛",
+          "value": 90,
+          "comment": "擁有好人緣，魅力獨具"
+        }
+      ],
+      "shareText": "我是經典鳳梨酥！內斂優雅又受人喜愛，蘊含豐富，人見人愛！快來測你是哪種台灣傳統甜點！💖 #台灣甜點測驗",
+      "shareHashtags": [
+        "#經典鳳梨酥",
+        "#內斂優雅",
+        "#鳳梨酥性格"
+      ],
+      "shortDescription": "你是那塊優雅經典的鳳梨酥，內斂卻蘊含豐富，人見人愛！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "經典鳳梨酥",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "mochi",
+      "title": "甜軟麻糬",
+      "punchline": "你是那顆Q彈甜軟的麻糬，親和力爆棚，讓人想緊緊黏著你！",
+      "longDescription": "你性格甜美，待人親切，總是散發著溫暖的氣息。你善於與人打成一片，擁有極佳的親和力，是朋友間的開心果。雖然有時會有點黏人，但那份真誠的熱情總是讓人難以抗拒。",
+      "traits": [
+        {
+          "label": "親切甜美",
+          "value": 89,
+          "comment": "笑容可掬，容易親近"
+        },
+        {
+          "label": "柔軟貼心",
+          "value": 78,
+          "comment": "善解人意，給人溫暖的感覺"
+        }
+      ],
+      "shareText": "我是甜軟麻糬！親切甜美又柔軟貼心，親和力爆棚，讓人想緊緊黏著我！快來測你是哪種台灣傳統甜點！😊 #台灣甜點測驗",
+      "shareHashtags": [
+        "#甜軟麻糬",
+        "#親和力強",
+        "#麻糬性格"
+      ],
+      "shortDescription": "你是那顆Q彈甜軟的麻糬，親和力爆棚，讓人想緊緊黏著你！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "甜軟麻糬",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "wheel-cake",
+      "title": "親民車輪餅",
+      "punchline": "你是那個溫暖飽滿的車輪餅，多才多藝，總是帶給人滿足！",
+      "longDescription": "你個性溫暖隨和，沒有距離感，總能輕易與人打成一片。你擁有豐富的內在與多樣的才能，能適應各種場合，滿足不同人的需求。你是大家的好朋友，總能給予最即時的溫暖與快樂。",
+      "traits": [
+        {
+          "label": "溫暖隨和",
+          "value": 87,
+          "comment": "樂於助人，和藹可親"
+        },
+        {
+          "label": "多才多藝",
+          "value": 81,
+          "comment": "技能多樣，適應力強"
+        }
+      ],
+      "shareText": "我是親民車輪餅！溫暖隨和又多才多藝，總是帶給人滿足！快來測你是哪種台灣傳統甜點！😄 #台灣甜點測驗",
+      "shareHashtags": [
+        "#親民車輪餅",
+        "#溫暖隨和",
+        "#車輪餅性格"
+      ],
+      "shortDescription": "你是那個溫暖飽滿的車輪餅，多才多藝，總是帶給人滿足！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "親民車輪餅",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "red-turtle-cake",
+      "title": "福氣紅龜粿",
+      "punchline": "你是那個充滿福氣的紅龜粿，承載著文化與祝福，意義深遠！",
+      "longDescription": "你重視傳統，擁有豐富的內涵與獨特的智慧。你或許不常表現自我，但總能給人安定與信賴感。你象徵著吉祥與好運，是家族或團體中不可或缺的精神支柱，默默散發著正能量。",
+      "traits": [
+        {
+          "label": "重視傳統",
+          "value": 86,
+          "comment": "懷舊念舊，尊重歷史文化"
+        },
+        {
+          "label": "內涵深厚",
+          "value": 79,
+          "comment": "思想深刻，言之有物"
+        }
+      ],
+      "shareText": "我是福氣紅龜粿！重視傳統又內涵深厚，承載文化與祝福，意義深遠！快來測你是哪種台灣傳統甜點！✨ #台灣甜點測驗",
+      "shareHashtags": [
+        "#福氣紅龜粿",
+        "#傳統智慧",
+        "#紅龜粿性格"
+      ],
+      "shortDescription": "你是那個充滿福氣的紅龜粿，承載著文化與祝福，意義深遠！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "福氣紅龜粿",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣傳統甜點？精準測驗",
+    "metaDescription": "你是哪種台灣傳統甜點？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣傳統甜點？",
+      "人格測驗",
+      "台灣",
+      "甜點人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-dessert/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-06"
+}
