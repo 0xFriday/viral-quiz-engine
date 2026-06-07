@@ -1,0 +1,702 @@
+{
+  "id": "47-taiwan-fruit",
+  "slug": "ni-shi-na-zhong-taiwan-fruit",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣水果？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "水果人格測驗",
+  "description": "你是哪種台灣水果？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🍍",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "你的朋友通常會怎麼形容你？",
+      "options": [
+        {
+          "id": "a",
+          "label": "總是充滿活力、把歡樂帶給大家。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "很有主見、值得信賴的領導者。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "溫柔體貼、善解人意的好聽眾。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "實事求是、腳踏實地的可靠夥伴。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "banana-easygoing": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "週末假日你最喜歡怎麼度過？",
+      "options": [
+        {
+          "id": "a",
+          "label": "參加戶外活動或朋友聚會，越熱鬧越好。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "規劃一場充實的學習或自我提升計畫。",
+          "weights": {
+            "pineapple-leader": 3,
+            "dragon-fruit-unique": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "在家享受寧靜時光，閱讀、看電影或做些輕柔的活動。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "處理家務、打理生活，或做些有實際產出的事。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "banana-easygoing": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當你遇到困難或挑戰時，你會怎麼處理？",
+      "options": [
+        {
+          "id": "a",
+          "label": "保持樂觀，相信一切都會好轉，並積極尋求解決方案。",
+          "weights": {
+            "mango-sunshine": 3,
+            "pineapple-leader": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "冷靜分析問題，制定策略並果斷執行。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "先感受情緒，然後溫和地尋求理解和支持，避免衝突。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "隨遇而安，相信船到橋頭自然直，不鑽牛角尖。",
+          "weights": {
+            "banana-easygoing": 3,
+            "guava-down-to-earth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的穿衣風格是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "鮮豔亮麗、充滿活力，喜歡吸引目光。",
+          "weights": {
+            "mango-sunshine": 3,
+            "dragon-fruit-unique": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "俐落專業、注重質感與實用性。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "舒適自然、溫柔色系，讓人感到放鬆。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "banana-easygoing": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨特有型、不追隨潮流，展現個人品味。",
+          "weights": {
+            "dragon-fruit-unique": 3,
+            "lychee-delicate": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "什麼樣的旅行最吸引你？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿陽光海灘的度假勝地，享受熱情與活力。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "深入當地文化，體驗獨特風情的深度之旅。",
+          "weights": {
+            "dragon-fruit-unique": 3,
+            "pineapple-leader": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "寧靜的自然景點，可以放鬆身心、感受平和。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "背包旅行或自助行，一切從簡、注重實際體驗。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "banana-easygoing": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "在團隊合作中，你通常扮演什麼角色？",
+      "options": [
+        {
+          "id": "a",
+          "label": "氣氛製造者，鼓舞大家士氣，讓過程充滿樂趣。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "組織者和決策者，引導團隊方向，確保效率。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "協調者，傾聽意見並促進和諧，讓大家感到被重視。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "實際執行者，確保任務順利完成，注重細節和結果。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "pineapple-leader": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你的朋友會找你聊什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "分享生活趣事和快樂心情，因為你總是那麼正向。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "尋求建議或解決方案，尤其在重要決策上。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "傾訴心事，因為你總是那麼溫柔且理解。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "任何話題，你都能輕鬆應對，不拘小節。",
+          "weights": {
+            "banana-easygoing": 3,
+            "guava-down-to-earth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "如果可以選擇一種超能力，你會選什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "讓所有人都開心的能力，散播歡樂與正能量。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "改變世界，讓它變得更美好、更有效率。",
+          "weights": {
+            "pineapple-leader": 3,
+            "dragon-fruit-unique": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "治癒人心，帶來平和與寧靜，減少痛苦。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "時間管理大師，有效率地完成所有事，實現目標。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "pineapple-leader": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "你對待新事物的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿好奇，迫不及待想嘗試，享受新鮮感。",
+          "weights": {
+            "mango-sunshine": 3,
+            "dragon-fruit-unique": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "先評估可行性，分析優劣，再決定是否投入。",
+          "weights": {
+            "pineapple-leader": 3,
+            "guava-down-to-earth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "小心翼翼，需要時間適應和了解，不喜歡突然的改變。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "隨緣而安，不排斥但也不會特別強求，順其自然。",
+          "weights": {
+            "banana-easygoing": 3,
+            "guava-down-to-earth": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "哪個詞最能形容你的生活哲學？",
+      "options": [
+        {
+          "id": "a",
+          "label": "樂觀積極，享受當下。",
+          "weights": {
+            "mango-sunshine": 3,
+            "banana-easygoing": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "挑戰自我，追求卓越。",
+          "weights": {
+            "pineapple-leader": 3,
+            "dragon-fruit-unique": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "和諧共處，溫柔以待。",
+          "weights": {
+            "custard-apple-gentle": 3,
+            "lychee-delicate": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "簡單樸實，知足常樂。",
+          "weights": {
+            "guava-down-to-earth": 3,
+            "banana-easygoing": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "mango-sunshine",
+      "title": "陽光芒果",
+      "punchline": "你是夏日的代名詞，自帶光芒！",
+      "longDescription": "你的存在感超強，走到哪都是焦點。天生樂觀派，總能帶給周圍人歡笑。雖然有時看起來有點硬，但內心其實很柔軟。",
+      "traits": [
+        {
+          "label": "熱情",
+          "value": 95,
+          "comment": "活力四射"
+        },
+        {
+          "label": "樂觀",
+          "value": 90,
+          "comment": "正能量爆棚"
+        },
+        {
+          "label": "受歡迎",
+          "value": 88,
+          "comment": "人見人愛"
+        },
+        {
+          "label": "直率",
+          "value": 80,
+          "comment": "不藏不掖"
+        }
+      ],
+      "shareText": "我測出來是「陽光芒果」🥭！難怪我總是這麼陽光，走到哪都發光✨ #台灣水果測驗",
+      "shareHashtags": [
+        "#台灣水果",
+        "#陽光芒果",
+        "#性格測驗"
+      ],
+      "shortDescription": "你是夏日的代名詞，自帶光芒！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "陽光芒果",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "pineapple-leader",
+      "title": "霸氣鳳梨",
+      "punchline": "外表有點刺，內心卻甜到爆棚！",
+      "longDescription": "你給人的第一印象可能有點距離感，但熟悉後會發現你超暖心。天生具備領導才能，勇於開拓新局。雖然偶爾固執，但總是能把事情做好。",
+      "traits": [
+        {
+          "label": "堅韌",
+          "value": 92,
+          "comment": "不輕易放棄"
+        },
+        {
+          "label": "領導力",
+          "value": 88,
+          "comment": "天生王者"
+        },
+        {
+          "label": "真誠",
+          "value": 85,
+          "comment": "表裡如一"
+        },
+        {
+          "label": "有原則",
+          "value": 78,
+          "comment": "立場堅定"
+        }
+      ],
+      "shareText": "哇！我是「霸氣鳳梨」🍍，果然我就是團隊裡的領頭羊！快來測你是什麼水果！ #台灣水果測驗",
+      "shareHashtags": [
+        "#台灣水果",
+        "#霸氣鳳梨",
+        "#個性分析"
+      ],
+      "shortDescription": "外表有點刺，內心卻甜到爆棚！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "霸氣鳳梨",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "custard-apple-gentle",
+      "title": "溫潤釋迦",
+      "punchline": "樸實外表下，藏著一顆溫柔甜美的心！",
+      "longDescription": "你不愛出風頭，但總能默默地發光。溫和內斂的個性，讓你在人群中顯得獨特。細膩的心思，總能察覺到他人的需求。",
+      "traits": [
+        {
+          "label": "溫柔",
+          "value": 90,
+          "comment": "待人體貼"
+        },
+        {
+          "label": "內斂",
+          "value": 85,
+          "comment": "深度思考"
+        },
+        {
+          "label": "體貼",
+          "value": 82,
+          "comment": "善解人意"
+        },
+        {
+          "label": "真誠",
+          "value": 75,
+          "comment": "樸實無華"
+        }
+      ],
+      "shareText": "我測出來是「溫潤釋迦」💚！原來我的溫柔內斂都被看穿了呢 #台灣水果測驗 #內向人格",
+      "shareHashtags": [
+        "#台灣水果",
+        "#溫潤釋迦",
+        "#溫柔系"
+      ],
+      "shortDescription": "樸實外表下，藏著一顆溫柔甜美的心！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "溫潤釋迦",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "guava-down-to-earth",
+      "title": "實在芭樂",
+      "punchline": "你是大家的安心牌，可靠又實在！",
+      "longDescription": "你給人的感覺總是那麼親切、沒有距離。不追求華麗，只注重真材實料和實用性。是朋友眼中最可靠、最值得信賴的夥伴。",
+      "traits": [
+        {
+          "label": "實在",
+          "value": 93,
+          "comment": "腳踏實地"
+        },
+        {
+          "label": "親切",
+          "value": 88,
+          "comment": "沒有架子"
+        },
+        {
+          "label": "健康",
+          "value": 80,
+          "comment": "活力充沛"
+        },
+        {
+          "label": "耐性",
+          "value": 70,
+          "comment": "持久力強"
+        }
+      ],
+      "shareText": "我是「實在芭樂」🍐！難怪大家都說我超好相處，可靠又親民！快來測你是什麼水果！ #台灣水果測驗",
+      "shareHashtags": [
+        "#台灣水果",
+        "#實在芭樂",
+        "#親民"
+      ],
+      "shortDescription": "你是大家的安心牌，可靠又實在！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "實在芭樂",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "banana-easygoing",
+      "title": "活力香蕉",
+      "punchline": "充滿活力又隨和，你是大家的開心果！",
+      "longDescription": "你天生樂觀，總是用笑容面對一切挑戰。適應力超強，在哪都能找到自己的定位。雖然外表隨和，但內心其實很注重自我成長。",
+      "traits": [
+        {
+          "label": "樂觀",
+          "value": 90,
+          "comment": "天生笑口常開"
+        },
+        {
+          "label": "隨和",
+          "value": 87,
+          "comment": "彈性十足"
+        },
+        {
+          "label": "適應力",
+          "value": 85,
+          "comment": "環境變色龍"
+        },
+        {
+          "label": "親和力",
+          "value": 78,
+          "comment": "廣結善緣"
+        }
+      ],
+      "shareText": "我是「活力香蕉」🍌，果然我是團隊裡的能量補給站！充滿元氣！ #台灣水果測驗 #能量系",
+      "shareHashtags": [
+        "#台灣水果",
+        "#活力香蕉",
+        "#開心果"
+      ],
+      "shortDescription": "充滿活力又隨和，你是大家的開心果！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "活力香蕉",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "dragon-fruit-unique",
+      "title": "神秘紅龍",
+      "punchline": "你是獨特的藝術品，內外兼具！",
+      "longDescription": "你擁有與眾不同的氣質，總能吸引旁人的目光。不愛解釋，用行動證明自己的價值。內心豐富，充滿深度，等待懂你的人來發掘。",
+      "traits": [
+        {
+          "label": "獨特",
+          "value": 94,
+          "comment": "風格鮮明"
+        },
+        {
+          "label": "高雅",
+          "value": 89,
+          "comment": "品味不凡"
+        },
+        {
+          "label": "內涵",
+          "value": 87,
+          "comment": "深度思考者"
+        },
+        {
+          "label": "神秘感",
+          "value": 80,
+          "comment": "引人好奇"
+        }
+      ],
+      "shareText": "哇！我是「神秘紅龍」🐉，難怪我總是這麼有吸引力，充滿獨特魅力！ #台灣水果測驗",
+      "shareHashtags": [
+        "#台灣水果",
+        "#神秘紅龍",
+        "#獨特魅力"
+      ],
+      "shortDescription": "你是獨特的藝術品，內外兼具！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "神秘紅龍",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "lychee-delicate",
+      "title": "甜美荔枝",
+      "punchline": "天生甜美嬌貴，需要被捧在手心！",
+      "longDescription": "你溫柔甜美，總能輕易融化人心。雖然偶爾有點小任性，但那份真誠讓人無法抗拒。你懂得享受生活，也樂於分享美好。",
+      "traits": [
+        {
+          "label": "甜美",
+          "value": 92,
+          "comment": "笑容燦爛"
+        },
+        {
+          "label": "溫柔",
+          "value": 88,
+          "comment": "細膩體貼"
+        },
+        {
+          "label": "嬌貴",
+          "value": 85,
+          "comment": "需要呵護"
+        },
+        {
+          "label": "享受生活",
+          "value": 80,
+          "comment": "品味生活"
+        }
+      ],
+      "shareText": "我是「甜美荔枝」💖，果然我就是這麼惹人憐愛，甜到心坎裡！ #台灣水果測驗 #可愛系",
+      "shareHashtags": [
+        "#台灣水果",
+        "#甜美荔枝",
+        "#嬌貴"
+      ],
+      "shortDescription": "天生甜美嬌貴，需要被捧在手心！",
+      "tags": [
+        "你是哪種台灣水果？",
+        "甜美荔枝",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣水果？精準測驗",
+    "metaDescription": "你是哪種台灣水果？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣水果？",
+      "人格測驗",
+      "台灣",
+      "水果人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-fruit/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-08"
+}
