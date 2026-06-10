@@ -1,0 +1,668 @@
+{
+  "id": "50-taiwan-breakfast",
+  "slug": "ni-shi-na-zhong-taiwan-breakfast",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣早餐？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "早餐人格測驗",
+  "description": "你是哪種台灣早餐？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🥚",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "早晨起床，你最想用什麼方式開啟新的一天？",
+      "options": [
+        {
+          "id": "a",
+          "label": "活力滿滿，立刻投入今日計畫！",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "fan-tuan-rice-ball": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "悠閒自在，享受片刻寧靜與沉思。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "tu-si-toast": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "按部就班，遵循既定行程或習慣。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "充滿好奇，期待有什麼新奇的發現。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "tu-si-toast": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "描述你的理想週末早晨：",
+      "options": [
+        {
+          "id": "a",
+          "label": "和朋友相約，在熱鬧的街邊小店聊天。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "shui-jian-bao-pan-fried-bun": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "自己在家，動手做一份豐盛的早點。",
+          "weights": {
+            "fan-tuan-rice-ball": 2,
+            "luo-bo-gao-turnip-cake": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "睡到自然醒，然後慢慢品嚐傳統美味。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "qing-zhou-xiao-cai-congee": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "快速出門，在路上買個早餐邊走邊吃。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "tu-si-toast": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當你面對選擇困難時，通常會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "選擇最經典、最不容易出錯的。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "傾向於嘗試新的口味或組合。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "堅持自己的喜好，不隨波逐流。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "fan-tuan-rice-ball": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "考慮健康與養生，選擇清淡一點的。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "luo-bo-gao-turnip-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的朋友會如何形容你的個性？",
+      "options": [
+        {
+          "id": "a",
+          "label": "隨和、適應力強，能和不同的人打成一片。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "內斂、溫和，給人一種溫暖的感覺。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "務實、可靠，是團體中的中流砥柱。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shao-bing-you-tiao-fried-dough": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "有點神秘、獨特，總能帶來驚喜。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "shao-bing-you-tiao-fried-dough": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "對你來說，早餐最重要的是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "快速方便，能讓我趕上時間。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "飽足感，讓我一整個上午都精神飽滿。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shao-bing-you-tiao-fried-dough": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "風味獨特，帶給我味蕾上的享受。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "營養均衡，為我的健康打下基礎。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "tu-si-toast": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "如果要為自己的人生選擇一個主題曲，會是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "輕快活潑的流行歌曲，充滿正能量。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫暖懷舊的民謠，訴說著故事。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "沉穩大氣的古典樂，深邃而有內涵。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "qing-zhou-xiao-cai-congee": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "節奏感強烈的電子樂，充滿實驗精神。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "dan-bing-egg-pancake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你對於「變化」的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "樂於接受，甚至主動追求新事物。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "謹慎評估，但如果值得也會嘗試。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "偏好穩定，不喜歡太大的改變。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "qing-zhou-xiao-cai-congee": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "視情況而定，但底線是不能影響效率。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "tu-si-toast": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你的飲食習慣偏向？",
+      "options": [
+        {
+          "id": "a",
+          "label": "不拘一格，甜鹹都愛，什麼都想嚐嚐。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "傳統口味，對家鄉味情有獨鍾。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "fan-tuan-rice-ball": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "清淡養生，注重食材的原味。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "追求豐富口感，喜歡層次分明的食物。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "fan-tuan-rice-ball": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "如果給你一個空閒的下午，你會選擇做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "戶外活動，感受陽光與大自然。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "fan-tuan-rice-ball": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "閱讀或看電影，享受獨處時光。",
+          "weights": {
+            "qing-zhou-xiao-cai-congee": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "學習新技能或鑽研某個興趣。",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "tu-si-toast": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "整理家裡或規劃未來，讓生活更有條理。",
+          "weights": {
+            "shao-bing-you-tiao-fried-dough": 3,
+            "fan-tuan-rice-ball": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你最喜歡的醬料搭配是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "萬用醬油膏，怎麼搭都好吃。",
+          "weights": {
+            "dan-bing-egg-pancake": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "辣椒醬或辣油，無辣不歡！",
+          "weights": {
+            "shui-jian-bao-pan-fried-bun": 3,
+            "luo-bo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "花生醬或果醬，甜甜的滋味最棒。",
+          "weights": {
+            "tu-si-toast": 3,
+            "dan-bing-egg-pancake": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "無需醬料，享受食物原汁原味。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "qing-zhou-xiao-cai-congee": 2,
+            "shao-bing-you-tiao-fried-dough": 1
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "dan-bing-egg-pancake",
+      "title": "陽光蛋餅",
+      "punchline": "你是早餐店的萬人迷，走到哪都受歡迎！",
+      "longDescription": "你就像蛋餅一樣百搭，能與各種醬料和配料完美融合。你個性開朗隨和，總能輕鬆融入不同群體。朋友都愛你，因為你總是那麼親切又富有彈性。",
+      "traits": [
+        {
+          "label": "適應力",
+          "value": 90,
+          "comment": "面對變化總是游刃有餘"
+        },
+        {
+          "label": "人緣",
+          "value": 85,
+          "comment": "走到哪都有人愛"
+        },
+        {
+          "label": "彈性",
+          "value": 80,
+          "comment": "不拘泥於形式，樂於嘗試"
+        }
+      ],
+      "shareText": "我是陽光百搭的蛋餅！☀️ 難怪我這麼受歡迎又好相處！你又是哪種台灣早餐？",
+      "shareHashtags": [
+        "#我是蛋餅",
+        "#人緣王",
+        "#台灣早餐測驗"
+      ],
+      "shortDescription": "你是早餐店的萬人迷，走到哪都受歡迎！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "陽光蛋餅",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "fan-tuan-rice-ball",
+      "title": "實在飯糰",
+      "punchline": "你外表樸實，內在卻充滿豐富層次的寶藏人物！",
+      "longDescription": "你就像飯糰，外表看似簡單，內在卻包羅萬象，紮實而有份量。你個性務實可靠，給人滿滿的安全感。朋友們都知道，遇到困難時找你準沒錯，你總是能給予最堅定的支持。",
+      "traits": [
+        {
+          "label": "可靠度",
+          "value": 92,
+          "comment": "使命必達的好夥伴"
+        },
+        {
+          "label": "內涵",
+          "value": 88,
+          "comment": "深藏不露的智者"
+        },
+        {
+          "label": "務實",
+          "value": 83,
+          "comment": "腳踏實地，穩重可靠"
+        }
+      ],
+      "shareText": "我是內涵豐富的飯糰！🍙 看起來簡單，但我的內心很豐富喔！快來測你是哪種早餐！",
+      "shareHashtags": [
+        "#我是飯糰",
+        "#內在美",
+        "#早餐測驗"
+      ],
+      "shortDescription": "你外表樸實，內在卻充滿豐富層次的寶藏人物！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "實在飯糰",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shao-bing-you-tiao-fried-dough",
+      "title": "經典燒餅",
+      "punchline": "你是歷久彌新的經典款，堅持自我，獨具風味！",
+      "longDescription": "你就像燒餅油條，是早餐店裡不敗的經典組合，有著自己獨特的堅持與風味。你個性堅毅，不隨波逐流，對認定的事情會一貫到底。雖然外表可能有點硬朗，但內心其實溫暖又充滿人情味。",
+      "traits": [
+        {
+          "label": "堅毅",
+          "value": 90,
+          "comment": "百折不撓的意志力"
+        },
+        {
+          "label": "忠誠",
+          "value": 85,
+          "comment": "對人對事都專一"
+        },
+        {
+          "label": "原則性",
+          "value": 80,
+          "comment": "有自己的堅持與底線"
+        }
+      ],
+      "shareText": "我是堅毅不撓的燒餅油條！💪 經典就是我，不敗的風格！你是哪種台灣早餐？",
+      "shareHashtags": [
+        "#燒餅油條",
+        "#經典不敗",
+        "#台灣早餐"
+      ],
+      "shortDescription": "你是歷久彌新的經典款，堅持自我，獨具風味！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "經典燒餅",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "luo-bo-gao-turnip-cake",
+      "title": "療癒蘿蔔糕",
+      "punchline": "你是溫暖人心的療癒系，總能帶給周遭安定的力量！",
+      "longDescription": "你就像蘿蔔糕，外表樸實卻溫潤可口，總能給人帶來暖心的療癒感。你個性溫和細膩，善於觀察他人情緒，是大家心中的知心好友。雖然不搶眼，但你的存在卻能讓周遭的人感到舒適與安心。",
+      "traits": [
+        {
+          "label": "溫暖度",
+          "value": 90,
+          "comment": "像陽光一樣溫暖人心"
+        },
+        {
+          "label": "細膩度",
+          "value": 85,
+          "comment": "善於察覺他人情緒"
+        },
+        {
+          "label": "包容力",
+          "value": 80,
+          "comment": "對不同意見都能理解"
+        }
+      ],
+      "shareText": "我是溫暖療癒的蘿蔔糕！💖 難怪朋友們都愛找我傾訴心事！你呢？",
+      "shareHashtags": [
+        "#蘿蔔糕",
+        "#療癒系",
+        "#暖心朋友"
+      ],
+      "shortDescription": "你是溫暖人心的療癒系，總能帶給周遭安定的力量！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "療癒蘿蔔糕",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "tu-si-toast",
+      "title": "創意吐司",
+      "punchline": "你是充滿無限可能的創意達人，總是能玩出新花樣！",
+      "longDescription": "你就像吐司，可以是甜的也可以是鹹的，總有無限的組合與創意。你個性開明，勇於嘗試新事物，喜歡變化與挑戰。你對潮流敏銳，總是能為生活增添新鮮感，讓身邊的人感到驚喜連連。",
+      "traits": [
+        {
+          "label": "創造力",
+          "value": 90,
+          "comment": "點子多多，不按牌理出牌"
+        },
+        {
+          "label": "開放性",
+          "value": 85,
+          "comment": "樂於接受新觀念"
+        },
+        {
+          "label": "時尚感",
+          "value": 80,
+          "comment": "走在潮流尖端"
+        }
+      ],
+      "shareText": "我是百變又充滿創意的吐司！🍞 我的生活就是一場充滿驚喜的派對！你敢來挑戰嗎？",
+      "shareHashtags": [
+        "#我是吐司",
+        "#創意無限",
+        "#時尚達人"
+      ],
+      "shortDescription": "你是充滿無限可能的創意達人，總是能玩出新花樣！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "創意吐司",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "qing-zhou-xiao-cai-congee",
+      "title": "靜謐清粥",
+      "punchline": "你懂得生活減法的智者，追求平靜而有深度的日常！",
+      "longDescription": "你就像清粥小菜，看似簡單，卻蘊含著最純粹的美味與養生之道。你個性內斂，不追求浮華，更重視心靈的富足與平靜。你懂得從細微處品味生活，是個知足常樂，充滿智慧的靈魂。",
+      "traits": [
+        {
+          "label": "知足感",
+          "value": 92,
+          "comment": "容易從簡單中獲得快樂"
+        },
+        {
+          "label": "平靜度",
+          "value": 88,
+          "comment": "不輕易被外界影響"
+        },
+        {
+          "label": "內省力",
+          "value": 83,
+          "comment": "善於反思與沉澱"
+        }
+      ],
+      "shareText": "我是平靜知足的清粥小菜！🥣 簡單就是我的風格，心靈富足才是王道！你呢？",
+      "shareHashtags": [
+        "#清粥小菜",
+        "#極簡生活",
+        "#心靈富足"
+      ],
+      "shortDescription": "你懂得生活減法的智者，追求平靜而有深度的日常！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "靜謐清粥",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shui-jian-bao-pan-fried-bun",
+      "title": "活力煎包",
+      "punchline": "你是充滿幹勁的行動派，總是元氣滿滿地迎接挑戰！",
+      "longDescription": "你就像水煎包，外表金黃酥脆，內餡飽滿多汁，充滿著活力與熱情。你個性積極，是個充滿幹勁的行動派，總是能快速投入各種事務。你受人歡迎，因為你的熱情總能感染身邊的人，讓氣氛活躍起來。",
+      "traits": [
+        {
+          "label": "行動力",
+          "value": 90,
+          "comment": "想到就做，絕不拖延"
+        },
+        {
+          "label": "熱情度",
+          "value": 85,
+          "comment": "對生活充滿活力"
+        },
+        {
+          "label": "效率",
+          "value": 80,
+          "comment": "做事乾脆俐落"
+        }
+      ],
+      "shareText": "我是活力四射的水煎包！🥟 熱情與效率是我的代名詞！你又是哪種台灣早餐？",
+      "shareHashtags": [
+        "#水煎包",
+        "#行動派",
+        "#元氣滿滿"
+      ],
+      "shortDescription": "你是充滿幹勁的行動派，總是元氣滿滿地迎接挑戰！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "活力煎包",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣早餐？精準測驗",
+    "metaDescription": "你是哪種台灣早餐？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣早餐？",
+      "人格測驗",
+      "台灣",
+      "早餐人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-breakfast/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-11"
+}
