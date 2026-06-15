@@ -1,0 +1,667 @@
+{
+  "id": "55-taiwan-dessert",
+  "slug": "ni-shi-na-zhong-taiwan-dessert",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣傳統甜點？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "甜點人格測驗",
+  "description": "你是哪種台灣傳統甜點？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🍡",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "如何形容你的社交風格？",
+      "options": [
+        {
+          "id": "a",
+          "label": "我是團體中的活力來源，總能為大家帶來歡樂。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "我喜歡和大家保持一點距離，但總能給予溫暖的支持。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "我喜歡與親近的朋友深度交流，享受真摯的連結。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi-rice-cake": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "我是大家公認的代表，無論在哪裡都能展現得體的一面。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "你最喜歡的放鬆方式是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "聽著流行音樂，隨性地散步或跳舞。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "mochi-rice-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "找個安靜的角落，享受一杯茶或一本好書。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "和朋友或家人聚在一起，吃點心、聊聊天。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "規劃一次小旅行，探索新的地方和文化。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當面對壓力時，你通常如何應對？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找朋友傾訴，然後很快就能恢復活力。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "保持冷靜，理性分析問題，尋找解決方案。",
+          "weights": {
+            "tofu-pudding": 3,
+            "pineapple-cake": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "專注於手邊的事情，一步一步地解決問題。",
+          "weights": {
+            "taro-balls": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "暫時放下，去大自然走走，讓身心沉澱。",
+          "weights": {
+            "mugwort-rice-cake": 3,
+            "tofu-pudding": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的穿搭風格是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "舒適又帶點潮流感，喜歡嘗試新搭配。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "mochi-rice-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "簡潔、素雅，注重材質和實用性。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "樸實自然，喜歡有手工感或民族風的服飾。",
+          "weights": {
+            "taro-balls": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "經典、有品味，喜歡質感好的單品。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你對食物的偏好是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "喜歡口感豐富、有層次的食物。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "taro-balls": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "偏愛清爽、不油膩，能吃出食材原味的料理。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "熱愛有嚼勁、能帶來滿足感的食物。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi-rice-cake": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "講究擺盤和風味的平衡，喜歡精緻的點心。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "朋友會如何形容你？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿活力、總是充滿好奇心。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫柔、善解人意，是個很好的傾聽者。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mochi-rice-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "腳踏實地、值得信賴，給人安心的感覺。",
+          "weights": {
+            "taro-balls": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "大方得體、心思細膩，懂得照顧周圍的人。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你的週末通常怎麼過？",
+      "options": [
+        {
+          "id": "a",
+          "label": "和朋友約出去玩，嘗試新鮮有趣的活動。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "在家休息，享受個人的寧靜時光。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "進行一些戶外活動或動手做些小東西。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "安排一些文化活動或拜訪親友。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你喜歡哪種節日氛圍？",
+      "options": [
+        {
+          "id": "a",
+          "label": "熱鬧非凡、充滿驚喜和歡笑的派對。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫馨、團圓，與家人共享美食的時刻。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mochi-rice-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "傳統、有歷史感的節慶活動，感受文化底蘊。",
+          "weights": {
+            "red-turtle-cake": 3,
+            "mugwort-rice-cake": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "精緻、有格調的聚會，享受美好的氛圍。",
+          "weights": {
+            "pineapple-cake": 3,
+            "taro-balls": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "如果要送禮物給別人，你會選擇？",
+      "options": [
+        {
+          "id": "a",
+          "label": "新奇有趣、能帶來驚喜的小玩意。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "mochi-rice-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "實用、有質感，能讓對方感到舒適的物品。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "手工製作、充滿心意，獨一無二的禮物。",
+          "weights": {
+            "mochi-rice-cake": 3,
+            "taro-balls": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "代表當地特色或經典品牌，有紀念價值的禮品。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你的座右銘或人生態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "活在當下，享受每一個精彩的瞬間。",
+          "weights": {
+            "bubble-tea-pearl": 3,
+            "red-turtle-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "保持內心的平靜，隨遇而安。",
+          "weights": {
+            "tofu-pudding": 3,
+            "mugwort-rice-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "腳踏實地，一步一腳印，堅持自己的道路。",
+          "weights": {
+            "taro-balls": 3,
+            "mochi-rice-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "力求完美，追求卓越，展現最好的自己。",
+          "weights": {
+            "pineapple-cake": 3,
+            "red-turtle-cake": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "bubble-tea-pearl",
+      "title": "珍珠奶茶",
+      "punchline": "你是人氣爆棚的百變女王/天王！",
+      "longDescription": "總是走在潮流尖端，散發著無法抵擋的魅力。無論身處何地，都能輕鬆融入，成為眾人焦點。你的存在，讓生活充滿樂趣與驚喜。",
+      "traits": [
+        {
+          "label": "人氣指數",
+          "value": 92,
+          "comment": "走到哪都受歡迎"
+        },
+        {
+          "label": "適應力",
+          "value": 88,
+          "comment": "能快速融入新環境"
+        },
+        {
+          "label": "能量值",
+          "value": 85,
+          "comment": "充滿活力與熱情"
+        }
+      ],
+      "shareText": "測驗結果：我是「珍珠奶茶」！人氣爆棚的百變女王/天王，快來看看你是哪種台灣甜點！😍 #台灣甜點測驗",
+      "shareHashtags": [
+        "#珍珠奶茶",
+        "#百變女王",
+        "#人氣王"
+      ],
+      "shortDescription": "你是人氣爆棚的百變女王/天王！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "珍珠奶茶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "tofu-pudding",
+      "title": "暖心豆花",
+      "punchline": "溫柔細膩，你是大家心中的療癒系甜點！",
+      "longDescription": "你擁有撫慰人心的魔力，總能給予他人最溫暖的陪伴。你的善良與純粹，讓人感到安心與放鬆。在紛擾的世界中，你是一股清流。",
+      "traits": [
+        {
+          "label": "溫柔指數",
+          "value": 95,
+          "comment": "對人真誠又體貼"
+        },
+        {
+          "label": "共情力",
+          "value": 90,
+          "comment": "能理解並感受他人情緒"
+        },
+        {
+          "label": "純粹度",
+          "value": 88,
+          "comment": "心地善良無雜質"
+        }
+      ],
+      "shareText": "測驗結果：我是「暖心豆花」！溫柔細膩，是大家心中的療癒系甜點，你呢？🥰 #台灣甜點測驗",
+      "shareHashtags": [
+        "#豆花",
+        "#療癒系",
+        "#溫柔"
+      ],
+      "shortDescription": "溫柔細膩，你是大家心中的療癒系甜點！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "暖心豆花",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "taro-balls",
+      "title": "實在芋圓",
+      "punchline": "越嚼越香，你是真誠又充滿韌性的實力派！",
+      "longDescription": "你腳踏實地，不愛譁眾取寵，卻總能以實力征服人心。面對挑戰，你展現出驚人的韌性與毅力。你的真誠和實在，是朋友最珍視的特質。",
+      "traits": [
+        {
+          "label": "踏實度",
+          "value": 90,
+          "comment": "實事求是，不浮誇"
+        },
+        {
+          "label": "韌性值",
+          "value": 93,
+          "comment": "面對困難不輕言放棄"
+        },
+        {
+          "label": "真誠度",
+          "value": 87,
+          "comment": "待人處事坦率真實"
+        }
+      ],
+      "shareText": "測驗結果：我是「實在芋圓」！越嚼越香的實力派，你也是嗎？💪 #台灣甜點測驗",
+      "shareHashtags": [
+        "#芋圓",
+        "#實力派",
+        "#真誠"
+      ],
+      "shortDescription": "越嚼越香，你是真誠又充滿韌性的實力派！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "實在芋圓",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "pineapple-cake",
+      "title": "經典鳳梨酥",
+      "punchline": "高雅大方，你是人見人愛的國民甜點代表！",
+      "longDescription": "你舉止優雅，品味不凡，總能給人留下深刻好印象。你的內在豐富而有深度，值得細細品味。無論走到哪裡，你都能散發獨特的魅力，受人喜愛。",
+      "traits": [
+        {
+          "label": "優雅氣質",
+          "value": 91,
+          "comment": "舉手投足散發魅力"
+        },
+        {
+          "label": "品味指數",
+          "value": 89,
+          "comment": "對事物有獨到見解"
+        },
+        {
+          "label": "親和力",
+          "value": 85,
+          "comment": "容易與人建立好感"
+        }
+      ],
+      "shareText": "測驗結果：我是「經典鳳梨酥」！高雅大方，人見人愛，你是不是也一樣呢？✨ #台灣甜點測驗",
+      "shareHashtags": [
+        "#鳳梨酥",
+        "#經典",
+        "#優雅"
+      ],
+      "shortDescription": "高雅大方，你是人見人愛的國民甜點代表！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "經典鳳梨酥",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "mochi-rice-cake",
+      "title": "Q彈麻糬",
+      "punchline": "圓融Q彈，你是人際關係的魔法師！",
+      "longDescription": "你性格柔軟卻充滿彈性，總能輕鬆應對各種狀況。你善於維繫人際，擁有強大的連結力，朋友遍天下。與你相處，總能感受到滿滿的趣味與活力。",
+      "traits": [
+        {
+          "label": "圓融度",
+          "value": 90,
+          "comment": "處事周全，面面俱到"
+        },
+        {
+          "label": "彈性值",
+          "value": 88,
+          "comment": "適應力強，不拘泥"
+        },
+        {
+          "label": "社交力",
+          "value": 92,
+          "comment": "善於溝通與連結"
+        }
+      ],
+      "shareText": "測驗結果：我是「Q彈麻糬」！圓融Q彈的人際魔法師，太準了吧！🤩 #台灣甜點測驗",
+      "shareHashtags": [
+        "#麻糬",
+        "#人際高手",
+        "#圓融"
+      ],
+      "shortDescription": "圓融Q彈，你是人際關係的魔法師！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "Q彈麻糬",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "red-turtle-cake",
+      "title": "吉祥紅龜粿",
+      "punchline": "承載祝福，你是充滿正能量的傳統守護者！",
+      "longDescription": "你重視傳統，心懷感恩，總能帶給身邊的人好運與祝福。你的存在，如同溫暖的陽光，照亮身邊的每一個人。你雖然低調，卻蘊含著深厚的力量與意義。",
+      "traits": [
+        {
+          "label": "感恩值",
+          "value": 93,
+          "comment": "對生活充滿感激"
+        },
+        {
+          "label": "傳統意識",
+          "value": 89,
+          "comment": "珍視文化與歷史"
+        },
+        {
+          "label": "正能量",
+          "value": 91,
+          "comment": "樂觀積極，感染力強"
+        }
+      ],
+      "shareText": "測驗結果：我是「吉祥紅龜粿」！承載祝福的正能量守護者，你也是嗎？💖 #台灣甜點測驗",
+      "shareHashtags": [
+        "#紅龜粿",
+        "#吉祥",
+        "#正能量"
+      ],
+      "shortDescription": "承載祝福，你是充滿正能量的傳統守護者！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "吉祥紅龜粿",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "mugwort-rice-cake",
+      "title": "清新草仔粿",
+      "punchline": "樸實清新，你是獨具品味的隱藏版寶藏！",
+      "longDescription": "你不追求浮華，更愛返璞歸真，擁有獨特的個人風格。你的氣質清新脫俗，讓人感到心曠神怡。雖然低調，但懂你的人，會深深著迷於你的真實。",
+      "traits": [
+        {
+          "label": "獨特品味",
+          "value": 90,
+          "comment": "有自己獨特的審美觀"
+        },
+        {
+          "label": "樸實度",
+          "value": 92,
+          "comment": "不愛虛華，追求真實"
+        },
+        {
+          "label": "內涵值",
+          "value": 88,
+          "comment": "深度思考，有獨到見解"
+        }
+      ],
+      "shareText": "測驗結果：我是「清新草仔粿」！樸實清新的隱藏版寶藏，快來測測你是什麼甜點！🌿 #台灣甜點測驗",
+      "shareHashtags": [
+        "#草仔粿",
+        "#獨特",
+        "#清新"
+      ],
+      "shortDescription": "樸實清新，你是獨具品味的隱藏版寶藏！",
+      "tags": [
+        "你是哪種台灣傳統甜點？",
+        "清新草仔粿",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣傳統甜點？精準測驗",
+    "metaDescription": "你是哪種台灣傳統甜點？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣傳統甜點？",
+      "人格測驗",
+      "台灣",
+      "甜點人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-dessert/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-16"
+}
