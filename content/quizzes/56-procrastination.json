@@ -1,0 +1,634 @@
+{
+  "id": "56-procrastination",
+  "slug": "ni-shi-na-zhong-procrastination",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你的拖延症是哪種類型？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "拖延診斷書",
+  "description": "你的拖延症是哪種類型？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "⏰",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "當你面對一個重要但有點難度的任務時，你通常會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "花很多時間研究、規劃，確保萬無一失才動手。",
+          "weights": {
+            "perfectionist-procrastinator": 3,
+            "fear-of-failure-procrastinator": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "先去泡杯咖啡、滑手機、看劇，找點輕鬆的事來做。",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "等到最後一刻，感受到壓力了才開始衝刺。",
+          "weights": {
+            "crisis-driven-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "覺得提不起勁，不知道從何開始，乾脆先放著。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3,
+            "indecisive-procrastinator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "距離截止日期只剩下三天，但你的任務還沒開始，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "腎上腺素飆升，進入「戰鬥模式」，通宵也要完成。",
+          "weights": {
+            "crisis-driven-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "假裝沒看到，或是找理由告訴自己還有時間，繼續做其他事。",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "擔心做不好，開始焦慮，然後更不知道該怎麼辦。",
+          "weights": {
+            "fear-of-failure-procrastinator": 3,
+            "indecisive-procrastinator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "發現自己還有好多其他事情要做，根本排不出時間。",
+          "weights": {
+            "over-committer-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當你需要做一個重要決定時，你最常因為什麼而拖延？",
+      "options": [
+        {
+          "id": "a",
+          "label": "擔心選擇錯誤，一直在衡量各種選項，遲遲無法下決定。",
+          "weights": {
+            "indecisive-procrastinator": 3,
+            "fear-of-failure-procrastinator": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "想要找到「最完美」的答案，不斷尋找更多資訊。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "覺得這件事很麻煩，或是對結果不抱期待，所以不想思考。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "選擇做一些比較輕鬆、不需思考的事來逃避。",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "有人邀請你參與一個新專案，你第一時間的反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "哇，聽起來很有趣！我很樂意加入！（之後才發現時間不夠）",
+          "weights": {
+            "over-committer-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "考慮自己有沒有能力勝任，會不會搞砸？然後猶豫不決。",
+          "weights": {
+            "fear-of-failure-procrastinator": 3,
+            "indecisive-procrastinator": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "提不起興趣，覺得又是一個額外負擔，能推就推。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "先問清楚所有細節，評估自己能否做到「最好」才考慮。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你的工作或學習環境通常是怎麼樣的？",
+      "options": [
+        {
+          "id": "a",
+          "label": "旁邊有很多有趣的玩具、書籍、零食，隨時可以分心。",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "整齊劃一，所有物品都有固定位置，容不得一點雜亂。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "凌亂不堪，堆滿了未完成的待辦事項，看了就累。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "只有在壓力來臨前才會清理，平時隨性，反正最後一刻才動。",
+          "weights": {
+            "crisis-driven-procrastinator": 2,
+            "lack-of-motivation-procrastinator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "當你終於開始動手做一件拖延已久的任務時，你的心態是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿鬥志，我知道我能在短時間內爆發出驚人的效率。",
+          "weights": {
+            "crisis-driven-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "每個細節都力求完美，不斷修改，深怕有一點點瑕疵。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "戰戰兢兢，擔心做得不夠好，結果可能不如預期。",
+          "weights": {
+            "fear-of-failure-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "心不甘情不願，只求完成就好，品質不是首要考量。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "當你完成一個任務後，對於即將到來的評價或回饋，你通常會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "非常緊張，害怕會被批評，擔心自己的努力不被認可。",
+          "weights": {
+            "fear-of-failure-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "期待得到高度肯定，因為你已經盡力做到最好了。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "盡量不去想，反正船到橋頭自然直，先享受一下成果。",
+          "weights": {
+            "escapist-procrastinator": 2,
+            "crisis-driven-procrastinator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "無所謂，反正做都做了，結果如何不是你最關心的。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你如何規劃你的一天或一週的待辦事項？",
+      "options": [
+        {
+          "id": "a",
+          "label": "寫下滿滿的待辦事項，希望能完成所有事情，但很少真的全部達成。",
+          "weights": {
+            "over-committer-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "列了一堆事情，但不知道從哪一件開始，結果時間就過去了。",
+          "weights": {
+            "indecisive-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "偏好隨性而為，不喜歡被計畫綁住，有空就做點輕鬆的。",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "製作詳細的時間表和檢查清單，確保每一步都按部就班。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "對於執行任務，你最大的恐懼是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "失敗或做得不夠好，讓自己或他人失望。",
+          "weights": {
+            "fear-of-failure-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "成果有瑕疵或不完美，無法達到自己設下的高標準。",
+          "weights": {
+            "perfectionist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "整個過程無聊、乏味，感受不到任何樂趣或意義。",
+          "weights": {
+            "lack-of-motivation-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "時間不夠用，無法同時處理所有答應要做的事情。",
+          "weights": {
+            "over-committer-procrastinator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "你最常用什麼理由來合理化自己的拖延行為？",
+      "options": [
+        {
+          "id": "a",
+          "label": "「我只有在壓力下才能發揮最好！」",
+          "weights": {
+            "crisis-driven-procrastinator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "「我需要放鬆一下，休息是為了走更長遠的路。」",
+          "weights": {
+            "escapist-procrastinator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "「我還在思考最好的方法，不能貿然行動。」",
+          "weights": {
+            "indecisive-procrastinator": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "「我事情太多了，真的忙不過來。」",
+          "weights": {
+            "over-committer-procrastinator": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "perfectionist-procrastinator",
+      "title": "完美主義",
+      "punchline": "追求完美是我的天性，拖延只是過程。",
+      "longDescription": "我不是在拖延，我只是在等待一個完美的開始時機。對我來說，事情要嘛不做，要做就要做到最好。這也導致我常常在開始前就陷入無限的規劃與修改中。",
+      "traits": [
+        {
+          "label": "細節控",
+          "value": 90,
+          "comment": "對細節有異常的執著"
+        },
+        {
+          "label": "自我要求",
+          "value": 85,
+          "comment": "對自己有極高的標準"
+        },
+        {
+          "label": "害怕失敗",
+          "value": 70,
+          "comment": "擔心成果不符預期"
+        }
+      ],
+      "shareText": "測出來我是「完美主義」拖延者！不是我不想做，是還沒找到最完美的開頭啦！😂 #拖延症發作",
+      "shareHashtags": [
+        "#完美主義",
+        "#拖延也是種藝術",
+        "#追求卓越"
+      ],
+      "shortDescription": "追求完美是我的天性，拖延只是過程。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "完美主義",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "escapist-procrastinator",
+      "title": "逃避現實",
+      "punchline": "世界那麼大，我總能在別的地方找到樂趣。",
+      "longDescription": "當有不喜歡的任務時，我總能找到無數有趣的替代方案。滑手機、追劇、打掃房間，任何事都比正事吸引我。對我來說，逃避雖然可恥但有用，至少暫時不用面對壓力。",
+      "traits": [
+        {
+          "label": "享樂主義",
+          "value": 95,
+          "comment": "熱衷於尋找即時的快樂"
+        },
+        {
+          "label": "壓力敏感",
+          "value": 80,
+          "comment": "對壓力反應較為強烈"
+        },
+        {
+          "label": "任務迴避",
+          "value": 90,
+          "comment": "擅長避開不喜歡的任務"
+        }
+      ],
+      "shareText": "測出來我是「逃避現實」拖延者！承認我愛玩，但誰不愛呢？🥳 #拖延是種生活態度",
+      "shareHashtags": [
+        "#逃避雖可恥但有用",
+        "#現實太硬",
+        "#快樂至上"
+      ],
+      "shortDescription": "世界那麼大，我總能在別的地方找到樂趣。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "逃避現實",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "crisis-driven-procrastinator",
+      "title": "危機驅動",
+      "punchline": "沒有死線的壓力，哪來靈感的爆發力？",
+      "longDescription": "我相信潛力總是在最後一刻被激發出來。只有當死線迫在眉睫時，我才能感受到腎上腺素飆升的快感。在壓力的催化下，我的效率和創意反而能達到巔峰。",
+      "traits": [
+        {
+          "label": "死線戰士",
+          "value": 95,
+          "comment": "不到最後一刻不罷休"
+        },
+        {
+          "label": "抗壓性",
+          "value": 75,
+          "comment": "能在高壓下表現良好"
+        },
+        {
+          "label": "時間管理",
+          "value": 40,
+          "comment": "對時間規劃較為隨性"
+        }
+      ],
+      "shareText": "測出來我是「危機驅動」拖延者！沒有壓力哪來動力？我只是在等待最佳表現時機！🚀 #死線戰士",
+      "shareHashtags": [
+        "#死線戰士",
+        "#壓力是我的燃料",
+        "#爆發力"
+      ],
+      "shortDescription": "沒有死線的壓力，哪來靈感的爆發力？",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "危機驅動",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "lack-of-motivation-procrastinator",
+      "title": "缺乏動力",
+      "punchline": "我不是不想做，是還沒找到讓我心動的理由。",
+      "longDescription": "對於那些缺乏明確目標或意義的任務，我總是提不起勁。如果我找不到足夠的內在動機，我就會陷入漫長的等待。我需要一個強大的「為什麼」才能啟動。",
+      "traits": [
+        {
+          "label": "目標導向",
+          "value": 85,
+          "comment": "需要明確目標才能行動"
+        },
+        {
+          "label": "啟動困難",
+          "value": 90,
+          "comment": "開始新任務時常有障礙"
+        },
+        {
+          "label": "精力有限",
+          "value": 70,
+          "comment": "容易感到疲憊或無力"
+        }
+      ],
+      "shareText": "測出來我是「缺乏動力」拖延者！給我一個理由，我馬上動起來！不然就讓我躺平吧…😴 #找不到動力",
+      "shareHashtags": [
+        "#缺乏動力",
+        "#躺平族",
+        "#需要被啟發"
+      ],
+      "shortDescription": "我不是不想做，是還沒找到讓我心動的理由。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "缺乏動力",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "indecisive-procrastinator",
+      "title": "優柔寡斷",
+      "punchline": "選擇太多，讓我不知從何開始。",
+      "longDescription": "面對多個選擇或複雜的任務時，我常常陷入分析癱瘓。我害怕做出錯誤的決定，導致我遲遲無法邁出第一步。我的拖延來自於對「正確」路徑的過度追求。",
+      "traits": [
+        {
+          "label": "分析癱瘓",
+          "value": 90,
+          "comment": "過度分析導致無法行動"
+        },
+        {
+          "label": "害怕犯錯",
+          "value": 80,
+          "comment": "擔心選擇錯誤會產生負面後果"
+        },
+        {
+          "label": "完美路徑",
+          "value": 75,
+          "comment": "傾向尋找最佳解決方案"
+        }
+      ],
+      "shareText": "測出來我是「優柔寡斷」拖延者！選擇困難症末期，救命啊！😱 #選擇障礙",
+      "shareHashtags": [
+        "#選擇困難",
+        "#優柔寡斷",
+        "#想太多"
+      ],
+      "shortDescription": "選擇太多，讓我不知從何開始。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "優柔寡斷",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "over-committer-procrastinator",
+      "title": "過度承諾",
+      "punchline": "我什麼都想做，結果什麼都沒做。",
+      "longDescription": "我總是熱情地答應各種請求，覺得自己可以處理一切。但實際上，我的時間和精力是有限的。當任務堆積如山時，我會感到不堪重負，最終導致所有事情都被延誤。",
+      "traits": [
+        {
+          "label": "熱心助人",
+          "value": 85,
+          "comment": "樂於幫助他人或參與活動"
+        },
+        {
+          "label": "自我評估",
+          "value": 60,
+          "comment": "對自身能力和時間評估不準確"
+        },
+        {
+          "label": "超載感",
+          "value": 90,
+          "comment": "容易因任務過多而感到壓力"
+        }
+      ],
+      "shareText": "測出來我是「過度承諾」拖延者！我真的不是故意的，我只是太有熱情了啦！😅 #承諾太多",
+      "shareHashtags": [
+        "#爛好人",
+        "#承諾炸彈",
+        "#時間管理崩潰"
+      ],
+      "shortDescription": "我什麼都想做，結果什麼都沒做。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "過度承諾",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "fear-of-failure-procrastinator",
+      "title": "害怕失敗",
+      "punchline": "與其做不好，不如不做，至少沒失敗。",
+      "longDescription": "我常常因為害怕結果不如預期而遲遲不敢開始。對我來說，不行動就意味著沒有失敗的風險。這種對失敗的恐懼，讓我在潛意識中選擇了拖延來保護自己。",
+      "traits": [
+        {
+          "label": "自我保護",
+          "value": 90,
+          "comment": "通過拖延來避免負面評價"
+        },
+        {
+          "label": "信心不足",
+          "value": 70,
+          "comment": "對自身能力有疑慮"
+        },
+        {
+          "label": "外部評價",
+          "value": 85,
+          "comment": "在意他人的看法和評價"
+        }
+      ],
+      "shareText": "測出來我是「害怕失敗」拖延者！不是我懶，是怕做不好啦！😭 #害怕失敗不敢開始",
+      "shareHashtags": [
+        "#害怕失敗",
+        "#玻璃心",
+        "#拖延是保護色"
+      ],
+      "shortDescription": "與其做不好，不如不做，至少沒失敗。",
+      "tags": [
+        "你的拖延症是哪種類型？",
+        "害怕失敗",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你的拖延症是哪種類型？精準測驗",
+    "metaDescription": "你的拖延症是哪種類型？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你的拖延症是哪種類型？",
+      "人格測驗",
+      "台灣",
+      "拖延診斷書"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-procrastination/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-17"
+}
