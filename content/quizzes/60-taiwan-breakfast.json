@@ -1,0 +1,660 @@
+{
+  "id": "60-taiwan-breakfast",
+  "slug": "ni-shi-na-zhong-taiwan-breakfast",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種台灣早餐？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "早餐人格測驗",
+  "description": "你是哪種台灣早餐？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🥚",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "早上醒來，你通常會想做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "快速梳洗，馬上出門！",
+          "weights": {
+            "toast-sandwich": 3,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "慢慢享受一杯咖啡或茶，再思考今天行程。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3,
+            "toast-sandwich": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "邊聽新聞邊準備，確保一切就緒。",
+          "weights": {
+            "fan-tuan-rice-ball": 2,
+            "shao-bing-you-tiao": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "想吃什麼就吃什麼，彈性最重要！",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "描述你的理想週末早晨。",
+      "options": [
+        {
+          "id": "a",
+          "label": "在家裡，悠閒地做些喜歡的事。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "和朋友出門吃早午餐，享受熱鬧時光。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "toast-sandwich": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "運動或處理一些待辦事項，充實度過。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "找間老店，品嚐傳統美味。",
+          "weights": {
+            "shao-bing-you-tiao": 3,
+            "fan-tuan-rice-ball": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "你在團體中扮演的角色通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "活潑好動的氣氛製造者。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "默默付出，可靠的後盾。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "qing-zhou-xiao-cai": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "經驗豐富，給予建議的智者。",
+          "weights": {
+            "shao-bing-you-tiao": 3,
+            "luobo-gao-turnip-cake": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "隨和，容易與大家打成一片。",
+          "weights": {
+            "toast-sandwich": 3,
+            "shui-jian-bao": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "當你感到壓力時，會如何尋求慰藉？",
+      "options": [
+        {
+          "id": "a",
+          "label": "吃一頓豐盛大餐，犒賞自己。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shao-bing-you-tiao": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "找朋友傾訴，尋求支持。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "toast-sandwich": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨自一人，靜靜地閱讀或聽音樂。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "動手做點什麼，轉移注意力。",
+          "weights": {
+            "luobo-gao-turnip-cake": 3,
+            "shui-jian-bao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "你對「傳統」的看法是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "值得保存，但也要融入新意。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "經典永流傳，最能代表文化。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shao-bing-you-tiao": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "喜歡創新的東西，傳統可以參考。",
+          "weights": {
+            "toast-sandwich": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "簡單最好，傳統的精髓是樸實。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3,
+            "shui-jian-bao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "你的穿搭風格偏向？",
+      "options": [
+        {
+          "id": "a",
+          "label": "舒適休閒，但又不失個人特色。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "簡潔實用，注重機能性。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "經典款式，有時會搭配一些復古元素。",
+          "weights": {
+            "shao-bing-you-tiao": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "潮流時尚，喜歡嘗試新鮮事物。",
+          "weights": {
+            "toast-sandwich": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "下班或放學後，你最想做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "馬上回家放鬆，享受個人時光。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "和朋友聚餐，聊聊一天發生的事。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "toast-sandwich": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "運動或進修，讓自己更充實。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "逛街或看展覽，探索新事物。",
+          "weights": {
+            "luobo-gao-turnip-cake": 3,
+            "toast-sandwich": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你的飲食偏好是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "清淡養生，注重食材原味。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "鹹香夠味，最好能有飽足感。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "shao-bing-you-tiao": 2,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "多元豐富，什麼都想嚐嚐看。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "方便快速，不拘泥形式。",
+          "weights": {
+            "toast-sandwich": 3,
+            "shui-jian-bao": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "朋友對你的第一印象通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "隨和友善，很好相處。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "toast-sandwich": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "穩重可靠，值得信任。",
+          "weights": {
+            "fan-tuan-rice-ball": 3,
+            "qing-zhou-xiao-cai": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "有個性，有自己獨特的想法。",
+          "weights": {
+            "shao-bing-you-tiao": 3,
+            "shui-jian-bao": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "熱情開朗，充滿活力。",
+          "weights": {
+            "luobo-gao-turnip-cake": 3,
+            "dan-bing-egg-crepe": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "如果要為自己規劃一趟旅行，你會選擇？",
+      "options": [
+        {
+          "id": "a",
+          "label": "深度文化之旅，探索歷史古蹟。",
+          "weights": {
+            "shao-bing-you-tiao": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "自由行，隨心所欲地探索當地美食。",
+          "weights": {
+            "dan-bing-egg-crepe": 3,
+            "luobo-gao-turnip-cake": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "舒適放鬆的海島度假，遠離塵囂。",
+          "weights": {
+            "qing-zhou-xiao-cai": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "城市探險，體驗現代都會生活。",
+          "weights": {
+            "toast-sandwich": 3,
+            "shui-jian-bao": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "dan-bing-egg-crepe",
+      "title": "經典蛋餅",
+      "punchline": "百搭親民，你就是早餐界的國民情人！",
+      "longDescription": "你像蛋餅一樣，擁有百變的魅力，能適應各種口味與環境。無論是單純原味還是搭配豐富餡料，你總能展現不同風貌，讓人愛不釋手。你總是溫和而令人安心，與人相處融洽，是朋友圈中不可或缺的存在。",
+      "traits": [
+        {
+          "label": "彈性適應",
+          "value": 90,
+          "comment": "能屈能伸，靈活應變"
+        },
+        {
+          "label": "人緣極佳",
+          "value": 85,
+          "comment": "與人為善，廣受歡迎"
+        },
+        {
+          "label": "內斂溫暖",
+          "value": 70,
+          "comment": "看似平凡，實則暖心"
+        }
+      ],
+      "shareText": "我是經典蛋餅！百搭親民，早餐界的國民情人就是我啦！😋 #台灣早餐 #蛋餅人生",
+      "shareHashtags": [
+        "#經典蛋餅",
+        "#國民情人",
+        "#百搭款"
+      ],
+      "shortDescription": "百搭親民，你就是早餐界的國民情人！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "經典蛋餅",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "fan-tuan-rice-ball",
+      "title": "飽足飯糰",
+      "punchline": "紮實有料，你的內心世界比外表更豐富！",
+      "longDescription": "你像飯糰一樣，外表可能樸實，但內在卻是豐盛且充滿驚喜。你擁有堅實的原則與深厚的內涵，不愛浮誇，只求實在。你給人一種可靠、有安全感的印象，是朋友最堅實的後盾。",
+      "traits": [
+        {
+          "label": "沉穩可靠",
+          "value": 92,
+          "comment": "值得信賴，給人安全感"
+        },
+        {
+          "label": "內涵豐富",
+          "value": 88,
+          "comment": "思想深邃，有獨到見解"
+        },
+        {
+          "label": "堅韌不拔",
+          "value": 75,
+          "comment": "面對挑戰，毫不退縮"
+        }
+      ],
+      "shareText": "我是飽足飯糰！紮實有料，我的內心世界超豐富der！🍙 #台灣早餐 #飯糰本色",
+      "shareHashtags": [
+        "#飽足飯糰",
+        "#內涵派",
+        "#實在人"
+      ],
+      "shortDescription": "紮實有料，你的內心世界比外表更豐富！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "飽足飯糰",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shao-bing-you-tiao",
+      "title": "傳統燒餅",
+      "punchline": "經典不敗，你與生俱來一股獨特的懷舊魅力！",
+      "longDescription": "你像燒餅油條一樣，承載著歲月的味道，擁有一種經典而雋永的魅力。你重視傳統與價值，不追求一時的流行，更在乎長遠的連結。你可能外表有點硬朗，但內心溫暖，與知己相伴時最能展現真我。",
+      "traits": [
+        {
+          "label": "懷舊經典",
+          "value": 90,
+          "comment": "熱愛傳統，品味獨特"
+        },
+        {
+          "label": "忠誠堅定",
+          "value": 85,
+          "comment": "重情重義，堅守承諾"
+        },
+        {
+          "label": "外剛內柔",
+          "value": 70,
+          "comment": "外表堅毅，內心柔軟"
+        }
+      ],
+      "shareText": "我是傳統燒餅！經典不敗，我就是那股獨特的懷舊魅力！😍 #台灣早餐 #燒餅油條",
+      "shareHashtags": [
+        "#傳統燒餅",
+        "#懷舊魅力",
+        "#經典不敗"
+      ],
+      "shortDescription": "經典不敗，你與生俱來一股獨特的懷舊魅力！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "傳統燒餅",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "luobo-gao-turnip-cake",
+      "title": "溫潤蘿蔔糕",
+      "punchline": "溫和內斂，你的魅力在細節中慢慢散發！",
+      "longDescription": "你像蘿蔔糕一樣，溫和而內斂，不張揚卻富有深度。你可能需要時間來被理解，但一旦認識你，就會發現你的細膩與溫暖。你總是默默付出，帶給身邊的人安定與舒適，是個令人安心的存在。",
+      "traits": [
+        {
+          "label": "溫柔細膩",
+          "value": 90,
+          "comment": "體貼入微，心思縝密"
+        },
+        {
+          "label": "內斂沉靜",
+          "value": 85,
+          "comment": "不愛出風頭，喜歡思考"
+        },
+        {
+          "label": "潛力無限",
+          "value": 70,
+          "comment": "深藏不露，實力堅強"
+        }
+      ],
+      "shareText": "我是溫潤蘿蔔糕！溫和內斂，我的魅力在細節中慢慢散發喔！🥰 #台灣早餐 #蘿蔔糕",
+      "shareHashtags": [
+        "#溫潤蘿蔔糕",
+        "#細膩派",
+        "#默默耕耘"
+      ],
+      "shortDescription": "溫和內斂，你的魅力在細節中慢慢散發！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "溫潤蘿蔔糕",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "toast-sandwich",
+      "title": "百變吐司",
+      "punchline": "新潮多元，你總能玩出屬於自己的獨特風格！",
+      "longDescription": "你像吐司一樣，擁有無限的可能性，總是充滿好奇心，樂於嘗試新鮮事物。你時尚且多變，能夠輕鬆駕馭各種風格，從不設限自己的潛力。你活力充沛，是朋友圈中的潮流引領者，總能帶來意想不到的驚喜。",
+      "traits": [
+        {
+          "label": "創新求變",
+          "value": 90,
+          "comment": "勇於嘗試，不拘泥舊習"
+        },
+        {
+          "label": "活力十足",
+          "value": 85,
+          "comment": "精力充沛，熱情洋溢"
+        },
+        {
+          "label": "開放包容",
+          "value": 70,
+          "comment": "接納多元，心胸開闊"
+        }
+      ],
+      "shareText": "我是百變吐司！新潮多元，我總是玩出自己的獨特風格！🍞✨ #台灣早餐 #吐司控",
+      "shareHashtags": [
+        "#百變吐司",
+        "#新潮派",
+        "#創意無限"
+      ],
+      "shortDescription": "新潮多元，你總能玩出屬於自己的獨特風格！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "百變吐司",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "qing-zhou-xiao-cai",
+      "title": "療癒清粥",
+      "punchline": "樸實無華，你的溫柔最能撫慰人心！",
+      "longDescription": "你像清粥小菜一樣，給人一種溫和、療癒的感覺。你不追求浮華，更重視內心的平靜與和諧。你善解人意，總是能提供最溫暖的慰藉，是朋友傾訴心事的好對象。你的存在，就像一道清流，讓人感到放鬆與舒適。",
+      "traits": [
+        {
+          "label": "溫柔體貼",
+          "value": 92,
+          "comment": "善解人意，關懷備至"
+        },
+        {
+          "label": "平靜安穩",
+          "value": 88,
+          "comment": "心境平和，不易受擾"
+        },
+        {
+          "label": "知足常樂",
+          "value": 75,
+          "comment": "懂得珍惜，享受簡單"
+        }
+      ],
+      "shareText": "我是療癒清粥！樸實無華，我的溫柔最能撫慰人心！🥣🌿 #台灣早餐 #清粥人生",
+      "shareHashtags": [
+        "#療癒清粥",
+        "#溫柔系",
+        "#簡單幸福"
+      ],
+      "shortDescription": "樸實無華，你的溫柔最能撫慰人心！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "療癒清粥",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "shui-jian-bao",
+      "title": "活力水煎包",
+      "punchline": "外酥內軟，你的熱情與活力總能感染周遭！",
+      "longDescription": "你像水煎包一樣，外表帶點酥脆的個性，內心卻是柔軟而充滿熱情。你行動力強，總是充滿幹勁，能快速投入新挑戰。你直接而真誠，不拐彎抹角，雖然有時顯得急躁，但內心的善良與活力無人能及。",
+      "traits": [
+        {
+          "label": "熱情奔放",
+          "value": 90,
+          "comment": "充滿活力，感染力強"
+        },
+        {
+          "label": "直率真誠",
+          "value": 85,
+          "comment": "不假修飾，坦率自然"
+        },
+        {
+          "label": "行動力強",
+          "value": 70,
+          "comment": "說到做到，效率極高"
+        }
+      ],
+      "shareText": "我是活力水煎包！外酥內軟，我的熱情總能感染大家！🔥 #台灣早餐 #水煎包控",
+      "shareHashtags": [
+        "#活力水煎包",
+        "#熱情派",
+        "#行動力"
+      ],
+      "shortDescription": "外酥內軟，你的熱情與活力總能感染周遭！",
+      "tags": [
+        "你是哪種台灣早餐？",
+        "活力水煎包",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種台灣早餐？精準測驗",
+    "metaDescription": "你是哪種台灣早餐？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種台灣早餐？",
+      "人格測驗",
+      "台灣",
+      "早餐人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-taiwan-breakfast/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-23"
+}
