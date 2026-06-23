@@ -1,0 +1,678 @@
+{
+  "id": "61-office-animal",
+  "slug": "ni-shi-na-zhong-office-animal",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是辦公室裡哪種動物？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "辦公室生存測驗",
+  "description": "你是辦公室裡哪種動物？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🦊",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "早晨進辦公室，你的第一件事通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "泡杯咖啡或茶，安靜地坐下規劃一天。",
+          "weights": {
+            "office-owl": 3,
+            "office-cat": 2,
+            "office-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "和同事們打招呼、聊聊八卦，讓氣氛活絡起來。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "立刻打開電腦，檢查郵件和待辦事項，準備衝刺。",
+          "weights": {
+            "office-bee": 3,
+            "office-penguin": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "先去茶水間晃晃，看看有沒有點心或其他人。",
+          "weights": {
+            "office-sloth": 3,
+            "office-monkey": 1,
+            "office-cat": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "辦公室突然遇到一個棘手問題，你會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "自己埋頭苦幹，直到找到解決方案。",
+          "weights": {
+            "office-owl": 3,
+            "office-cat": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "馬上找同事討論，集思廣益，一起解決。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2,
+            "office-bee": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "先查閱相關資料和規定，找出SOP。",
+          "weights": {
+            "office-penguin": 3,
+            "office-owl": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "如果不急，先放著，也許問題會自己消失。",
+          "weights": {
+            "office-sloth": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "午休時間，你的選擇是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找幾個好朋友一起出去吃，聊聊八卦。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "帶便當或外食回座位，邊吃邊滑手機或處理私事。",
+          "weights": {
+            "office-cat": 3,
+            "office-sloth": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "快吃完就去休息室小憩片刻，補充體力。",
+          "weights": {
+            "office-sloth": 3,
+            "office-owl": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "把握時間處理未完的工作，或準備下午的會議。",
+          "weights": {
+            "office-bee": 3,
+            "office-penguin": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "公司舉辦團體活動，你的態度是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "踴躍參與，是認識新同事和增進感情的好機會。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "如果非必要，會想辦法找理由缺席。",
+          "weights": {
+            "office-cat": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "會出席，但傾向於觀察，不會主動發言或表現。",
+          "weights": {
+            "office-owl": 3,
+            "office-penguin": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "會盡力配合，並確保活動順利進行。",
+          "weights": {
+            "office-bee": 3,
+            "office-penguin": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "面對截止日期（Deadline），你的反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "提前規劃，按部就班完成，很少需要趕工。",
+          "weights": {
+            "office-penguin": 3,
+            "office-owl": 2,
+            "office-bee": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "常常壓線才開始衝刺，但通常能如期交出。",
+          "weights": {
+            "office-monkey": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "感覺到壓力，但會默默地加班完成。",
+          "weights": {
+            "office-cat": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "如果時間真的不夠，會主動尋求支援或爭取延期。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "辦公室有新的八卦或小道消息，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "默默聽著，但不會主動參與討論或傳播。",
+          "weights": {
+            "office-owl": 2,
+            "office-cat": 3,
+            "office-penguin": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "立刻加入討論，甚至會加油添醋一下。",
+          "weights": {
+            "office-monkey": 3,
+            "office-dog": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "覺得無聊，完全不關心，專注自己的工作。",
+          "weights": {
+            "office-bee": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "觀察事件發展，分析其可能影響。",
+          "weights": {
+            "office-owl": 3,
+            "office-penguin": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你的辦公桌環境通常是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "整潔有序，所有文件和物品都歸位。",
+          "weights": {
+            "office-penguin": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "雖然有點亂，但你總能找到你需要的東西。",
+          "weights": {
+            "office-monkey": 3,
+            "office-dog": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "簡單實用，只放必需品，保持最低限度的個人物品。",
+          "weights": {
+            "office-cat": 3,
+            "office-owl": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "堆滿了各種零食、玩具或紓壓小物。",
+          "weights": {
+            "office-sloth": 3,
+            "office-monkey": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "當需要表達意見時，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "經過深思熟慮後，提出有條理的分析和建議。",
+          "weights": {
+            "office-owl": 3,
+            "office-penguin": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "直接且熱情地表達自己的想法，不怕衝突。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "除非被點名，否則傾向於保留意見，私下再說。",
+          "weights": {
+            "office-cat": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "考量團體和諧，會以委婉或折衷的方式表達。",
+          "weights": {
+            "office-penguin": 3,
+            "office-bee": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "辦公室裡突然停電，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "冷靜地等待指示，或找人確認狀況。",
+          "weights": {
+            "office-penguin": 3,
+            "office-owl": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "哇！太棒了！終於可以休息一下了！",
+          "weights": {
+            "office-sloth": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "找機會和同事聊天，當作是意外的社交時間。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "檢查是否有備用電源、手電筒等，思考應變計畫。",
+          "weights": {
+            "office-bee": 3,
+            "office-owl": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "週末放假，你最想做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "好好睡一覺，然後宅在家裡追劇或玩遊戲。",
+          "weights": {
+            "office-cat": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "和朋友出去聚餐、逛街、參加各種戶外活動。",
+          "weights": {
+            "office-dog": 3,
+            "office-monkey": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "進修、閱讀、學習新技能，或處理私人專案。",
+          "weights": {
+            "office-owl": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "整理家裡、規劃下週待辦事項，讓生活井然有序。",
+          "weights": {
+            "office-penguin": 3,
+            "office-bee": 1
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "office-cat",
+      "title": "辦公室貓咪",
+      "punchline": "我不是高冷，我只是在用自己的步調優雅地工作。",
+      "longDescription": "你喜歡有自己的獨立空間，不喜歡被打擾。工作時專注且有效率，但該休息時也絕不含糊。雖然看起來有點距離感，其實偶爾也需要被關注和肯定。",
+      "traits": [
+        {
+          "label": "獨立自主",
+          "value": 90,
+          "comment": "享受獨自完成任務，不喜依賴"
+        },
+        {
+          "label": "優雅從容",
+          "value": 80,
+          "comment": "總能保持淡定，不慌不亂"
+        },
+        {
+          "label": "敏銳觀察",
+          "value": 75,
+          "comment": "對環境變化很敏感，看在眼裡"
+        }
+      ],
+      "shareText": "我是辦公室裡的貓咪！🐱 獨立自主，優雅從容，誰能懂我的高冷魅力？快來看看你是什麼動物！",
+      "shareHashtags": [
+        "#辦公室貓咪",
+        "#獨行俠",
+        "#高冷女王",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "我不是高冷，我只是在用自己的步調優雅地工作。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室貓咪",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-dog",
+      "title": "辦公室狗狗",
+      "punchline": "有我在，團隊氣氛永遠熱情高漲！",
+      "longDescription": "你是團隊的開心果，總是充滿活力與熱情。樂於助人，對同事忠誠，是大家的好夥伴。喜歡社交互動，在團隊合作中表現出色。",
+      "traits": [
+        {
+          "label": "熱情友善",
+          "value": 95,
+          "comment": "天生自來熟，喜歡與人互動"
+        },
+        {
+          "label": "團隊合作",
+          "value": 88,
+          "comment": "樂於與人協作，重視共同目標"
+        },
+        {
+          "label": "忠誠可靠",
+          "value": 82,
+          "comment": "值得信任的好隊友，使命必達"
+        }
+      ],
+      "shareText": "汪！我就是辦公室裡的狗狗！🐶 熱情又忠誠，哪裡需要我，我就在哪裡！你是什麼動物？",
+      "shareHashtags": [
+        "#辦公室狗狗",
+        "#團隊開心果",
+        "#忠誠夥伴",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "有我在，團隊氣氛永遠熱情高漲！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室狗狗",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-owl",
+      "title": "辦公室貓頭鷹",
+      "punchline": "沈默不代表沒想法，只是我的智慧在醞釀。",
+      "longDescription": "你觀察力敏銳，總能洞察問題的核心。不愛出風頭，喜歡在幕後默默思考與分析。當團隊遇到難題時，你總能提出精闢的見解。",
+      "traits": [
+        {
+          "label": "深度思考",
+          "value": 92,
+          "comment": "擅長分析問題，追求根本解"
+        },
+        {
+          "label": "敏銳洞察",
+          "value": 85,
+          "comment": "能看穿事物的本質，不被表面迷惑"
+        },
+        {
+          "label": "冷靜理性",
+          "value": 78,
+          "comment": "總能保持客觀，不帶個人情緒"
+        }
+      ],
+      "shareText": "我是辦公室裡的貓頭鷹！🦉 沈默是金，智慧是我的超能力。快來測測你是哪種動物吧！",
+      "shareHashtags": [
+        "#辦公室貓頭鷹",
+        "#智慧擔當",
+        "#深度思考者",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "沈默不代表沒想法，只是我的智慧在醞釀。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室貓頭鷹",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-penguin",
+      "title": "辦公室企鵝",
+      "punchline": "有序、精準、高效率，我的字典裡沒有混亂。",
+      "longDescription": "你對工作有著嚴謹的態度，喜歡將一切安排得井井有條。執行力強，重視效率和細節，是流程的守護者。雖然不擅長變通，但總能確保任務穩定達成。",
+      "traits": [
+        {
+          "label": "有條不紊",
+          "value": 90,
+          "comment": "規劃能力一流，一切盡在掌握"
+        },
+        {
+          "label": "嚴謹細緻",
+          "value": 85,
+          "comment": "不放過任何細節，追求完美"
+        },
+        {
+          "label": "高效率",
+          "value": 80,
+          "comment": "追求最佳產出，時間管理大師"
+        }
+      ],
+      "shareText": "我是辦公室裡的企鵝！🐧 有序精準高效率，我的工作就是我的伸展台！你是哪種辦公室動物？",
+      "shareHashtags": [
+        "#辦公室企鵝",
+        "#效率大師",
+        "#規劃達人",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "有序、精準、高效率，我的字典裡沒有混亂。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室企鵝",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-monkey",
+      "title": "辦公室猴子",
+      "punchline": "腦筋動得快，點子多到用不完！",
+      "longDescription": "你充滿活力與好奇心，總是能帶來新的想法。善於溝通，是團隊中的氣氛製造者。喜歡嘗試新鮮事物，但也容易分心。",
+      "traits": [
+        {
+          "label": "創意無限",
+          "value": 90,
+          "comment": "點子王就是我，總有新點子"
+        },
+        {
+          "label": "活潑開朗",
+          "value": 85,
+          "comment": "帶動團隊氣氛，活力四射"
+        },
+        {
+          "label": "溝通表達",
+          "value": 82,
+          "comment": "擅長分享與連結，人際高手"
+        }
+      ],
+      "shareText": "我是辦公室裡的猴子！🐒 腦筋動得快，點子多到爆！誰來跟我一起玩轉辦公室？",
+      "shareHashtags": [
+        "#辦公室猴子",
+        "#創意無限",
+        "#氣氛擔當",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "腦筋動得快，點子多到用不完！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室猴子",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-sloth",
+      "title": "辦公室樹懶",
+      "punchline": "慢工出細活，我只是在等待靈感降臨。",
+      "longDescription": "你追求舒適和放鬆，不喜歡被時間追趕。雖然步調緩慢，但總能保持平和的心態。相信慢工出細活，在截止日期前總能交出不錯的成果。",
+      "traits": [
+        {
+          "label": "從容不迫",
+          "value": 90,
+          "comment": "不慌不忙的態度，享受過程"
+        },
+        {
+          "label": "享受生活",
+          "value": 85,
+          "comment": "工作生活平衡，不為工作犧牲"
+        },
+        {
+          "label": "穩定輸出",
+          "value": 75,
+          "comment": "雖然慢但能完成，品質有保證"
+        }
+      ],
+      "shareText": "我是辦公室裡的樹懶！🌳 慢活哲學，享受工作中的每一個瞬間。你呢？",
+      "shareHashtags": [
+        "#辦公室樹懶",
+        "#慢活主義",
+        "#佛系上班族",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "慢工出細活，我只是在等待靈感降臨。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室樹懶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-bee",
+      "title": "辦公室蜜蜂",
+      "punchline": "勤奮不懈，默默耕耘，為團隊創造價值。",
+      "longDescription": "你勤奮努力，總是默默地付出。專注於任務，執行力強，是高效率的代名詞。雖然不愛表現，但你的成果總能證明一切。",
+      "traits": [
+        {
+          "label": "勤奮專注",
+          "value": 95,
+          "comment": "埋頭苦幹的典範，不負眾望"
+        },
+        {
+          "label": "高效執行",
+          "value": 88,
+          "comment": "任務都能準時完成，品質保證"
+        },
+        {
+          "label": "團隊貢獻",
+          "value": 80,
+          "comment": "默默為團隊加分，是不可或缺的一員"
+        }
+      ],
+      "shareText": "我是辦公室裡的蜜蜂！🐝 勤奮努力，為團隊默默付出，嗡嗡嗡～你也是嗎？",
+      "shareHashtags": [
+        "#辦公室蜜蜂",
+        "#勤勞小蜜蜂",
+        "#工作狂",
+        "#辦公室動物測驗"
+      ],
+      "shortDescription": "勤奮不懈，默默耕耘，為團隊創造價值。",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室蜜蜂",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是辦公室裡哪種動物？精準測驗",
+    "metaDescription": "你是辦公室裡哪種動物？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是辦公室裡哪種動物？",
+      "人格測驗",
+      "台灣",
+      "辦公室生存測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-office-animal/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-06-24"
+}
