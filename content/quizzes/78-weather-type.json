@@ -1,0 +1,671 @@
+{
+  "id": "78-weather-type",
+  "slug": "ni-shi-na-zhong-weather-type",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種天氣？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "天氣人格測驗",
+  "description": "你是哪種天氣？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "⛅",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "你早上醒來第一件事會做什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立刻拉開窗簾，讓陽光灑進房間，充滿活力地迎接新的一天！",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "伸個懶腰，享受片刻的寧靜，然後慢慢計畫今天的行程。",
+          "weights": {
+            "gentle-breeze": 3,
+            "first-snow": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "趕緊查看手機，看看有沒有錯過什麼重要訊息或新聞。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "賴在床上，讓思緒自由飄散，享受這份模糊不清的朦朧感。",
+          "weights": {
+            "mysterious-morning-fog": 3,
+            "drizzling-rain": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "當你遇到一個棘手的問題時，你會怎麼處理？",
+      "options": [
+        {
+          "id": "a",
+          "label": "積極尋求解決方案，相信總有辦法能克服。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "冷靜分析情況，一步步地拆解問題，找到最和緩的解決之道。",
+          "weights": {
+            "gentle-breeze": 3,
+            "mysterious-morning-fog": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "先讓情緒發洩一下，然後再全力以赴地投入解決。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "drizzling-rain": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "暫時擱置，讓時間和潛意識去發酵，答案或許會自然浮現。",
+          "weights": {
+            "mysterious-morning-fog": 3,
+            "drizzling-rain": 2,
+            "first-snow": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "哪種社交場合最能讓你感到自在？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿歡聲笑語、大家盡情交流的熱鬧派對。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "與三五好友在咖啡廳或公園裡，輕鬆地聊天、分享。",
+          "weights": {
+            "gentle-breeze": 3,
+            "partly-sunny": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "獨自一人在角落觀察人群，享受自己的小世界。",
+          "weights": {
+            "drizzling-rain": 3,
+            "mysterious-morning-fog": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "一個有深度對談、能激發思想火花的沙龍聚會。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "mysterious-morning-fog": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的理想週末是什麼樣子的？",
+      "options": [
+        {
+          "id": "a",
+          "label": "戶外活動滿檔，例如登山、騎行或海邊漫步。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "gentle-breeze": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "彈性安排，可能跟朋友小聚，也可能在家放空，隨心所欲。",
+          "weights": {
+            "partly-sunny": 3,
+            "gentle-breeze": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "在家享受一個人的時光，閱讀、看電影或創作。",
+          "weights": {
+            "drizzling-rain": 3,
+            "first-snow": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "參與一場刺激的活動，例如密室逃脫、挑戰性運動或藝術表演。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "clear-blue-sky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "如果要用一種顏色形容你的心情，你會選？",
+      "options": [
+        {
+          "id": "a",
+          "label": "鮮豔的黃色或橘色，充滿活力與樂觀。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫柔的淺綠色或米白色，代表寧靜與平衡。",
+          "weights": {
+            "gentle-breeze": 3,
+            "first-snow": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "深沉的藍色或灰色，帶點憂鬱和深思。",
+          "weights": {
+            "drizzling-rain": 3,
+            "mysterious-morning-fog": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "充滿張力的紫色或深紅色，象徵熱情與神秘。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "mysterious-morning-fog": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "當你面對改變或未知時，你的第一反應是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿好奇與期待，視為新的機會。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "保持開放心態，慢慢適應，順其自然。",
+          "weights": {
+            "gentle-breeze": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "感到有些不安，需要時間去消化和準備。",
+          "weights": {
+            "drizzling-rain": 3,
+            "first-snow": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "既興奮又緊張，期待挑戰，但也可能伴隨焦慮。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "mysterious-morning-fog": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "你覺得自己最像哪種動物？",
+      "options": [
+        {
+          "id": "a",
+          "label": "活潑好動的鳥兒，自由自在地翱翔。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "gentle-breeze": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "溫馴的小鹿，在森林中輕巧地漫步。",
+          "weights": {
+            "gentle-breeze": 3,
+            "first-snow": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "喜歡獨處的貓咪，優雅而神秘。",
+          "weights": {
+            "mysterious-morning-fog": 3,
+            "drizzling-rain": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "爆發力十足的獵豹，充滿力量與野性。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "partly-sunny": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "什麼樣的音樂最能觸動你的心弦？",
+      "options": [
+        {
+          "id": "a",
+          "label": "輕快活潑的流行樂或搖滾樂，讓人想跟著舞動。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "afternoon-thunderstorm": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "悠揚舒緩的輕音樂或爵士樂，能放鬆身心。",
+          "weights": {
+            "gentle-breeze": 3,
+            "first-snow": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "帶有故事感的民謠或古典樂，引人深思。",
+          "weights": {
+            "drizzling-rain": 3,
+            "mysterious-morning-fog": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "情感濃烈、氣勢磅礴的交響樂或史詩配樂。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "mysterious-morning-fog": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "你認為自己的最大優點是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "label": "樂觀向上，總是能看到事情光明的一面。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "隨和適應，能與不同的人和環境和諧相處。",
+          "weights": {
+            "gentle-breeze": 3,
+            "partly-sunny": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "感受力強，能深入體會事物細微的情感變化。",
+          "weights": {
+            "drizzling-rain": 3,
+            "mysterious-morning-fog": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "果斷堅毅，在關鍵時刻能做出有力的決策。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "clear-blue-sky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "想像一下你最喜歡的風景，會是什麼樣子？",
+      "options": [
+        {
+          "id": "a",
+          "label": "陽光普照的海邊，藍天白雲，海風輕拂。",
+          "weights": {
+            "clear-blue-sky": 3,
+            "gentle-breeze": 2,
+            "partly-sunny": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "靜謐的森林小徑，微風吹過樹梢，光影斑駁。",
+          "weights": {
+            "gentle-breeze": 3,
+            "mysterious-morning-fog": 1,
+            "first-snow": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "細雨濛濛的窗邊，遠處山嵐繚繞，一杯熱飲在手。",
+          "weights": {
+            "drizzling-rain": 3,
+            "mysterious-morning-fog": 2,
+            "first-snow": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "壯麗的山巔，烏雲壓境，閃電劃破天際，預示著一場大雨即將來臨。",
+          "weights": {
+            "afternoon-thunderstorm": 3,
+            "partly-sunny": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "clear-blue-sky",
+      "title": "晴空萬里",
+      "punchline": "你就是那個讓世界亮起來的陽光，充滿希望與活力！",
+      "longDescription": "你總是散發著正能量，像陽光一樣溫暖人心，照亮身邊的每一個人。樂觀是你最迷人的特質，即使遇到挑戰，也能以開闊的心態面對。你熱愛生活，享受每一個當下，總能從平凡中找到不凡的樂趣。",
+      "traits": [
+        {
+          "label": "樂觀指數",
+          "value": 95,
+          "comment": "天生陽光，沒有什麼能擊倒你"
+        },
+        {
+          "label": "活力值",
+          "value": 90,
+          "comment": "精力充沛，總是衝勁十足"
+        },
+        {
+          "label": "感染力",
+          "value": 88,
+          "comment": "你的笑容能融化冰山"
+        }
+      ],
+      "shareText": "我測出來是「晴空萬里」！☀️ 果然我是個充滿正能量的小太陽！快來看看你是哪種天氣？",
+      "shareHashtags": [
+        "#晴空萬里",
+        "#陽光系",
+        "#正能量爆棚"
+      ],
+      "shortDescription": "你就是那個讓世界亮起來的陽光，充滿希望與活力！",
+      "tags": [
+        "你是哪種天氣？",
+        "晴空萬里",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "gentle-breeze",
+      "title": "和煦微風",
+      "punchline": "你如微風般輕柔自在，總能帶來舒適與平靜。",
+      "longDescription": "你性格溫和，不喜衝突，總能以柔軟的姿態應對世事。你善於傾聽，給人一種安心的感覺，是朋友眼中可靠的港灣。隨遇而安是你的人生哲學，懂得欣賞生活中的小確幸，活得從容而優雅。",
+      "traits": [
+        {
+          "label": "親和力",
+          "value": 92,
+          "comment": "人緣極佳，大家都喜歡你"
+        },
+        {
+          "label": "適應性",
+          "value": 87,
+          "comment": "能屈能伸，處變不驚"
+        },
+        {
+          "label": "療癒指數",
+          "value": 80,
+          "comment": "你的存在本身就是一種慰藉"
+        }
+      ],
+      "shareText": "我是「和煦微風」！🍃 難怪大家都說我很好相處～ 你是什麼天氣呢？來測測看！",
+      "shareHashtags": [
+        "#和煦微風",
+        "#溫柔系",
+        "#自在生活"
+      ],
+      "shortDescription": "你如微風般輕柔自在，總能帶來舒適與平靜。",
+      "tags": [
+        "你是哪種天氣？",
+        "和煦微風",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "drizzling-rain",
+      "title": "濛濛細雨",
+      "punchline": "你擁有一顆細膩的心，能感受萬物，滋潤心田。",
+      "longDescription": "你情感豐富，心思細膩，對周遭的一切都充滿了敏銳的感知力。你富有同理心，總能體察他人的情緒，給予最溫柔的慰藉。雖然有時會帶點淡淡的憂鬱，但這份沉靜卻是你獨特的魅力，讓人想靠近了解。",
+      "traits": [
+        {
+          "label": "敏感度",
+          "value": 90,
+          "comment": "能捕捉到細微的情緒波動"
+        },
+        {
+          "label": "同理心",
+          "value": 85,
+          "comment": "總是站在別人角度思考"
+        },
+        {
+          "label": "藝術氣息",
+          "value": 78,
+          "comment": "對美與情感有獨到見解"
+        }
+      ],
+      "shareText": "我的結果是「濛濛細雨」☔️，原來我是個這麼感性又溫柔的人啊～ 你是哪種天氣呢？",
+      "shareHashtags": [
+        "#濛濛細雨",
+        "#感性派",
+        "#溫柔滋潤"
+      ],
+      "shortDescription": "你擁有一顆細膩的心，能感受萬物，滋潤心田。",
+      "tags": [
+        "你是哪種天氣？",
+        "濛濛細雨",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "afternoon-thunderstorm",
+      "title": "午後雷雨",
+      "punchline": "你熱情奔放，有時略顯衝動，但總能帶來清新的轉變。",
+      "longDescription": "你充滿活力與熱情，情感表達直接而真誠，不喜歡拐彎抹角。遇到不公或不滿時，你會像雷電般迅速反應，但事後也能很快平復，不留芥蒂。你的出現總能打破沉悶，為周遭注入一股清新的能量，帶來刺激與活力。",
+      "traits": [
+        {
+          "label": "熱情指數",
+          "value": 90,
+          "comment": "你的愛恨分明，熱情洋溢"
+        },
+        {
+          "label": "直率度",
+          "value": 88,
+          "comment": "有話直說，不藏著掖著"
+        },
+        {
+          "label": "爆發力",
+          "value": 82,
+          "comment": "關鍵時刻總能展現驚人力量"
+        }
+      ],
+      "shareText": "我是「午後雷雨」！⚡️ 果然我就是那個充滿熱情又有點衝動的人！你呢？快來測測看！",
+      "shareHashtags": [
+        "#午後雷雨",
+        "#熱情奔放",
+        "#真性情"
+      ],
+      "shortDescription": "你熱情奔放，有時略顯衝動，但總能帶來清新的轉變。",
+      "tags": [
+        "你是哪種天氣？",
+        "午後雷雨",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "partly-sunny",
+      "title": "多雲時晴",
+      "punchline": "你內斂而平衡，既有晴朗的樂觀，也有沉思的深度。",
+      "longDescription": "你性格沉穩，不極端，懂得在熱情與冷靜之間取得平衡。你既能享受獨處的時光，也能融入群體，擁有適度的社交距離。你思慮周全，不盲目樂觀也不過於悲觀，總能客觀看待事物，是個可靠的傾聽者和分析者。",
+      "traits": [
+        {
+          "label": "平衡感",
+          "value": 90,
+          "comment": "總是能找到最佳的平衡點"
+        },
+        {
+          "label": "理性值",
+          "value": 85,
+          "comment": "冷靜分析，不感情用事"
+        },
+        {
+          "label": "適應性",
+          "value": 80,
+          "comment": "能應對不同情境，遊刃有餘"
+        }
+      ],
+      "shareText": "我的天氣是「多雲時晴」☁️☀️，原來我是個這麼有平衡感的人啊！你的呢？好奇！",
+      "shareHashtags": [
+        "#多雲時晴",
+        "#平衡派",
+        "#理性感性兼具"
+      ],
+      "shortDescription": "你內斂而平衡，既有晴朗的樂觀，也有沉思的深度。",
+      "tags": [
+        "你是哪種天氣？",
+        "多雲時晴",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "mysterious-morning-fog",
+      "title": "神秘晨霧",
+      "punchline": "你深邃而迷人，總讓人想一探究竟，充滿獨特的魅力。",
+      "longDescription": "你內心世界豐富，不輕易展露，因此給人一種神秘感。你善於觀察和思考，對事物的看法獨到而深刻。雖然有時看起來有些疏離，但一旦深入了解，會發現你溫柔而細膩的一面，是個值得細細品味的人。",
+      "traits": [
+        {
+          "label": "神秘指數",
+          "value": 95,
+          "comment": "總讓人猜不透你的心思"
+        },
+        {
+          "label": "洞察力",
+          "value": 88,
+          "comment": "能看透事物的本質"
+        },
+        {
+          "label": "哲學思維",
+          "value": 80,
+          "comment": "對人生有獨特的見解"
+        }
+      ],
+      "shareText": "我測出來是「神秘晨霧」🌫️，果然我就是那個有點神秘又深沉的人！你的是什麼呢？",
+      "shareHashtags": [
+        "#神秘晨霧",
+        "#氣質獨特",
+        "#深不可測"
+      ],
+      "shortDescription": "你深邃而迷人，總讓人想一探究竟，充滿獨特的魅力。",
+      "tags": [
+        "你是哪種天氣？",
+        "神秘晨霧",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "first-snow",
+      "title": "銀白初雪",
+      "punchline": "你純粹而稀有，為世界帶來獨一無二的靜謐與驚喜。",
+      "longDescription": "你心性單純，不染塵囂，擁有超脫世俗的清澈與純潔。你可能是人群中的異類，但你的獨特卻散發著迷人的魅力，總能帶來意想不到的驚喜。你的存在本身就是一道美麗的風景，讓人心生嚮往與珍惜。",
+      "traits": [
+        {
+          "label": "純粹度",
+          "value": 95,
+          "comment": "心地善良，不帶雜質"
+        },
+        {
+          "label": "獨特性",
+          "value": 90,
+          "comment": "人群中獨樹一幟的存在"
+        },
+        {
+          "label": "寧靜感",
+          "value": 85,
+          "comment": "能帶來心靈的平靜"
+        }
+      ],
+      "shareText": "我是「銀白初雪」❄️！哇～原來我是這麼純粹又獨特的人啊！來測測看你是哪種天氣！",
+      "shareHashtags": [
+        "#銀白初雪",
+        "#純粹系",
+        "#獨一無二"
+      ],
+      "shortDescription": "你純粹而稀有，為世界帶來獨一無二的靜謐與驚喜。",
+      "tags": [
+        "你是哪種天氣？",
+        "銀白初雪",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種天氣？精準測驗",
+    "metaDescription": "你是哪種天氣？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種天氣？",
+      "人格測驗",
+      "台灣",
+      "天氣人格測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-weather-type/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-07-11"
+}
