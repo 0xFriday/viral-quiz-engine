@@ -1,0 +1,621 @@
+{
+  "id": "79-learning-style",
+  "slug": "ni-shi-na-zhong-learning-style",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是哪種學習型人格？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "學習力診斷",
+  "description": "你是哪種學習型人格？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "📚",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "當你面對一個全新且複雜的資訊時，你會如何開始學習？",
+      "options": [
+        {
+          "id": "a",
+          "label": "尋找相關圖表、心智圖或影片，視覺化地理解概念。",
+          "weights": {
+            "visual-innovator": 3,
+            "holistic-integrator": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "找人討論、聽取他人解釋，或自己大聲朗讀資料。",
+          "weights": {
+            "auditory-communicator": 3,
+            "social-collaborator": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "立即動手操作、練習，從實際做中學習。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "先分析資料結構，找出關鍵點和邏輯關係。",
+          "weights": {
+            "analytical-strategist": 3,
+            "solitary-contemplator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "哪種學習環境最能讓你集中精神並有效學習？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿色彩、有白板可以隨時塗鴉的創意空間。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "可以自由發言、討論，或有背景音樂的環境。",
+          "weights": {
+            "auditory-communicator": 2,
+            "social-collaborator": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "有足夠空間可以走動、操作工具或進行實驗的場所。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "安靜、整潔，所有資源都唾手可得的個人書房。",
+          "weights": {
+            "solitary-contemplator": 3,
+            "analytical-strategist": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當你需要準備一個報告或專案時，你偏好哪種方式？",
+      "options": [
+        {
+          "id": "a",
+          "label": "製作精美的投影片、海報或資訊圖表來呈現。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "透過口頭報告、討論會或錄音來傳達訊息。",
+          "weights": {
+            "auditory-communicator": 3,
+            "social-collaborator": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "準備一個互動式演示、實作模型或現場操作示範。",
+          "weights": {
+            "kinesthetic-explorer": 3,
+            "visual-innovator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "撰寫詳細的書面報告，包含數據分析和邏輯推導。",
+          "weights": {
+            "analytical-strategist": 3,
+            "solitary-contemplator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "在學習新技能時，你覺得哪種方法最有效？",
+      "options": [
+        {
+          "id": "a",
+          "label": "觀看教學影片、示範圖解，模仿其步驟。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "聆聽專家講座、播客，或與人交流心得。",
+          "weights": {
+            "auditory-communicator": 3,
+            "social-collaborator": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "不斷練習、親身體驗，從錯誤中學習。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "查閱相關理論、手冊，理解其原理和最佳實踐。",
+          "weights": {
+            "analytical-strategist": 3,
+            "solitary-contemplator": 1,
+            "holistic-integrator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "當你遇到一個難題時，你會怎麼做？",
+      "options": [
+        {
+          "id": "a",
+          "label": "畫出問題的流程圖或心智圖，試圖找出視覺上的突破點。",
+          "weights": {
+            "visual-innovator": 3,
+            "holistic-integrator": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "找朋友或老師討論，透過對話釐清思路。",
+          "weights": {
+            "social-collaborator": 3,
+            "auditory-communicator": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "暫時放下，去散步或做些其他活動，讓身體動起來時思考。",
+          "weights": {
+            "kinesthetic-explorer": 3,
+            "solitary-contemplator": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "獨自深入研究，分析所有相關資料，一步步找出解決方案。",
+          "weights": {
+            "solitary-contemplator": 3,
+            "analytical-strategist": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "哪種學習方式讓你感到最有成就感？",
+      "options": [
+        {
+          "id": "a",
+          "label": "成功設計出一個引人注目的視覺作品或概念圖。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "能夠清晰地向他人解釋複雜概念，並獲得認同。",
+          "weights": {
+            "auditory-communicator": 2,
+            "social-collaborator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "親手完成一個專案，看到實體成果或實際解決了問題。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "成功拆解一個複雜問題，並找到其背後的深層邏輯和規律。",
+          "weights": {
+            "analytical-strategist": 3,
+            "solitary-contemplator": 1,
+            "holistic-integrator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "對於一個新的學習主題，你最喜歡從哪裡開始？",
+      "options": [
+        {
+          "id": "a",
+          "label": "瀏覽相關的圖片、圖表、影片或設計案例，快速建立概覽。",
+          "weights": {
+            "visual-innovator": 3,
+            "holistic-integrator": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "聽取專家的引導性講座，或與對該主題有了解的人交流。",
+          "weights": {
+            "auditory-communicator": 3,
+            "social-collaborator": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "透過實際的案例研究、模擬或親身體驗，感受其運作方式。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "閱讀詳細的入門指南、理論書籍，理解其基本原則和框架。",
+          "weights": {
+            "analytical-strategist": 3,
+            "solitary-contemplator": 1,
+            "holistic-integrator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "當你需要記住大量資訊時，你會採用哪種策略？",
+      "options": [
+        {
+          "id": "a",
+          "label": "製作圖文並茂的筆記、閃卡或心智圖。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "反覆朗讀、錄音播放，或與他人口述練習。",
+          "weights": {
+            "auditory-communicator": 3,
+            "social-collaborator": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "透過實作、角色扮演或邊走邊背誦來加深記憶。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "歸納整理、建立邏輯樹狀圖，找出資訊之間的關聯性。",
+          "weights": {
+            "analytical-strategist": 3,
+            "holistic-integrator": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "在團隊學習或專案中，你傾向於扮演什麼角色？",
+      "options": [
+        {
+          "id": "a",
+          "label": "負責美化呈現、視覺設計，或將抽象概念轉化為圖表。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "擔任溝通協調者，促進討論，確保信息流暢。",
+          "weights": {
+            "social-collaborator": 3,
+            "auditory-communicator": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "負責實際操作、執行任務，或進行實地考察和實驗。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "擔任策略分析師，制定計畫，分析數據，確保專案方向正確。",
+          "weights": {
+            "analytical-strategist": 3,
+            "holistic-integrator": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "學習結束後，你如何評估自己的學習成果？",
+      "options": [
+        {
+          "id": "a",
+          "label": "檢視自己是否能清晰地在腦中「看見」並重現所學內容。",
+          "weights": {
+            "visual-innovator": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "嘗試向他人解釋，看自己能否流暢、準確地表達。",
+          "weights": {
+            "auditory-communicator": 2,
+            "social-collaborator": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "嘗試實際應用所學，看是否能解決問題或完成任務。",
+          "weights": {
+            "kinesthetic-explorer": 3
+          }
+        },
+        {
+          "id": "d",
+          "label": "反思學習過程，分析哪些地方有效，哪些需要改進，並總結所學。",
+          "weights": {
+            "analytical-strategist": 2,
+            "solitary-contemplator": 2,
+            "holistic-integrator": 3
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "visual-innovator",
+      "title": "視覺創新家",
+      "punchline": "一圖勝千言，你的學習世界充滿色彩與想像！",
+      "longDescription": "你天生對圖像、圖表和心智圖敏感，能將複雜資訊迅速視覺化。\n色彩和排版是你筆記的靈魂，幫助你清晰地組織思緒。\n比起枯燥的文字，生動的影片和圖片更能點燃你的學習熱情。",
+      "traits": [
+        {
+          "label": "圖像記憶",
+          "value": 90,
+          "comment": "看過一眼便難以忘懷"
+        },
+        {
+          "label": "筆記美學",
+          "value": 85,
+          "comment": "筆記是你的藝術品"
+        }
+      ],
+      "shareText": "我是🎨視覺創新家！我的學習地圖色彩繽紛，歡迎一起探索知識的奇妙世界！✨",
+      "shareHashtags": [
+        "#視覺學習",
+        "#圖像思考",
+        "#筆記達人"
+      ],
+      "shortDescription": "一圖勝千言，你的學習世界充滿色彩與想像！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "視覺創新家",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "auditory-communicator",
+      "title": "聽覺溝通者",
+      "punchline": "聽見知識的脈動，你的學習透過聲音連結世界！",
+      "longDescription": "你對聲音的敏銳度極高，透過聽講、討論或有聲書能高效吸收。\n在課堂上，你喜歡提問和參與討論，讓想法在交流中碰撞。\n背誦時習慣朗讀出聲，或是利用音樂輔助記憶。",
+      "traits": [
+        {
+          "label": "聽力專注",
+          "value": 92,
+          "comment": "聲音是你學習的橋樑"
+        },
+        {
+          "label": "口語表達",
+          "value": 80,
+          "comment": "喜歡透過討論釐清概念"
+        }
+      ],
+      "shareText": "我是👂聽覺溝通者！我的學習之旅充滿對話與聆聽，聲音引導我走向知識殿堂！🗣️",
+      "shareHashtags": [
+        "#聽覺學習",
+        "#討論交流",
+        "#有聲書愛好者"
+      ],
+      "shortDescription": "聽見知識的脈動，你的學習透過聲音連結世界！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "聽覺溝通者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "kinesthetic-explorer",
+      "title": "動覺體驗家",
+      "punchline": "動手實作最對味，你的學習從體驗中獲得真知！",
+      "longDescription": "你無法安靜枯坐，透過身體力行、實驗操作能最快掌握新知。\n比起閱讀，你更愛親自操作模擬，從錯誤中學習並修正。\n課堂上喜歡起身走動，或用手勢輔助思考，動態學習效率最高。",
+      "traits": [
+        {
+          "label": "實作能力",
+          "value": 95,
+          "comment": "動手是最好的老師"
+        },
+        {
+          "label": "體驗學習",
+          "value": 88,
+          "comment": "從做中學，學中做"
+        }
+      ],
+      "shareText": "我是🤸動覺體驗家！我的學習就是一場冒險，用身體感受世界，用雙手創造知識！🚀",
+      "shareHashtags": [
+        "#動覺學習",
+        "#實作派",
+        "#體驗至上"
+      ],
+      "shortDescription": "動手實作最對味，你的學習從體驗中獲得真知！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "動覺體驗家",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "analytical-strategist",
+      "title": "分析策略師",
+      "punchline": "邏輯是你學習的羅盤，你總能洞察事物背後的結構！",
+      "longDescription": "你擅長拆解複雜問題，歸納整理，建立清晰的知識架構。\n對於「為什麼」和「如何運作」充滿好奇，喜歡探究事物的本質。\n你傾向理性思考，透過圖表、流程圖來分析和理解資訊。",
+      "traits": [
+        {
+          "label": "邏輯推理",
+          "value": 93,
+          "comment": "總能找到事物脈絡"
+        },
+        {
+          "label": "系統思考",
+          "value": 87,
+          "comment": "擅長建構知識體系"
+        }
+      ],
+      "shareText": "我是🧠分析策略師！我的學習就像解謎，用邏輯拼湊出知識的全貌！🕵️",
+      "shareHashtags": [
+        "#分析學習",
+        "#邏輯思考",
+        "#問題解決"
+      ],
+      "shortDescription": "邏輯是你學習的羅盤，你總能洞察事物背後的結構！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "分析策略師",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "social-collaborator",
+      "title": "協作共享者",
+      "punchline": "獨樂樂不如眾樂樂，你的學習在交流中熠熠生輝！",
+      "longDescription": "你喜歡和夥伴們一起學習，透過討論、分享來激發新想法。\n在團隊合作中，你總是能扮演好自己的角色，並從他人身上獲益。\n教學相長是你學習的最佳模式，幫助別人也能加深自己的理解。",
+      "traits": [
+        {
+          "label": "團隊合作",
+          "value": 91,
+          "comment": "協作是你學習的動力"
+        },
+        {
+          "label": "溝通表達",
+          "value": 86,
+          "comment": "樂於分享與傾聽"
+        }
+      ],
+      "shareText": "我是🤝協作共享者！我的學習圈充滿夥伴們的智慧，一起成長才是王道！🌍",
+      "shareHashtags": [
+        "#社交學習",
+        "#團隊合作",
+        "#共同成長"
+      ],
+      "shortDescription": "獨樂樂不如眾樂樂，你的學習在交流中熠熠生輝！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "協作共享者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "solitary-contemplator",
+      "title": "獨立思考者",
+      "punchline": "靜心沉潛悟真知，你的學習在獨處中綻放光芒！",
+      "longDescription": "你偏好安靜、不受打擾的環境，能專心投入深度思考與研究。\n你喜歡獨自探索問題，從資料中挖掘真相，享受自主學習的過程。\n你需要時間消化吸收，透過反思與內化，將知識轉化為智慧。",
+      "traits": [
+        {
+          "label": "專注力",
+          "value": 94,
+          "comment": "沉浸式學習高手"
+        },
+        {
+          "label": "自主學習",
+          "value": 89,
+          "comment": "自我引導的探求者"
+        }
+      ],
+      "shareText": "我是🧘獨立思考者！我的學習是場個人的深度旅行，在寧靜中找到答案！🌌",
+      "shareHashtags": [
+        "#獨自學習",
+        "#深度思考",
+        "#自我探索"
+      ],
+      "shortDescription": "靜心沉潛悟真知，你的學習在獨處中綻放光芒！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "獨立思考者",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "holistic-integrator",
+      "title": "全觀整合家",
+      "punchline": "跳脫框架看世界，你總能將所學融會貫通！",
+      "longDescription": "你擅長從宏觀角度理解知識，將不同領域的資訊連結起來。\n對於新事物充滿好奇，喜歡探索跨領域的知識與應用。\n你學習的目標是將理論付諸實踐，解決真實世界的問題。",
+      "traits": [
+        {
+          "label": "跨域連結",
+          "value": 90,
+          "comment": "擅長觸類旁通"
+        },
+        {
+          "label": "實踐應用",
+          "value": 85,
+          "comment": "學以致用是最高目標"
+        }
+      ],
+      "shareText": "我是🔭全觀整合家！我的學習視野廣闊無垠，將所有知識織成一張大網！🌐",
+      "shareHashtags": [
+        "#全觀學習",
+        "#整合能力",
+        "#實用主義"
+      ],
+      "shortDescription": "跳脫框架看世界，你總能將所學融會貫通！",
+      "tags": [
+        "你是哪種學習型人格？",
+        "全觀整合家",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是哪種學習型人格？精準測驗",
+    "metaDescription": "你是哪種學習型人格？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是哪種學習型人格？",
+      "人格測驗",
+      "台灣",
+      "學習力診斷"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-learning-style/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-07-12"
+}
