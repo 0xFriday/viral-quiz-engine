@@ -1,0 +1,661 @@
+{
+  "id": "81-office-animal",
+  "slug": "ni-shi-na-zhong-office-animal",
+  "status": "published",
+  "category": "taiwan-culture",
+  "locale": "zh-TW",
+  "title": "你是辦公室裡哪種動物？",
+  "hook": "你以為你只是在做測驗，其實你在認識自己。",
+  "subtitle": "辦公室生存測驗",
+  "description": "你是辦公室裡哪種動物？2分鐘精準測驗，結果讓人想截圖傳給朋友！",
+  "estimatedTimeSeconds": 120,
+  "cover": {
+    "emoji": "🦊",
+    "gradient": "from-orange-400 to-red-500"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "面對新的專案挑戰，你的第一反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "立刻召集團隊，分配任務，準備衝刺！",
+          "weights": {
+            "office-lion": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "仔細研究專案細節，分析潛在風險和機會。",
+          "weights": {
+            "office-owl": 3,
+            "office-fox": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "有點緊張，希望能有人帶領，自己負責好分配到的部分就好。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "先觀察大家怎麼做，再決定自己該如何參與。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-fox": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "prompt": "午休時間，你通常會怎麼度過？",
+      "options": [
+        {
+          "id": "a",
+          "label": "找同事討論工作進度或新的想法。",
+          "weights": {
+            "office-bee": 3,
+            "office-lion": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "獨自找個安靜的地方，滑手機或小憩。",
+          "weights": {
+            "office-owl": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "跟著大家一起去餐廳，不特別發表意見。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-chameleon": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "觀察同事間的互動，掌握最新的辦公室八卦。",
+          "weights": {
+            "office-fox": 3,
+            "office-chameleon": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "當團隊出現意見分歧時，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "積極發言，提出自己的看法並試圖說服大家。",
+          "weights": {
+            "office-lion": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "仔細聆聽各方意見，然後提出一個折衷或創新的解決方案。",
+          "weights": {
+            "office-owl": 3,
+            "office-fox": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "傾向保持沉默，避免衝突，讓其他人決定。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "試圖理解各方的立場，並在不同群體之間穿梭，促成共識。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-fox": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "你的工作桌通常是什麼樣子？",
+      "options": [
+        {
+          "id": "a",
+          "label": "文件和工具擺放整齊，隨時準備投入戰鬥。",
+          "weights": {
+            "office-lion": 2,
+            "office-bee": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "堆滿了書籍、筆記和一些個人收藏，充滿思考的痕跡。",
+          "weights": {
+            "office-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "簡單乾淨，最好不要有太多東西，以免惹麻煩。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "根據當前專案或心情，隨時調整擺設，靈活多變。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-fox": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "當被要求加班時，你的反應是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "這是展現責任感和效率的時刻，我會全力以赴。",
+          "weights": {
+            "office-lion": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "我會先評估加班的產出與投入是否成正比，並確保工作品質。",
+          "weights": {
+            "office-owl": 3,
+            "office-fox": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "雖然不情願，但為了不給人添麻煩，還是會默默接受。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-chameleon": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "如果可以避免，我會盡量找理由推掉，除非真的躲不過。",
+          "weights": {
+            "office-sloth": 3,
+            "office-rabbit": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "當你完成一項重要工作後，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "向主管和同事報告成果，並考慮下一個挑戰。",
+          "weights": {
+            "office-lion": 3,
+            "office-bee": 1
+          }
+        },
+        {
+          "id": "b",
+          "label": "默默地整理資料，總結經驗，為下次做準備。",
+          "weights": {
+            "office-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "鬆一口氣，希望能休息一下，避免再被指派新任務。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "觀察是否有其他同事需要幫助，或是尋找新的合作機會。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-bee": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "遇到辦公室政治或派系鬥爭，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "直接表明立場，維護自己或團隊的利益。",
+          "weights": {
+            "office-lion": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "保持中立，仔細觀察各方動向，不輕易選邊站。",
+          "weights": {
+            "office-owl": 3,
+            "office-chameleon": 2
+          }
+        },
+        {
+          "id": "c",
+          "label": "感到不安，盡量避開相關話題和人群。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 1
+          }
+        },
+        {
+          "id": "d",
+          "label": "分析各方關係和潛在影響，尋找對自己最有利的切入點。",
+          "weights": {
+            "office-fox": 3,
+            "office-chameleon": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "你的理想工作環境是？",
+      "options": [
+        {
+          "id": "a",
+          "label": "充滿挑戰和競爭，有明確的目標和晉升機會。",
+          "weights": {
+            "office-lion": 3,
+            "office-bee": 2
+          }
+        },
+        {
+          "id": "b",
+          "label": "獨立自主，有足夠的空間和時間讓我專注思考和研究。",
+          "weights": {
+            "office-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "友善和諧，沒有太多壓力，大家相處融洽。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "開放且多元，可以接觸到不同的人和事，保持新鮮感。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-fox": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "當需要學習新技能時，你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "主動報名課程或尋求導師指導，快速掌握。",
+          "weights": {
+            "office-lion": 2,
+            "office-bee": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "自己找資料、閱讀書籍或線上課程，深入鑽研。",
+          "weights": {
+            "office-owl": 3
+          }
+        },
+        {
+          "id": "c",
+          "label": "擔心學不好，希望能有同事一起或被動地等待安排。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "觀察這個技能對職涯發展或人際關係的幫助，再決定投入程度。",
+          "weights": {
+            "office-fox": 3,
+            "office-chameleon": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "參加辦公室社交活動（如尾牙、聚餐），你會？",
+      "options": [
+        {
+          "id": "a",
+          "label": "成為活動的中心，與高層或重要客戶建立聯繫。",
+          "weights": {
+            "office-lion": 2,
+            "office-fox": 3
+          }
+        },
+        {
+          "id": "b",
+          "label": "觀察人群，享受美食，但不會主動參與太多社交。",
+          "weights": {
+            "office-owl": 3,
+            "office-sloth": 1
+          }
+        },
+        {
+          "id": "c",
+          "label": "盡量低調，跟著熟識的同事一起，避免被過度關注。",
+          "weights": {
+            "office-rabbit": 3,
+            "office-sloth": 2
+          }
+        },
+        {
+          "id": "d",
+          "label": "穿梭於不同群體之間，和大家聊天，了解最新動態。",
+          "weights": {
+            "office-chameleon": 3,
+            "office-bee": 2
+          }
+        }
+      ]
+    }
+  ],
+  "resultLogic": {
+    "mode": "highest-score",
+    "tieBreaker": "first-max"
+  },
+  "results": [
+    {
+      "id": "office-lion",
+      "title": "辦公室獅子",
+      "punchline": "天生王者風範，你的辦公室就是你的叢林！",
+      "longDescription": "你是天生的領導者，總能清晰地指引團隊方向。面對挑戰，你從不退縮，反而激發更強的鬥志。你的存在，讓整個辦公室充滿了向前衝的能量。",
+      "traits": [
+        {
+          "label": "領導力",
+          "value": 92,
+          "comment": "統御全局，號令八方"
+        },
+        {
+          "label": "決斷力",
+          "value": 88,
+          "comment": "果斷決策，不拖泥帶水"
+        },
+        {
+          "label": "目標導向",
+          "value": 85,
+          "comment": "眼光獨到，直奔目標"
+        }
+      ],
+      "shareText": "我是辦公室獅子！🦁 辦公室就是我的舞台，目標在哪，我就在哪！誰能與我爭鋒？快來測測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室獅子",
+        "#天生領導者",
+        "#辦公室叢林"
+      ],
+      "shortDescription": "天生王者風範，你的辦公室就是你的叢林！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室獅子",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-owl",
+      "title": "辦公室貓頭鷹",
+      "punchline": "洞察一切的智慧之眼，辦公室裡的隱形智囊！",
+      "longDescription": "你總是默默觀察，不放過任何細節，擁有獨特的洞察力。你擅長邏輯分析，總能在關鍵時刻提供精闢見解。你的思考深度，是團隊不可或缺的寶藏。",
+      "traits": [
+        {
+          "label": "分析力",
+          "value": 90,
+          "comment": "擅長拆解複雜問題"
+        },
+        {
+          "label": "觀察力",
+          "value": 87,
+          "comment": "細緻入微，看透本質"
+        },
+        {
+          "label": "獨立思考",
+          "value": 82,
+          "comment": "不盲從，有自己見解"
+        }
+      ],
+      "shareText": "我是辦公室貓頭鷹！🦉 雖然話不多，但我的腦袋可沒停過！是團隊的智慧擔當！來看看你是哪種動物？",
+      "shareHashtags": [
+        "#辦公室貓頭鷹",
+        "#智慧擔當",
+        "#深度思考者"
+      ],
+      "shortDescription": "洞察一切的智慧之眼，辦公室裡的隱形智囊！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室貓頭鷹",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-rabbit",
+      "title": "辦公室兔子",
+      "punchline": "活力四射的氣氛製造者，辦公室的快樂泉源！",
+      "longDescription": "你總是充滿活力，像陽光般照亮辦公室的每個角落。你樂於助人，和同事們關係融洽，是團隊裡的開心果。你的存在，讓工作氛圍變得輕鬆又愉快。",
+      "traits": [
+        {
+          "label": "親和力",
+          "value": 93,
+          "comment": "人見人愛，好相處"
+        },
+        {
+          "label": "樂觀度",
+          "value": 89,
+          "comment": "天塌下來當被蓋"
+        },
+        {
+          "label": "行動力",
+          "value": 80,
+          "comment": "做事積極不拖延"
+        }
+      ],
+      "shareText": "我是辦公室兔子！🐰 蹦蹦跳跳，活力滿滿！辦公室沒我可不行，誰來散播歡樂散播愛？快來測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室兔子",
+        "#氣氛製造機",
+        "#陽光活力"
+      ],
+      "shortDescription": "活力四射的氣氛製造者，辦公室的快樂泉源！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室兔子",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-fox",
+      "title": "辦公室狐狸",
+      "punchline": "足智多謀的策略專家，總有辦法化險為夷！",
+      "longDescription": "你反應靈敏，頭腦清晰，總能快速找到解決問題的策略。你擅長溝通協調，懂得如何巧妙地達成目標。你的機智和彈性，是團隊突破困境的關鍵。",
+      "traits": [
+        {
+          "label": "應變力",
+          "value": 91,
+          "comment": "隨機應變，化解危機"
+        },
+        {
+          "label": "策略思維",
+          "value": 86,
+          "comment": "佈局深遠，步步為營"
+        },
+        {
+          "label": "溝通協調",
+          "value": 83,
+          "comment": "左右逢源，達成共識"
+        }
+      ],
+      "shareText": "我是辦公室狐狸！🦊 腦袋轉超快，沒有我搞不定的事！想看我怎麼出奇制勝嗎？快來測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室狐狸",
+        "#策略大師",
+        "#化險為夷"
+      ],
+      "shortDescription": "足智多謀的策略專家，總有辦法化險為夷！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室狐狸",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-sloth",
+      "title": "辦公室樹懶",
+      "punchline": "佛系工作哲學，慢活也能成就大事！",
+      "longDescription": "你追求工作的舒適與平衡，不喜歡被時間追著跑。你以自己的步調前進，雖然慢，但每一步都穩扎穩打。你提醒大家，適度放鬆才能走得更遠。",
+      "traits": [
+        {
+          "label": "從容度",
+          "value": 95,
+          "comment": "不慌不忙，泰然自若"
+        },
+        {
+          "label": "抗壓性",
+          "value": 89,
+          "comment": "壓力再大也能撐住"
+        },
+        {
+          "label": "生活平衡",
+          "value": 80,
+          "comment": "工作之餘享受生活"
+        }
+      ],
+      "shareText": "我是辦公室樹懶！😴 誰說慢就沒效率？我只是把時間拉長一點點啦！佛系工作也是一種藝術！快來測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室樹懶",
+        "#佛系工作",
+        "#慢活哲學"
+      ],
+      "shortDescription": "佛系工作哲學，慢活也能成就大事！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室樹懶",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-bee",
+      "title": "辦公室蜜蜂",
+      "punchline": "勤奮不懈的勞動模範，為團隊默默奉獻！",
+      "longDescription": "你總是勤勤懇懇，任勞任怨，是辦公室裡的效率擔當。你注重團隊合作，樂於協助他人，為共同目標付出所有。你的努力，是團隊成果的堅實基石。",
+      "traits": [
+        {
+          "label": "執行力",
+          "value": 94,
+          "comment": "使命必達，高效率"
+        },
+        {
+          "label": "責任感",
+          "value": 91,
+          "comment": "交代的事一定完成"
+        },
+        {
+          "label": "團隊精神",
+          "value": 88,
+          "comment": "樂於助人，共創佳績"
+        }
+      ],
+      "shareText": "我是辦公室蜜蜂！🐝 嗡嗡嗡~每天都在努力工作！為團隊貢獻，為目標衝刺！我就是勞動典範！快來測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室蜜蜂",
+        "#勤勞模範",
+        "#團隊合作"
+      ],
+      "shortDescription": "勤奮不懈的勞動模範，為團隊默默奉獻！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室蜜蜂",
+        "人格測驗"
+      ]
+    },
+    {
+      "id": "office-chameleon",
+      "title": "辦公室變色龍",
+      "punchline": "適應力超強的萬用選手，哪裡需要我就在哪！",
+      "longDescription": "你適應力極強，能夠快速融入各種環境與任務。你多才多藝，總能在不同角色間靈活切換，是團隊裡的萬用小幫手。你的彈性和包容，讓團隊運作更加順暢。",
+      "traits": [
+        {
+          "label": "適應力",
+          "value": 96,
+          "comment": "環境再變也能掌握"
+        },
+        {
+          "label": "學習力",
+          "value": 90,
+          "comment": "快速上手新事物"
+        },
+        {
+          "label": "彈性",
+          "value": 85,
+          "comment": "不拘泥形式，靈活應變"
+        }
+      ],
+      "shareText": "我是辦公室變色龍！🦎 哪裡需要我，我就變身！沒有我學不會，沒有我做不到！就是這麼百變又實用！快來測你是哪種動物！",
+      "shareHashtags": [
+        "#辦公室變色龍",
+        "#適應力強",
+        "#萬用小幫手"
+      ],
+      "shortDescription": "適應力超強的萬用選手，哪裡需要我就在哪！",
+      "tags": [
+        "你是辦公室裡哪種動物？",
+        "辦公室變色龍",
+        "人格測驗"
+      ]
+    }
+  ],
+  "seo": {
+    "metaTitle": "你是辦公室裡哪種動物？精準測驗",
+    "metaDescription": "你是辦公室裡哪種動物？2分鐘精準人格測驗，結果讓人想截圖！",
+    "keywords": [
+      "你是辦公室裡哪種動物？",
+      "人格測驗",
+      "台灣",
+      "辦公室生存測驗"
+    ]
+  },
+  "share": {
+    "url": "https://0xfriday.github.io/viral-quiz-engine/quiz/ni-shi-na-zhong-office-animal/"
+  },
+  "monetization": {
+    "adsense": true,
+    "publisherId": "ca-pub-5477484686814211"
+  },
+  "generated_date": "2026-07-15"
+}
